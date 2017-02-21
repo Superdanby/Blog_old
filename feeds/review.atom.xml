@@ -28,9 +28,8 @@
 &lt;p&gt;647&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;you&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;you
+yes
 &lt;ul&gt;
 &lt;li&gt;a&lt;/li&gt;
 &lt;li&gt;b&lt;/li&gt;
@@ -40,8 +39,9 @@
 &lt;li&gt;1&lt;/li&gt;
 &lt;li&gt;2&lt;/li&gt;
 &lt;li&gt;3&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;yee?
 &lt;p&gt;
 loll
@@ -82,9 +82,8 @@ loll
 &lt;p&gt;647&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;you&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;you
+yes
 &lt;ul&gt;
 &lt;li&gt;a&lt;/li&gt;
 &lt;li&gt;b&lt;/li&gt;
@@ -94,8 +93,9 @@ loll
 &lt;li&gt;1&lt;/li&gt;
 &lt;li&gt;2&lt;/li&gt;
 &lt;li&gt;3&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;yee?
 &lt;p&gt;
 loll
