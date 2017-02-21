@@ -56,9 +56,12 @@ loll
 
 ollledsdklfmlkds
 
+    :::python
+    print("foo")
 
+hello
 
-    1. Here is some text. Let …&lt;/ul&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Following is a review of my favoxbgcngcngdchgd p9 aerutgjepoirjfgeprite mechanical keyboard.&lt;/p&gt;
+    1. Here …&lt;/ul&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Following is a review of my favoxbgcngcngdchgd p9 aerutgjepoirjfgeprite mechanical keyboard.&lt;/p&gt;
 &lt;h2&gt;Y&lt;/h2&gt;
 &lt;h3&gt;YE&lt;/h3&gt;
 &lt;h4&gt;YEE&lt;/h4&gt;
@@ -115,7 +118,10 @@ loll
 
 ollledsdklfmlkds
 
+    :::python
+    print("foo")
 
+hello
 
     1. Here is some text. Let us try the ::: version of syntax highlighting.
 
