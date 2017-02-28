@@ -121,4 +121,10 @@ github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	git push origin $(GITHUB_PAGES_BRANCH)
 
+MSG = "Build at $(shell /bin/date '+%Y-%m-%d %H-%M-%S')"
+upload: publish
+	git add -A
+	git commit -m $(MSG)
+	git push origin master
+
 .PHONY: html help clean regenerate serve serve-global devserver stopserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github

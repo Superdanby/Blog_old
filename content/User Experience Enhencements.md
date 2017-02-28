@@ -69,6 +69,7 @@ Github Desktop client on Windows
 
 ###qBittorrent
 
-###svn
-
 ###git
+
+####clone specific directories or files from github with svn
+Sometimes you just want to download some files but not the entire repository.
