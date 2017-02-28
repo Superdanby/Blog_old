@@ -60,7 +60,7 @@
 &lt;li&gt;Contents: Choose your desired fonts from its settings page&lt;/li&gt;
 &lt;li&gt;UI:&lt;ol&gt;
 &lt;li&gt;Open "Config Folder" under Settings.&lt;/li&gt;
-&lt;li&gt;Add &lt;code&gt;atom-workspace { font-family: Mononoki;}&lt;/code&gt;to your style.less file.&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;atom-workspace { font-family: Desired_Font;}&lt;/code&gt;to your style.less file.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -73,13 +73,24 @@
 &lt;li&gt;Built-in package manager&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Usage:
-    Show Git-Plus Palette: &lt;code&gt;Ctrl-Shift-H&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Usage:&lt;ul&gt;
+&lt;li&gt;Show Git-Plus Palette: &lt;code&gt;Ctrl-Shift-H&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Tips:
-1. &lt;a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/"&gt;This package is available only if you are using ssh and doesn't prompt for password for every session.&lt;/a&gt;
-2. If Your project folder is at root git-plus can detect it automatically.
-3. You can add multiple project folders at a time.&lt;/strong&gt;&lt;/p&gt;</content><category term="Atom"></category></entry><entry><title>User Experience Enhancements</title><link href="https://superdanby.github.io/Blog/user-experience-enhancements.html" rel="alternate"></link><published>2017-02-27T20:20:00+08:00</published><updated>2017-02-27T20:20:00+08:00</updated><author><name>yee</name></author><id>tag:superdanby.github.io,2017-02-27:/Blog/user-experience-enhancements.html</id><summary type="html">&lt;h2&gt;All Platforms&lt;/h2&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;**Tips:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/"&gt;This package is available only if you are using ssh and doesn't prompt for password every session.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If Your project folder is at root git-plus can detect it automatically.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You can add multiple project folders at a time.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;**&lt;/p&gt;</content><category term="Atom"></category></entry><entry><title>User Experience Enhancements</title><link href="https://superdanby.github.io/Blog/user-experience-enhancements.html" rel="alternate"></link><published>2017-02-27T20:20:00+08:00</published><updated>2017-02-27T20:20:00+08:00</updated><author><name>yee</name></author><id>tag:superdanby.github.io,2017-02-27:/Blog/user-experience-enhancements.html</id><summary type="html">&lt;h2&gt;All Platforms&lt;/h2&gt;
 &lt;h3&gt;&lt;a href="https://superdanby.github.io/Blog/atom-text-editor.html"&gt;Atom&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;A beautiful cross-platform text editor.&lt;/p&gt;
 &lt;h3&gt;Fedora Media Writer&lt;/h3&gt;
@@ -130,8 +141,8 @@
 &lt;h3&gt;Chrome Gnome Shell&lt;/h3&gt;
 &lt;h3&gt;VLC&lt;/h3&gt;
 &lt;h3&gt;qBittorrent&lt;/h3&gt;
-&lt;h3&gt;svn&lt;/h3&gt;
-&lt;h3&gt;git&lt;/h3&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry><entry><title>Html Test</title><link href="https://superdanby.github.io/Blog/html-test.html" rel="alternate"></link><published>2017-02-23T22:20:00+08:00</published><updated>2017-02-23T22:20:00+08:00</updated><author><name>yee</name></author><id>tag:superdanby.github.io,2017-02-23:/Blog/html-test.html</id><summary type="html">&lt;h2 title="yee" style="text-align:center"&gt;ye2s&lt;/h2&gt;
+&lt;h3&gt;git&lt;/h3&gt;
+&lt;h4&gt;clone specific directories or files from gitthub with svn&lt;/h4&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry><entry><title>Html Test</title><link href="https://superdanby.github.io/Blog/html-test.html" rel="alternate"></link><published>2017-02-23T22:20:00+08:00</published><updated>2017-02-23T22:20:00+08:00</updated><author><name>yee</name></author><id>tag:superdanby.github.io,2017-02-23:/Blog/html-test.html</id><summary type="html">&lt;h2 title="yee" style="text-align:center"&gt;ye2s&lt;/h2&gt;
 
 &lt;p&gt;&lt;br&gt;
 &lt;hr&gt;
