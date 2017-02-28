@@ -3,24 +3,30 @@
 &lt;h3&gt;Popular Community Packages&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://atom.io/packages/atom-beautify"&gt;atom-beautify&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;* Installation:
-    * Terminal: ``apm install atom-beautify``
-* Built-in package manager
-* Usage:
-1. Right click and select &amp;quot;Beautify editor contents&amp;quot;.
-2. Scope: selected contents or the whole …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h3&gt;&lt;a href="https://atom.io/"&gt;Official Website&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation:
+        *   Terminal: &lt;code&gt;apm install atom-beautify&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Usage:&lt;ol&gt;
+&lt;li&gt;Right click and select "Beautify editor contents".&lt;/li&gt;
+&lt;li&gt;Scope: selected contents or the whole file if …&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h3&gt;&lt;a href="https://atom.io/"&gt;Official Website&lt;/a&gt;&lt;/h3&gt;
 &lt;h3&gt;Popular Community Packages&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://atom.io/packages/atom-beautify"&gt;atom-beautify&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;* Installation:
-    * Terminal: ``apm install atom-beautify``
-* Built-in package manager
-* Usage:
-1. Right click and select &amp;quot;Beautify editor contents&amp;quot;.
-2. Scope: selected contents or the whole file if not.
-&lt;/pre&gt;&lt;/div&gt;
-
-
+&lt;ul&gt;
+&lt;li&gt;Installation:
+        *   Terminal: &lt;code&gt;apm install atom-beautify&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Usage:&lt;ol&gt;
+&lt;li&gt;Right click and select "Beautify editor contents".&lt;/li&gt;
+&lt;li&gt;Scope: selected contents or the whole file if not.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h4&gt;&lt;a href="https://atom.io/packages/color-picker"&gt;color-picker&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Currently reads &lt;code&gt;HEX&lt;/code&gt;, &lt;code&gt;HEXa&lt;/code&gt;, &lt;code&gt;RGB&lt;/code&gt;, &lt;code&gt;RGBa&lt;/code&gt;, &lt;code&gt;HSL&lt;/code&gt;, &lt;code&gt;HSLa&lt;/code&gt;, &lt;code&gt;HSV&lt;/code&gt;, &lt;code&gt;HSVa&lt;/code&gt;, &lt;code&gt;VEC3&lt;/code&gt; and &lt;code&gt;VEC4&lt;/code&gt; colors – and is able to convert between the formats.&lt;/p&gt;
 &lt;ul&gt;
