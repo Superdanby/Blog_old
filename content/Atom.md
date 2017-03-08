@@ -73,4 +73,8 @@ Highlight strings matching the selected text throughout the file.
 *   Usage:
     *   Double click or select the word you want to Highlight.
 
-####[linter]()
+####[linter](https://atom.io/packages/linter)
+
+A real time debugger base. It provides a top-level API to its consumer that allows them to visualize errors and other kind-of messages, easily.
+
+**About [Lint](https://en.wikipedia.org/wiki/Lint_(software))** and **[Heisenbug](https://en.wikipedia.org/wiki/Heisenbug)**

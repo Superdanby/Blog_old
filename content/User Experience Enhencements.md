@@ -71,5 +71,7 @@ Github Desktop client on Windows
 
 ###git
 
+###gnome-terminal-nautilus
+
 ####clone specific directories or files from github with svn
 Sometimes you just want to download some files but not the entire repository.
