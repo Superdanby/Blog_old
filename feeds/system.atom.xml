@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>yee - System</title><link href="https://superdanby.github.io/Blog/" rel="alternate"></link><link href="https://superdanby.github.io/Blog/feeds/system.atom.xml" rel="self"></link><id>https://superdanby.github.io/Blog/</id><updated>2017-03-09T11:00:00+08:00</updated><entry><title>XPS 15 9550 issues with Fedora 25</title><link href="https://superdanby.github.io/Blog/xps-15-9550-issues-with-fedora-25.html" rel="alternate"></link><published>2017-03-09T11:00:00+08:00</published><updated>2017-03-09T11:00:00+08:00</updated><author><name>yee</name></author><id>tag:superdanby.github.io,2017-03-09:/Blog/xps-15-9550-issues-with-fedora-25.html</id><summary type="html">&lt;h2&gt;Firewalld fails to stop when shutting down.&lt;/h2&gt;
+&lt;h3&gt;&lt;img alt="Current Workaround" src="https://bugzilla.redhat.com/show_bug.cgi?id=1397274"&gt;&lt;/h3&gt;
+&lt;p&gt;Set CleanupOnExit=no in /etc/firewalld/firewalld.conf&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;img alt="Bluetooth not seeing any devices" src="http://fedoraproject.org/wiki/Fedora_Tested_Laptops:Dell_XPS_15_9550_FHD"&gt;.&lt;/h2&gt;
+&lt;h3&gt;Current Workaround&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sudo dnf install linux-firmware&lt;/code&gt; (?)&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Firewalld fails to stop when shutting down.&lt;/h2&gt;
+&lt;h3&gt;&lt;img alt="Current Workaround" src="https://bugzilla.redhat.com/show_bug.cgi?id=1397274"&gt;&lt;/h3&gt;
+&lt;p&gt;Set CleanupOnExit=no in /etc/firewalld/firewalld.conf&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;img alt="Bluetooth not seeing any devices" src="http://fedoraproject.org/wiki/Fedora_Tested_Laptops:Dell_XPS_15_9550_FHD"&gt;.&lt;/h2&gt;
+&lt;h3&gt;Current Workaround&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sudo dnf install linux-firmware&lt;/code&gt; (?)&lt;/p&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry></feed>
