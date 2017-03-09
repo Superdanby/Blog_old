@@ -72,6 +72,7 @@ Github Desktop client on Windows
 ###git
 
 ###gnome-terminal-nautilus
+Right click to open gnome terminal in the current location.
 
 ####clone specific directories or files from github with svn
 Sometimes you just want to download some files but not the entire repository.
