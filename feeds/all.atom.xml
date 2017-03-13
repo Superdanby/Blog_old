@@ -5,13 +5,15 @@
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h2&gt;&lt;img alt="Bluetooth not seeing any devices" src="http://fedoraproject.org/wiki/Fedora_Tested_Laptops:Dell_XPS_15_9550_FHD"&gt;.&lt;/h2&gt;
 &lt;h3&gt;Current Workaround&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;sudo dnf install linux-firmware&lt;/code&gt; (?)&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Firewalld fails to stop when shutting down.&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;sudo dnf install linux-firmware&lt;/code&gt; (?)
+https://fedoraproject.org/wiki/Firmware&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Firewalld fails to stop when shutting down.&lt;/h2&gt;
 &lt;h3&gt;&lt;img alt="Current Workaround" src="https://bugzilla.redhat.com/show_bug.cgi?id=1397274"&gt;&lt;/h3&gt;
 &lt;p&gt;Set CleanupOnExit=no in /etc/firewalld/firewalld.conf&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h2&gt;&lt;img alt="Bluetooth not seeing any devices" src="http://fedoraproject.org/wiki/Fedora_Tested_Laptops:Dell_XPS_15_9550_FHD"&gt;.&lt;/h2&gt;
 &lt;h3&gt;Current Workaround&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;sudo dnf install linux-firmware&lt;/code&gt; (?)&lt;/p&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry><entry><title>Atom Text Editor</title><link href="https://superdanby.github.io/Blog/atom-text-editor.html" rel="alternate"></link><published>2017-02-28T11:20:00+08:00</published><updated>2017-02-28T11:20:00+08:00</updated><author><name>yee</name></author><id>tag:superdanby.github.io,2017-02-28:/Blog/atom-text-editor.html</id><summary type="html">&lt;h3&gt;&lt;a href="https://atom.io/"&gt;Official Website&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sudo dnf install linux-firmware&lt;/code&gt; (?)
+https://fedoraproject.org/wiki/Firmware&lt;/p&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry><entry><title>Atom Text Editor</title><link href="https://superdanby.github.io/Blog/atom-text-editor.html" rel="alternate"></link><published>2017-02-28T11:20:00+08:00</published><updated>2017-02-28T11:20:00+08:00</updated><author><name>yee</name></author><id>tag:superdanby.github.io,2017-02-28:/Blog/atom-text-editor.html</id><summary type="html">&lt;h3&gt;&lt;a href="https://atom.io/"&gt;Official Website&lt;/a&gt;&lt;/h3&gt;
 &lt;h3&gt;Popular Community Packages&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://atom.io/packages/atom-beautify"&gt;atom-beautify&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom.&lt;/p&gt;
@@ -184,7 +186,13 @@ g
 o
 o
 d
-&lt;/pre&gt;&lt;/p&gt;</summary><content type="html">&lt;h2 title="yee" style="text-align:center"&gt;ye2s&lt;/h2&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;table width="100%" bgcolor="rgb(136, 244, 127)"&gt;
+    &lt;tr&gt;
+        &lt;td&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</summary><content type="html">&lt;h2 title="yee" style="text-align:center"&gt;ye2s&lt;/h2&gt;
 
 &lt;p&gt;&lt;br&gt;
 &lt;hr&gt;
@@ -197,7 +205,13 @@ g
 o
 o
 d
-&lt;/pre&gt;&lt;/p&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry><entry><title>My First Review</title><link href="https://superdanby.github.io/Blog/my-first-review.html" rel="alternate"></link><published>2010-12-03T10:20:00+08:00</published><updated>2010-12-03T10:20:00+08:00</updated><author><name>yee</name></author><id>tag:superdanby.github.io,2010-12-03:/Blog/my-first-review.html</id><summary type="html">&lt;p&gt;Following is a review of my favoxbgcngcngdchgd p9 aerutgjepoirjfgeprite mechanical keyboard.&lt;/p&gt;
+&lt;/pre&gt;&lt;/p&gt;
+&lt;table width="100%" bgcolor="rgb(136, 244, 127)"&gt;
+    &lt;tr&gt;
+        &lt;td&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry><entry><title>My First Review</title><link href="https://superdanby.github.io/Blog/my-first-review.html" rel="alternate"></link><published>2010-12-03T10:20:00+08:00</published><updated>2010-12-03T10:20:00+08:00</updated><author><name>yee</name></author><id>tag:superdanby.github.io,2010-12-03:/Blog/my-first-review.html</id><summary type="html">&lt;p&gt;Following is a review of my favoxbgcngcngdchgd p9 aerutgjepoirjfgeprite mechanical keyboard.&lt;/p&gt;
 &lt;h2&gt;Y&lt;/h2&gt;
 &lt;h3&gt;YE&lt;/h3&gt;
 &lt;h4&gt;YEE&lt;/h4&gt;

@@ -5,10 +5,12 @@
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h2&gt;&lt;img alt="Bluetooth not seeing any devices" src="http://fedoraproject.org/wiki/Fedora_Tested_Laptops:Dell_XPS_15_9550_FHD"&gt;.&lt;/h2&gt;
 &lt;h3&gt;Current Workaround&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;sudo dnf install linux-firmware&lt;/code&gt; (?)&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Firewalld fails to stop when shutting down.&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;sudo dnf install linux-firmware&lt;/code&gt; (?)
+https://fedoraproject.org/wiki/Firmware&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Firewalld fails to stop when shutting down.&lt;/h2&gt;
 &lt;h3&gt;&lt;img alt="Current Workaround" src="https://bugzilla.redhat.com/show_bug.cgi?id=1397274"&gt;&lt;/h3&gt;
 &lt;p&gt;Set CleanupOnExit=no in /etc/firewalld/firewalld.conf&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;h2&gt;&lt;img alt="Bluetooth not seeing any devices" src="http://fedoraproject.org/wiki/Fedora_Tested_Laptops:Dell_XPS_15_9550_FHD"&gt;.&lt;/h2&gt;
 &lt;h3&gt;Current Workaround&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;sudo dnf install linux-firmware&lt;/code&gt; (?)&lt;/p&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry></feed>
+&lt;p&gt;&lt;code&gt;sudo dnf install linux-firmware&lt;/code&gt; (?)
+https://fedoraproject.org/wiki/Firmware&lt;/p&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry></feed>
