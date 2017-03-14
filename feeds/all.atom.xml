@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>yee</title><link href="https://superdanby.github.io/Blog/" rel="alternate"></link><link href="https://superdanby.github.io/Blog/feeds/all.atom.xml" rel="self"></link><id>https://superdanby.github.io/Blog/</id><updated>2017-03-09T11:00:00+08:00</updated><entry><title>XPS 15 9550 issues with Fedora 25</title><link href="https://superdanby.github.io/Blog/xps-15-9550-issues-with-fedora-25.html" rel="alternate"></link><published>2017-03-09T11:00:00+08:00</published><updated>2017-03-09T11:00:00+08:00</updated><author><name>yee</name></author><id>tag:superdanby.github.io,2017-03-09:/Blog/xps-15-9550-issues-with-fedora-25.html</id><summary type="html">&lt;h2&gt;Firewalld fails to stop when shutting down.&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Yee</title><link href="https://superdanby.github.io/Blog/" rel="alternate"></link><link href="https://superdanby.github.io/Blog/feeds/all.atom.xml" rel="self"></link><id>https://superdanby.github.io/Blog/</id><updated>2017-03-09T11:00:00+08:00</updated><entry><title>XPS 15 9550 issues with Fedora 25</title><link href="https://superdanby.github.io/Blog/xps-15-9550-issues-with-fedora-25.html" rel="alternate"></link><published>2017-03-09T11:00:00+08:00</published><updated>2017-03-09T11:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-03-09:/Blog/xps-15-9550-issues-with-fedora-25.html</id><summary type="html">&lt;h2&gt;Firewalld fails to stop when shutting down.&lt;/h2&gt;
 &lt;h3&gt;&lt;img alt="Current Workaround" src="https://bugzilla.redhat.com/show_bug.cgi?id=1397274"&gt;&lt;/h3&gt;
 &lt;p&gt;Set CleanupOnExit=no in /etc/firewalld/firewalld.conf&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
@@ -13,7 +13,7 @@ https://fedoraproject.org/wiki/Firmware&lt;/p&gt;</summary><content type="html">
 &lt;h2&gt;&lt;img alt="Bluetooth not seeing any devices" src="http://fedoraproject.org/wiki/Fedora_Tested_Laptops:Dell_XPS_15_9550_FHD"&gt;.&lt;/h2&gt;
 &lt;h3&gt;Current Workaround&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;sudo dnf install linux-firmware&lt;/code&gt; (?)
-https://fedoraproject.org/wiki/Firmware&lt;/p&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry><entry><title>Atom Text Editor</title><link href="https://superdanby.github.io/Blog/atom-text-editor.html" rel="alternate"></link><published>2017-02-28T11:20:00+08:00</published><updated>2017-02-28T11:20:00+08:00</updated><author><name>yee</name></author><id>tag:superdanby.github.io,2017-02-28:/Blog/atom-text-editor.html</id><summary type="html">&lt;h3&gt;&lt;a href="https://atom.io/"&gt;Official Website&lt;/a&gt;&lt;/h3&gt;
+https://fedoraproject.org/wiki/Firmware&lt;/p&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry><entry><title>Atom Text Editor</title><link href="https://superdanby.github.io/Blog/atom-text-editor.html" rel="alternate"></link><published>2017-02-28T11:20:00+08:00</published><updated>2017-02-28T11:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-02-28:/Blog/atom-text-editor.html</id><summary type="html">&lt;h3&gt;&lt;a href="https://atom.io/"&gt;Official Website&lt;/a&gt;&lt;/h3&gt;
 &lt;h3&gt;Popular Community Packages&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://atom.io/packages/atom-beautify"&gt;atom-beautify&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom.&lt;/p&gt;
@@ -118,7 +118,7 @@ https://fedoraproject.org/wiki/Firmware&lt;/p&gt;</content><category term="Yee">
 &lt;/ul&gt;
 &lt;h4&gt;&lt;a href="https://atom.io/packages/linter"&gt;linter&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;A real time debugger base. It provides a top-level API to its consumer that allows them to visualize errors and other kind-of messages, easily.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;About &lt;a href="https://en.wikipedia.org/wiki/Lint_(software)"&gt;Lint&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href="https://en.wikipedia.org/wiki/Heisenbug"&gt;Heisenbug&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content><category term="Atom"></category></entry><entry><title>User Experience Enhancements</title><link href="https://superdanby.github.io/Blog/user-experience-enhancements.html" rel="alternate"></link><published>2017-02-27T20:20:00+08:00</published><updated>2017-02-27T20:20:00+08:00</updated><author><name>yee</name></author><id>tag:superdanby.github.io,2017-02-27:/Blog/user-experience-enhancements.html</id><summary type="html">&lt;h2&gt;All Platforms&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;About &lt;a href="https://en.wikipedia.org/wiki/Lint_(software)"&gt;Lint&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href="https://en.wikipedia.org/wiki/Heisenbug"&gt;Heisenbug&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content><category term="Atom"></category></entry><entry><title>User Experience Enhancements</title><link href="https://superdanby.github.io/Blog/user-experience-enhancements.html" rel="alternate"></link><published>2017-02-27T20:20:00+08:00</published><updated>2017-02-27T20:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-02-27:/Blog/user-experience-enhancements.html</id><summary type="html">&lt;h2&gt;All Platforms&lt;/h2&gt;
 &lt;h3&gt;&lt;a href="https://superdanby.github.io/Blog/atom-text-editor.html"&gt;Atom&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;A beautiful cross-platform text editor.&lt;/p&gt;
 &lt;h3&gt;Fedora Media Writer&lt;/h3&gt;
@@ -173,7 +173,7 @@ https://fedoraproject.org/wiki/Firmware&lt;/p&gt;</content><category term="Yee">
 &lt;h3&gt;gnome-terminal-nautilus&lt;/h3&gt;
 &lt;p&gt;Right click to open gnome terminal in the current location.&lt;/p&gt;
 &lt;h4&gt;clone specific directories or files from github with svn&lt;/h4&gt;
-&lt;p&gt;Sometimes you just want to download some files but not the entire repository.&lt;/p&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry><entry><title>Html Test</title><link href="https://superdanby.github.io/Blog/html-test.html" rel="alternate"></link><published>2017-02-23T22:20:00+08:00</published><updated>2017-02-23T22:20:00+08:00</updated><author><name>yee</name></author><id>tag:superdanby.github.io,2017-02-23:/Blog/html-test.html</id><summary type="html">&lt;h2 title="yee" style="text-align:center"&gt;ye2s&lt;/h2&gt;
+&lt;p&gt;Sometimes you just want to download some files but not the entire repository.&lt;/p&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry><entry><title>Html Test</title><link href="https://superdanby.github.io/Blog/html-test.html" rel="alternate"></link><published>2017-02-23T22:20:00+08:00</published><updated>2017-02-23T22:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-02-23:/Blog/html-test.html</id><summary type="html">&lt;h2 title="yee" style="text-align:center"&gt;ye2s&lt;/h2&gt;
 
 &lt;p&gt;&lt;br&gt;
 &lt;hr&gt;
@@ -199,7 +199,7 @@ g
 o
 o
 d
-&lt;/pre&gt;&lt;/p&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry><entry><title>My First Review</title><link href="https://superdanby.github.io/Blog/my-first-review.html" rel="alternate"></link><published>2010-12-03T10:20:00+08:00</published><updated>2010-12-03T10:20:00+08:00</updated><author><name>yee</name></author><id>tag:superdanby.github.io,2010-12-03:/Blog/my-first-review.html</id><summary type="html">&lt;p&gt;Following is a review of my favoxbgcngcngdchgd p9 aerutgjepoirjfgeprite mechanical keyboard.&lt;/p&gt;
+&lt;/pre&gt;&lt;/p&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry><entry><title>My First Review</title><link href="https://superdanby.github.io/Blog/my-first-review.html" rel="alternate"></link><published>2010-12-03T10:20:00+08:00</published><updated>2010-12-03T10:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2010-12-03:/Blog/my-first-review.html</id><summary type="html">&lt;p&gt;Following is a review of my favoxbgcngcngdchgd p9 aerutgjepoirjfgeprite mechanical keyboard.&lt;/p&gt;
 &lt;h2&gt;Y&lt;/h2&gt;
 &lt;h3&gt;YE&lt;/h3&gt;
 &lt;h4&gt;YEE&lt;/h4&gt;
