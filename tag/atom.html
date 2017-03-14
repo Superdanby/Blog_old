@@ -1,163 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <meta charset="utf-8" />
-        <title>yee - Atom</title>
-        <link rel="stylesheet" href="https://superdanby.github.io/Blog/theme/css/main.css" />
-        <link href="https://superdanby.github.io/Blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="yee Atom Feed" />
+<html lang="tw">
+    <head>
+        <!-- meta -->
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>    Atom - yee
+</title>
+        <link rel="shortcut icon" type="image/jpeg" href="https://superdanby.github.io/Blog/theme/header-image.jpg"/>
 
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-</head>
+        <!-- custom style & script -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://superdanby.github.io/Blog/theme/style.min.css">
+        <script defer src="https://superdanby.github.io/Blog/theme/script.min.js"></script>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="https://superdanby.github.io/Blog/">yee </a></h1>
-                <nav><ul>
-                    <li><a href="https://superdanby.github.io/Blog/category/review.html">Review</a></li>
-                    <li><a href="https://superdanby.github.io/Blog/category/software.html">Software</a></li>
-                    <li><a href="https://superdanby.github.io/Blog/category/system.html">System</a></li>
-                    <li><a href="https://superdanby.github.io/Blog/category/test.html">Test</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
+    <body>
+        <!-- header -->
+        <header>
+        <div>
+            <a class="image" href="https://superdanby.github.io/Blog/">
+                <img class="large" src="https://superdanby.github.io/Blog/theme/header-image.jpg">
+            </a>
+        </div>
+        <div>
+            <a class="title" href="https://superdanby.github.io/Blog/">
+                <span>yee</span>
+            </a>
+        </div>
+        <nav>
+                <a href="https://superdanby.github.io/Blog/http://getpelican.com/">PELICAN</a>
+                <a href="https://superdanby.github.io/Blog/http://python.org/">PYTHON.ORG</a>
+                <a href="https://superdanby.github.io/Blog/http://jinja.pocoo.org/">JINJA2</a>
+                <a href="https://superdanby.github.io/Blog/#">YOU CAN MODIFY THOSE LINKS IN YOUR CONFIG FILE</a>
+        </nav>
+    </header>
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="https://superdanby.github.io/Blog/atom-text-editor.html">Atom Text Editor</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2017-02-28T11:20:00+08:00">
-                Published: Tue 28 February 2017
-        </abbr>
 
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://superdanby.github.io/Blog/author/yee.html">yee</a>
-        </address>
-<p>In <a href="https://superdanby.github.io/Blog/category/software.html">Software</a>.</p>
-<p>tags: <a href="https://superdanby.github.io/Blog/tag/atom.html">Atom</a> </p>
-</footer><!-- /.post-info --><h3><a href="https://atom.io/">Official Website</a></h3>
-<h3>Popular Community Packages</h3>
-<h4><a href="https://atom.io/packages/atom-beautify">atom-beautify</a></h4>
-<p>Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom.</p>
-<ul>
-<li>Installation:<ul>
-<li>Terminal: <code>apm install atom-beautify</code></li>
-<li>Built-in package manager</li>
-</ul>
-</li>
-<li>Usage:<ol>
-<li>Right click and select "Beautify editor contents".</li>
-<li>Scope: selected contents or the whole file if not.</li>
-</ol>
-</li>
-</ul>
-<h4><a href="https://atom.io/packages/color-picker">color-picker</a></h4>
-<p>Currently reads <code>HEX</code>, <code>HEXa</code>, <code>RGB</code>, <code>RGBa</code>, <code>HSL</code>, <code>HSLa</code>, <code>HSV</code>, <code>HSVa</code>, <code>VEC3</code> and <code>VEC4</code> colors – and is able to convert between the formats.</p>
-<ul>
-<li>Installation:<ul>
-<li>Built-in package manager</li>
-</ul>
-</li>
-<li>Usage:<ol>
-<li>Point to the color code you want to modify.</li>
-<li>Right click and select "Color Picker", or hit <code>CTRL-ALT-C</code>.</li>
-</ol>
-</li>
-</ul>
-<h4><a href="https://atom.io/packages/file-icons">file-icons</a></h4>
-<p>File-specific icons in Atom for improved visual grepping.</p>
-<ul>
-<li>Installation:<ul>
-<li>Terminal: <code>apm install file-icons</code></li>
-<li>Built-in package manager</li>
-</ul>
-</li>
-</ul>
-<h4><a href="https://atom.io/packages/fonts">fonts</a></h4>
-<p>Choose your favorite fonts.</p>
-<ul>
-<li>Installation:<ul>
-<li>Built-in package manager</li>
-</ul>
-</li>
-<li>Usage:<ol>
-<li>Contents: Choose your desired fonts from its settings page</li>
-<li>UI:<ol>
-<li>Open "Config Folder" under Settings.</li>
-<li>Add <code>atom-workspace { font-family: Desired_Font;}</code>to your style.less file.</li>
-</ol>
-</li>
-</ol>
-</li>
-</ul>
-<h4><a href="https://atom.io/packages/git-plus">git-plus</a></h4>
-<p>Git integration. Do git things inside Atom.</p>
-<ul>
-<li>Installation:<ul>
-<li>Built-in package manager</li>
-</ul>
-</li>
-<li>Usage:<ul>
-<li>Show Git-Plus Palette: <code>Ctrl-Shift-H</code></li>
-</ul>
-</li>
-</ul>
-<p><strong>Tips:</strong></p>
-<ol>
-<li>
-<p><a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/">This package is available only if you are using ssh and don't prompt for password every session.</a></p>
-</li>
-<li>
-<p>If Your project folder is at root git-plus can detect it automatically.</p>
-</li>
-<li>
-<p>You can add multiple project folders at a time.</p>
-</li>
-</ol>
-<h4><a href="https://atom.io/packages/highlight-selected">highlight-selected</a></h4>
-<p>Highlight strings matching the selected text throughout the file.</p>
-<ul>
-<li>Installation:<ul>
-<li>Built-in package manager</li>
-</ul>
-</li>
-<li>Usage:<ul>
-<li>Double click or select the word you want to Highlight.</li>
-</ul>
-</li>
-</ul>
-<h4><a href="https://atom.io/packages/linter">linter</a></h4>
-<p>A real time debugger base. It provides a top-level API to its consumer that allows them to visualize errors and other kind-of messages, easily.</p>
-<p><strong>About <a href="https://en.wikipedia.org/wiki/Lint_(software)">Lint</a></strong> and <strong><a href="https://en.wikipedia.org/wiki/Heisenbug">Heisenbug</a></strong></p>                </article>
-            </aside><!-- /#featured -->
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>links</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="https://superdanby.github.io/Blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+        <!-- content -->
+        <main>
+    <p class="list-header">Tag: Atom</p>
+        <div class="list-entry">
+    <span>
+        <a class="title" href="https://superdanby.github.io/Blog/atom-text-editor.html">
+            Atom Text Editor
+        </a>
+    </span>
+    <span class="info">
+        Tue 28 February 2017
+    </span>
+</div>
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+        </main>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+        <!-- paging -->
+    
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
 
-</body>
+
+
+        <!-- footer -->
+        <footer>
+    <a class="top" href="#">Top</a>
+    <p>
+        Powered by
+        <a href="http://docs.getpelican.com/en/stable/">Pelican</a>
+        with theme
+        <a href="https://github.com/amoshyc/zmd">zmd</a>
+    </p>
+</footer>
+
+    </body>
+
 </html>
