@@ -17,3 +17,4 @@ Set CleanupOnExit=no in /etc/firewalld/firewalld.conf
 ### Current Workaround
 
 `sudo dnf install linux-firmware` (?)
+https://fedoraproject.org/wiki/Firmware

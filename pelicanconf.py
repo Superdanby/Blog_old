@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'yee'
-SITENAME = 'yee'
+AUTHOR = '陳鐸元'
+SITENAME = 'Yee'
 SITEURL = ''
 
 PATH = 'content'
@@ -20,10 +20,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Yee', '#'),)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -32,7 +29,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
-#THEME = 'themes/zmd'
-#ZMD_ABOUT = '123'
+THEME = 'themes/zmd'
+ZMD_ABOUT = '123'
