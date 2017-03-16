@@ -8,7 +8,7 @@ Tags: Yee, Yeee
 
 ### ![Current Workaround](https://bugzilla.redhat.com/show_bug.cgi?id=1397274)
 
-Set CleanupOnExit=no in /etc/firewalld/firewalld.conf
+Set `CleanupOnExit=no` in /etc/firewalld/firewalld.conf
 
 <br>
 
