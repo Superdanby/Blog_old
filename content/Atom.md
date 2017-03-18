@@ -3,7 +3,7 @@ Date: 2017-2-28 11:20
 Category: Software
 Tags: Atom
 
-###[Official Website](https://atom.io/)
+##[Official Website](https://atom.io/)
 
 ###Popular Community Packages
 
@@ -46,7 +46,7 @@ Choose your favorite fonts.
     1.  Contents: Choose your desired fonts from its settings page
     2.  UI:
         1.  Open "Config Folder" under Settings.
-        2.  Add ``atom-workspace { font-family: Desired_Font;}``to your style.less file.
+        2.  Add ``atom-workspace { font-family: Desired_Font; }`` to your style.less file.
 
 ####[git-plus](https://atom.io/packages/git-plus)
 
