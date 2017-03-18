@@ -60,7 +60,7 @@
 &lt;li&gt;Contents: Choose your desired fonts from its settings page&lt;/li&gt;
 &lt;li&gt;UI:&lt;ol&gt;
 &lt;li&gt;Open "Config Folder" under Settings.&lt;/li&gt;
-&lt;li&gt;Add &lt;code&gt;atom-workspace { font-family: Desired_Font;}&lt;/code&gt;to your style.less file.&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;atom-workspace { font-family: Desired_Font; }&lt;/code&gt; to your style.less file.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
