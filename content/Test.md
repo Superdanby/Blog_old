@@ -18,7 +18,7 @@ d
 </pre>
 
     #!cpp
-    include <bits/stdc++.h>
+    #include <bits/stdc++.h>
     using namespace std;
 
     const int MAX_N = 1e6;
