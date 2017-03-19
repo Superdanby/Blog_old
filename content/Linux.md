@@ -9,7 +9,7 @@ Options:
 
 `-pg`: Used for gprofile analysis.
 
-`--static`: Includes the libraries used by program into itself. So, if a program used this option to compile, it can be run anywhere. Also, it may run slightly faster because the system don't have to link the libraries during runtime. The downside is that it will have a larger size than usual.
+`--static`: Includes the libraries used by the program into itself. So, if a program used this option to compile, it can be run anywhere. Also, it may run slightly faster because the system don't have to link the libraries dynamically during runtime. The downside is that it will have a larger size than usual.
 
 ## `gprofile`
 
