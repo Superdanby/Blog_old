@@ -9,6 +9,15 @@
 &lt;h2&gt;&lt;code&gt;gprofile&lt;/code&gt;&lt;/h2&gt;
 &lt;h2&gt;&lt;code&gt;strace&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;Inspect programs' system call during runtime.&lt;/p&gt;
-&lt;p&gt;After compiling with &lt;code&gt;-static&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;example: &lt;code&gt;strace ./hello&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;If the program was compiled with &lt;code&gt;-static&lt;/code&gt;, we can get a cleaner view of system calls.&lt;/p&gt;
+&lt;p&gt;example: &lt;em&gt;Dropbox inspection&lt;/em&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;1. `strace dropbox start`
+    We will get a load of information, but it is too messy.
+2. `strace -c dropbox start`
+    Adding the `-c` option, it will display the summary of system calls.
+    But 
+3. `strace -c dropbox start`
+&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;h2&gt;man 2 brk&lt;/h2&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry></feed>

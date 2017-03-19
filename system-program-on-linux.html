@@ -69,8 +69,17 @@
 <h2><code>gprofile</code></h2>
 <h2><code>strace</code></h2>
 <p>Inspect programs' system call during runtime.</p>
-<p>After compiling with <code>-static</code></p>
-<p>example: <code>strace ./hello</code></p>
+<p>If the program was compiled with <code>-static</code>, we can get a cleaner view of system calls.</p>
+<p>example: <em>Dropbox inspection</em></p>
+<div class="highlight"><pre><span></span>1. `strace dropbox start`
+    We will get a load of information, but it is too messy.
+2. `strace -c dropbox start`
+    Adding the `-c` option, it will display the summary of system calls.
+    But 
+3. `strace -c dropbox start`
+</pre></div>
+
+
 <h2>man 2 brk</h2>
     </div>
         </main>
