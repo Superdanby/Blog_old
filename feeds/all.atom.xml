@@ -141,7 +141,8 @@ https://fedoraproject.org/wiki/Firmware&lt;/p&gt;</content><category term="Yee">
 &lt;/ul&gt;
 &lt;h4 id="linter"&gt;&lt;a href="https://atom.io/packages/linter"&gt;linter&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;A real time debugger base. It provides a top-level API to its consumer that allows them to visualize errors and other kind-of messages, easily.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;About &lt;a href="https://en.wikipedia.org/wiki/Lint_(software)"&gt;Lint&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href="https://en.wikipedia.org/wiki/Heisenbug"&gt;Heisenbug&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content><category term="Atom"></category></entry><entry><title>User Experience Enhancements</title><link href="https://superdanby.github.io/Blog/user-experience-enhancements.html" rel="alternate"></link><published>2017-02-27T20:20:00+08:00</published><updated>2017-02-27T20:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-02-27:/Blog/user-experience-enhancements.html</id><summary type="html">&lt;h2 id="all-platforms"&gt;All Platforms&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;About &lt;a href="https://en.wikipedia.org/wiki/Lint_(software)"&gt;Lint&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href="https://en.wikipedia.org/wiki/Heisenbug"&gt;Heisenbug&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content><category term="Atom"></category></entry><entry><title>User Experience Enhancements</title><link href="https://superdanby.github.io/Blog/user-experience-enhancements.html" rel="alternate"></link><published>2017-02-27T20:20:00+08:00</published><updated>2017-02-27T20:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-02-27:/Blog/user-experience-enhancements.html</id><summary type="html">
+&lt;h2 id="all-platforms"&gt;All Platforms&lt;/h2&gt;
 &lt;h3 id="atom"&gt;&lt;a href="https://superdanby.github.io/Blog/atom-text-editor.html"&gt;Atom&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;A beautiful cross-platform text editor.&lt;/p&gt;
 &lt;h3 id="fedora-media-writer"&gt;Fedora Media Writer&lt;/h3&gt;
@@ -156,7 +157,8 @@ https://fedoraproject.org/wiki/Firmware&lt;/p&gt;</content><category term="Yee">
 &lt;h3 id="ubuntu"&gt;Ubuntu&lt;/h3&gt;
 &lt;p&gt;Built-in Ubuntu sub-system for Windows 10.&lt;/p&gt;
 &lt;h3 id="github-desktop"&gt;Github Desktop&lt;/h3&gt;
-&lt;p&gt;Github Desktop …&lt;/p&gt;</summary><content type="html">&lt;h2 id="all-platforms"&gt;All Platforms&lt;/h2&gt;
+&lt;p&gt;Github Desktop …&lt;/p&gt;</summary><content type="html">
+&lt;h2 id="all-platforms"&gt;All Platforms&lt;/h2&gt;
 &lt;h3 id="atom"&gt;&lt;a href="https://superdanby.github.io/Blog/atom-text-editor.html"&gt;Atom&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;A beautiful cross-platform text editor.&lt;/p&gt;
 &lt;h3 id="fedora-media-writer"&gt;Fedora Media Writer&lt;/h3&gt;
