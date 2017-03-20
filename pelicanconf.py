@@ -20,7 +20,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Yee', '#'),)
+LINKS = (('Yee', '#'), ('Tag', 'tags'))
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -33,3 +33,16 @@ DEFAULT_PAGINATION = 10
 
 THEME = 'themes/zmd'
 ZMD_ABOUT = '123'
+
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ["extract_toc", "tag_cloud"]
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'markdown.extensions.toc': {}
+    },
+    'output_format': 'html5',
+}

@@ -3,6 +3,8 @@ Date: 2017-3-15 20:20
 Category: System Program
 Tags: Yee, Yeee
 
+[TOC]
+
 ## `gcc`
 
 Options:
@@ -18,8 +20,16 @@ Options:
 
 Inspect programs' system call during runtime.
 
-After compiling with `-static`
+If the program was compiled with `-static`, we can get a cleaner view of system calls.
 
-example: `strace ./hello`
+example: *Dropbox inspection*
+
+    1. `strace dropbox start`
+        We will get a load of information, but it is too messy.
+    2. `strace -c dropbox start`
+        Adding the `-c` option, it will display the summary of system calls.
+        But what Dropbox
+    3. `strace -c dropbox start`
+
 
 ## man 2 brk

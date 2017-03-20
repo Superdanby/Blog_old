@@ -3,6 +3,8 @@ Date: 2017-2-27 20:20
 Category: Software
 Tags: Yee, Yeee
 
+[TOC]
+
 ##All Platforms
 
 ###[Atom](https://superdanby.github.io/Blog/atom-text-editor.html)
