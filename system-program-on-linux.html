@@ -61,9 +61,25 @@
         </div>
 
         <!-- toc -->
+        <ul class="toc-container">
+            <li class="toc-title">
+                <a href="https://superdanby.github.io/Blog/system-program-on-linux.html">
+                    TOC
+                </a>
+                <div class="toc">
+<ul>
+<li><a href="#gcc">gcc</a></li>
+<li><a href="#gprofile">gprofile</a></li>
+<li><a href="#strace">strace</a></li>
+<li><a href="#man-2-brk">man 2 brk</a></li>
+</ul>
+</div>
+            </li>
+        </ul>
     </div>
     <div class="md-content">
-        <h2 id="gcc"><code>gcc</code></h2>
+        
+<h2 id="gcc"><code>gcc</code></h2>
 <p>Options:</p>
 <p><code>-pg</code>: Used for gprofile analysis.</p>
 <p><code>--static</code>: Includes the libraries used by the program into itself. So, if a program used this option to compile, it can be run anywhere. Also, it may run slightly faster because the system don't have to link the libraries dynamically during runtime. The downside is that it will have a larger size than usual.</p>
@@ -79,8 +95,6 @@
     But what Dropbox
 3. `strace -c dropbox start`
 </pre></div>
-
-
 <h2 id="man-2-brk">man 2 brk</h2>
     </div>
         </main>

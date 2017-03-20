@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Yee - System Program</title><link href="https://superdanby.github.io/Blog/" rel="alternate"></link><link href="https://superdanby.github.io/Blog/feeds/system-program.atom.xml" rel="self"></link><id>https://superdanby.github.io/Blog/</id><updated>2017-03-15T20:20:00+08:00</updated><entry><title>System Program on Linux</title><link href="https://superdanby.github.io/Blog/system-program-on-linux.html" rel="alternate"></link><published>2017-03-15T20:20:00+08:00</published><updated>2017-03-15T20:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-03-15:/Blog/system-program-on-linux.html</id><summary type="html">&lt;h2 id="gcc"&gt;&lt;code&gt;gcc&lt;/code&gt;&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Yee - System Program</title><link href="https://superdanby.github.io/Blog/" rel="alternate"></link><link href="https://superdanby.github.io/Blog/feeds/system-program.atom.xml" rel="self"></link><id>https://superdanby.github.io/Blog/</id><updated>2017-03-15T20:20:00+08:00</updated><entry><title>System Program on Linux</title><link href="https://superdanby.github.io/Blog/system-program-on-linux.html" rel="alternate"></link><published>2017-03-15T20:20:00+08:00</published><updated>2017-03-15T20:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-03-15:/Blog/system-program-on-linux.html</id><summary type="html">
+&lt;h2 id="gcc"&gt;&lt;code&gt;gcc&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;Options:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;-pg&lt;/code&gt;: Used for gprofile analysis.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;--static&lt;/code&gt;: Includes the libraries used by the program into itself. So, if a program used this option to compile, it can be run anywhere. Also, it may run slightly faster because the system don't have to link the libraries dynamically during runtime. The …&lt;/p&gt;</summary><content type="html">&lt;h2 id="gcc"&gt;&lt;code&gt;gcc&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;--static&lt;/code&gt;: Includes the libraries used by the program into itself. So, if a program used this option to compile, it can be run anywhere. Also, it may run slightly faster because the system don't have to link the libraries dynamically during runtime. The …&lt;/p&gt;</summary><content type="html">
+&lt;h2 id="gcc"&gt;&lt;code&gt;gcc&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;Options:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;-pg&lt;/code&gt;: Used for gprofile analysis.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;--static&lt;/code&gt;: Includes the libraries used by the program into itself. So, if a program used this option to compile, it can be run anywhere. Also, it may run slightly faster because the system don't have to link the libraries dynamically during runtime. The downside is that it will have a larger size than usual.&lt;/p&gt;
@@ -18,6 +20,4 @@
     But what Dropbox
 3. `strace -c dropbox start`
 &lt;/pre&gt;&lt;/div&gt;
-
-
 &lt;h2 id="man-2-brk"&gt;man 2 brk&lt;/h2&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry></feed>

@@ -61,13 +61,33 @@
         </div>
 
         <!-- toc -->
+        <ul class="toc-container">
+            <li class="toc-title">
+                <a href="https://superdanby.github.io/Blog/xps-15-9550-issues-with-fedora-25.html">
+                    TOC
+                </a>
+                <div class="toc">
+<ul>
+<li><a href="#firewalld-fails-to-stop-when-shutting-down">Firewalld fails to stop when shutting down.</a><ul>
+<li><a href="#_1"></a></li>
+</ul>
+</li>
+<li><a href="#_2">.</a><ul>
+<li><a href="#current-workaround">Current Workaround</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            </li>
+        </ul>
     </div>
     <div class="md-content">
-        <h2 id="firewalld-fails-to-stop-when-shutting-down">Firewalld fails to stop when shutting down.</h2>
-<h3 id="_1"><img alt="Current Workaround" src="https://bugzilla.redhat.com/show_bug.cgi?id=1397274"></h3>
+        
+<h2 id="firewalld-fails-to-stop-when-shutting-down">Firewalld fails to stop when shutting down.</h2>
+<h3 id="_1"><img alt="Current Workaround" src="https://bugzilla.redhat.com/show_bug.cgi?id=1397274"/></h3>
 <p>Set <code>CleanupOnExit=no</code> in /etc/firewalld/firewalld.conf</p>
-<p><br></p>
-<h2 id="_2"><img alt="Bluetooth not seeing any devices" src="http://fedoraproject.org/wiki/Fedora_Tested_Laptops:Dell_XPS_15_9550_FHD">.</h2>
+<p><br/></p>
+<h2 id="_2"><img alt="Bluetooth not seeing any devices" src="http://fedoraproject.org/wiki/Fedora_Tested_Laptops:Dell_XPS_15_9550_FHD">.</img></h2>
 <h3 id="current-workaround">Current Workaround</h3>
 <p><code>sudo dnf install linux-firmware</code> (?)
 https://fedoraproject.org/wiki/Firmware</p>
