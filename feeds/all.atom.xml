@@ -34,7 +34,8 @@ https://fedoraproject.org/wiki/Firmware&lt;/p&gt;</summary><content type="html">
 &lt;h2&gt;&lt;img alt="Bluetooth not seeing any devices" src="http://fedoraproject.org/wiki/Fedora_Tested_Laptops:Dell_XPS_15_9550_FHD"&gt;.&lt;/h2&gt;
 &lt;h3&gt;Current Workaround&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;sudo dnf install linux-firmware&lt;/code&gt; (?)
-https://fedoraproject.org/wiki/Firmware&lt;/p&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry><entry><title>Atom Text Editor</title><link href="https://superdanby.github.io/Blog/atom-text-editor.html" rel="alternate"></link><published>2017-02-28T11:20:00+08:00</published><updated>2017-02-28T11:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-02-28:/Blog/atom-text-editor.html</id><summary type="html">&lt;h2&gt;&lt;a href="https://atom.io/"&gt;Official Website&lt;/a&gt;&lt;/h2&gt;
+https://fedoraproject.org/wiki/Firmware&lt;/p&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry><entry><title>Atom Text Editor</title><link href="https://superdanby.github.io/Blog/atom-text-editor.html" rel="alternate"></link><published>2017-02-28T11:20:00+08:00</published><updated>2017-02-28T11:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-02-28:/Blog/atom-text-editor.html</id><summary type="html">&lt;p&gt;[TAG]&lt;/p&gt;
+&lt;h2&gt;&lt;a href="https://atom.io/"&gt;Official Website&lt;/a&gt;&lt;/h2&gt;
 &lt;h3&gt;Popular Community Packages&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://atom.io/packages/atom-beautify"&gt;atom-beautify&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom.&lt;/p&gt;
@@ -46,7 +47,8 @@ https://fedoraproject.org/wiki/Firmware&lt;/p&gt;</content><category term="Yee">
 &lt;/li&gt;
 &lt;li&gt;Usage:&lt;ol&gt;
 &lt;li&gt;Right click and select "Beautify editor contents".&lt;/li&gt;
-&lt;li&gt;Scope: selected contents or the whole file if …&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2&gt;&lt;a href="https://atom.io/"&gt;Official Website&lt;/a&gt;&lt;/h2&gt;
+&lt;li&gt;Scope: selected contents or the whole file …&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;[TAG]&lt;/p&gt;
+&lt;h2&gt;&lt;a href="https://atom.io/"&gt;Official Website&lt;/a&gt;&lt;/h2&gt;
 &lt;h3&gt;Popular Community Packages&lt;/h3&gt;
 &lt;h4&gt;&lt;a href="https://atom.io/packages/atom-beautify"&gt;atom-beautify&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom.&lt;/p&gt;
