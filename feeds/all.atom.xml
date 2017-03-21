@@ -202,10 +202,10 @@ var bar = 0;
 
 &lt;h3 id="mathjax"&gt;MathJax&lt;/h3&gt;
 &lt;p&gt;You can render &lt;em&gt;LaTeX&lt;/em&gt; mathematical expressions using &lt;strong&gt;MathJax&lt;/strong&gt;, as on &lt;a href="http://math.stackexchange.com/"&gt;math.stackexchange.com&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;The &lt;em&gt;Gamma function&lt;/em&gt; satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral&lt;/p&gt;
-&lt;p&gt;$$
+&lt;p&gt;The &lt;em&gt;Gamma function&lt;/em&gt; satisfying &lt;span class="math"&gt;\(\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N\)&lt;/span&gt; is via the Euler integral&lt;/p&gt;
+&lt;div class="math"&gt;$$
 \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$&lt;/p&gt;
+$$&lt;/div&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt; To make sure mathematical expressions are rendered properly on your website, include &lt;strong&gt;MathJax&lt;/strong&gt; into your template:&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -249,7 +249,64 @@ cond(no)-&amp;gt;op
 &lt;p&gt;&lt;a href="https://stackedit.io/"&gt;StackEdit&lt;/a&gt; is a full-featured, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites. &lt;a class="footnote-backref" href="#fnref-stackedit" title="Jump back to footnote 2 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/hr&gt;&lt;/div&gt;&lt;/hr&gt;&lt;/hr&gt;&lt;/hr&gt;&lt;/hr&gt;</content><category term="Test"></category></entry><entry><title>System Program on Linux</title><link href="https://superdanby.github.io/Blog/system-program-on-linux.html" rel="alternate"></link><published>2017-03-15T20:20:00+08:00</published><updated>2017-03-15T20:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-03-15:/Blog/system-program-on-linux.html</id><summary type="html">
+&lt;/hr&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    var location_protocol = (false) ? 'https' : document.location.protocol;
+    if (location_protocol !== 'http' &amp;&amp; location_protocol !== 'https') location_protocol = 'https:';
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;&lt;/hr&gt;&lt;/hr&gt;&lt;/hr&gt;&lt;/hr&gt;</content><category term="Test"></category></entry><entry><title>System Program on Linux</title><link href="https://superdanby.github.io/Blog/system-program-on-linux.html" rel="alternate"></link><published>2017-03-15T20:20:00+08:00</published><updated>2017-03-15T20:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-03-15:/Blog/system-program-on-linux.html</id><summary type="html">
 &lt;h2 id="gcc"&gt;&lt;code&gt;gcc&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;Options:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;-pg&lt;/code&gt;: Used for gprofile analysis.&lt;/p&gt;
