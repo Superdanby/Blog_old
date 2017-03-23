@@ -32,10 +32,10 @@ DEFAULT_PAGINATION = 10
 # RELATIVE_URLS = True
 
 THEME = 'themes/zmd'
-ZMD_ABOUT = '123'
+ZMD_PROFILE_IMAGE = 'me.png'
 
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["extract_toc", "tag_cloud"]
+PLUGINS = ["extract_toc", "tag_cloud", "render_math"]
 
 MARKDOWN = {
     'extension_configs': {
