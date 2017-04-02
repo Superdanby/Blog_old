@@ -62,7 +62,7 @@ def process_settings(pelicanobj):
     mathjax_settings['show_menu'] = 'true'  # controls whether to attach mathjax contextual menu
     mathjax_settings['process_escapes'] = 'true'  # controls whether escapes are processed
     mathjax_settings['latex_preview'] = 'TeX'  # controls what user sees while waiting for LaTex to render
-    mathjax_settings['color'] = 'inherit'  # controls color math is rendered in
+    mathjax_settings['color'] = '#80CBC4'  # controls color math is rendered in mdl-color--teal-200
     mathjax_settings['linebreak_automatic'] = 'false'  # Set to false by default for performance reasons (see http://docs.mathjax.org/en/latest/output.html#automatic-line-breaking)
     mathjax_settings['tex_extensions'] = ''  # latex extensions that can be embedded inside mathjax (see http://docs.mathjax.org/en/latest/tex.html#tex-and-latex-extensions)
     mathjax_settings['responsive'] = 'false'  # Tries to make displayed math responsive
