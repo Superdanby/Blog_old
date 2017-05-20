@@ -1,7 +1,7 @@
 Title: Fedora
 Date: 2017-5-21
 Category: Fedora
-Tags: Fedora, Yeee
+Tags: Fedora, Yee
 
 [TOC]
 
