@@ -21,7 +21,8 @@ IMO, the best Linux distro.
 ##Tweaks
 
 ###Bookmark Locations in Files(nautilus)
-![bookmarklocation](./Fedora/bookmarklocation.png)
+The upper left icon in the group of 6.
+![bookmarklocation](https://raw.githubusercontent.com/Superdanby/Blog/master/content/Fedora/bookmarklocation.png)
 
 ##Shell Extensions
 [Get the extensions you like for Gnome!](https://extensions.gnome.org/)
@@ -36,7 +37,7 @@ This extension is part of Classic Mode and is officially supported by GNOME.
 
 ###[Background Logo](https://extensions.gnome.org/extension/889/background-logo/)
 Overlay a tasteful logo on the background to enhance the user experience
-![backgroundlogo](./backgroundlogo.png)
+![backgroundlogo](https://raw.githubusercontent.com/Superdanby/Blog/master/content/Fedora/backgroundlogo.png)
 
 ###[Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
 Disable the screensaver and auto suspend(automatically).
