@@ -14,7 +14,13 @@
 &lt;/li&gt;
 &lt;li&gt;Release date: 2017/06/27&lt;/li&gt;
 &lt;li&gt;Expected features:&lt;ol&gt;
-&lt;li&gt;No conflicts between (Mesa)[https://www.mesa3d.org/] and (negativo17.org Nvidia drivers)[https://negativo17.org …&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">
+&lt;li&gt;No conflicts between &lt;a href="https://www.mesa3d.org/"&gt;Mesa&lt;/a&gt; and &lt;a href="https://negativo17.org/"&gt;negativo17.org Nvidia drivers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gnome.org/"&gt;Gnome 3.24&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="tweaks"&gt;Tweaks&lt;/h2&gt;
+&lt;h3 id="bookmark-locations-in-filesnautilus"&gt;Bookmark Locations in …&lt;/h3&gt;</summary><content type="html">
 &lt;h2 id="get-fedora-now"&gt;&lt;a href="https://getfedora.org/"&gt;Get Fedora Now!&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;IMO, best Linux distro.&lt;/p&gt;
 &lt;ol&gt;
@@ -29,28 +35,28 @@
 &lt;/li&gt;
 &lt;li&gt;Release date: 2017/06/27&lt;/li&gt;
 &lt;li&gt;Expected features:&lt;ol&gt;
-&lt;li&gt;No conflicts between (Mesa)[https://www.mesa3d.org/] and (negativo17.org Nvidia drivers)[https://negativo17.org/]&lt;/li&gt;
-&lt;li&gt;(Gnome 3.24)[https://www.gnome.org/]&lt;/li&gt;
+&lt;li&gt;No conflicts between &lt;a href="https://www.mesa3d.org/"&gt;Mesa&lt;/a&gt; and &lt;a href="https://negativo17.org/"&gt;negativo17.org Nvidia drivers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gnome.org/"&gt;Gnome 3.24&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="tweaks"&gt;Tweaks&lt;/h2&gt;
 &lt;h3 id="bookmark-locations-in-filesnautilus"&gt;Bookmark Locations in Files(nautilus)&lt;/h3&gt;
-&lt;p&gt;!(bookmarklocation)[./Fedora/bookmarklocation.png]&lt;/p&gt;
+&lt;p&gt;&lt;img alt="bookmarklocation" src="./Fedora/bookmarklocation.png"/&gt;&lt;/p&gt;
 &lt;h2 id="shell-extensions"&gt;Shell Extensions&lt;/h2&gt;
-&lt;p&gt;(Get the extensions you like for Gnome!)[https://extensions.gnome.org/]&lt;/p&gt;
-&lt;h3 id="alternate-tabshttpsextensionsgnomeorgextension15alternatetab"&gt;(Alternate Tabs)[https://extensions.gnome.org/extension/15/alternatetab/]&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://extensions.gnome.org/"&gt;Get the extensions you like for Gnome!&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="alternate-tabs"&gt;&lt;a href="https://extensions.gnome.org/extension/15/alternatetab/"&gt;Alternate Tabs&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Substitute Alt-Tab with a window based switcher that does not group by application.
 This extension is part of Classic Mode and is officially supported by GNOME.&lt;/p&gt;
-&lt;h3 id="applications-menuhttpsextensionsgnomeorgextension6applications-menu"&gt;(Applications Menu)[https://extensions.gnome.org/extension/6/applications-menu/]&lt;/h3&gt;
+&lt;h3 id="applications-menu"&gt;&lt;a href="https://extensions.gnome.org/extension/6/applications-menu/"&gt;Applications Menu&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Add a category-based menu for applications.
 This extension is part of Classic Mode and is officially supported by GNOME.&lt;/p&gt;
-&lt;h3 id="background-logohttpsextensionsgnomeorgextension889background-logo"&gt;(Background Logo)[https://extensions.gnome.org/extension/889/background-logo/]&lt;/h3&gt;
+&lt;h3 id="background-logo"&gt;&lt;a href="https://extensions.gnome.org/extension/889/background-logo/"&gt;Background Logo&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Overlay a tasteful logo on the background to enhance the user experience
 &lt;img alt="backgroundlogo" src="./backgroundlogo.png"/&gt;&lt;/p&gt;
-&lt;h3 id="caffeinehttpsextensionsgnomeorgextension517caffeine"&gt;(Caffeine)[https://extensions.gnome.org/extension/517/caffeine/]&lt;/h3&gt;
+&lt;h3 id="caffeine"&gt;&lt;a href="https://extensions.gnome.org/extension/517/caffeine/"&gt;Caffeine&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Disable the screensaver and auto suspend(automatically).&lt;/p&gt;
-&lt;h3 id="dim-desktop-70httpsextensionsgnomeorgextension1130dim-desktop-70"&gt;(Dim Desktop 70)[https://extensions.gnome.org/extension/1130/dim-desktop-70/]&lt;/h3&gt;
+&lt;h3 id="dim-desktop-70"&gt;&lt;a href="https://extensions.gnome.org/extension/1130/dim-desktop-70/"&gt;Dim Desktop 70&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;This extension adds a button with a light bulb to your panel. When clicked, the desktop brightness is reduced. Scroll to change the brightness. The main purpose is to keep your eyes calm when reading in the late evening. It is realized by a simple overlay with 70% opacity. It should work on a multimonitor desktop.&lt;/p&gt;
 &lt;h3 id="no-top-left-hot-corner"&gt;No Top Left Hot Corner&lt;/h3&gt;
 &lt;h3 id="redshift"&gt;Redshift&lt;/h3&gt;
