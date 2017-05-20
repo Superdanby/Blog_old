@@ -4,29 +4,25 @@
 &lt;p&gt;IMO, the best Linux distro.
 1.  The one always deploies the newest technologies.
 2.  &lt;a href="https://www.gnome.org/"&gt;Gnome&lt;/a&gt;
-2.  Cares about security A LOT(SELinux, &lt;a href="https://wayland.freedesktop.org/"&gt;Wayland&lt;/a&gt;).
-3.  Redhat supported.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Next version: 26&lt;/li&gt;
-&lt;li&gt;Release date: 2017/06/27&lt;/li&gt;
-&lt;li&gt;Expected features:&lt;ol&gt;
-&lt;li&gt;No conflicts between &lt;a href="https://www.mesa3d.org/"&gt;Mesa&lt;/a&gt; and &lt;a href="https://negativo17.org/"&gt;negativo17.org Nvidia drivers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gnome.org/"&gt;Gnome 3 …&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">
+3.  Cares about security A LOT(SELinux, &lt;a href="https://wayland.freedesktop.org/"&gt;Wayland&lt;/a&gt;).
+4.  Redhat supported.
+-   Next version: 26
+-   Release date: 2017/06/27
+-   Expected features:
+    1.  No conflicts between &lt;a href="https://www.mesa3d.org/"&gt;Mesa&lt;/a&gt; and &lt;a href="https://negativo17.org/"&gt;negativo17.org Nvidia drivers&lt;/a&gt;
+    2 …&lt;/p&gt;</summary><content type="html">
 &lt;h2 id="get-fedora-now"&gt;&lt;a href="https://getfedora.org/"&gt;Get Fedora Now!&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;IMO, the best Linux distro.
 1.  The one always deploies the newest technologies.
 2.  &lt;a href="https://www.gnome.org/"&gt;Gnome&lt;/a&gt;
-2.  Cares about security A LOT(SELinux, &lt;a href="https://wayland.freedesktop.org/"&gt;Wayland&lt;/a&gt;).
-3.  Redhat supported.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Next version: 26&lt;/li&gt;
-&lt;li&gt;Release date: 2017/06/27&lt;/li&gt;
-&lt;li&gt;Expected features:&lt;ol&gt;
-&lt;li&gt;No conflicts between &lt;a href="https://www.mesa3d.org/"&gt;Mesa&lt;/a&gt; and &lt;a href="https://negativo17.org/"&gt;negativo17.org Nvidia drivers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.gnome.org/"&gt;Gnome 3.24&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+3.  Cares about security A LOT(SELinux, &lt;a href="https://wayland.freedesktop.org/"&gt;Wayland&lt;/a&gt;).
+4.  Redhat supported.
+-   Next version: 26
+-   Release date: 2017/06/27
+-   Expected features:
+    1.  No conflicts between &lt;a href="https://www.mesa3d.org/"&gt;Mesa&lt;/a&gt; and &lt;a href="https://negativo17.org/"&gt;negativo17.org Nvidia drivers&lt;/a&gt;
+    2.  &lt;a href="https://www.gnome.org/"&gt;Gnome 3.24&lt;/a&gt;
+    3.  &lt;a href="#dnf"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt; dnf&lt;/a&gt; 2.0&lt;/p&gt;
 &lt;h2 id="tweaks"&gt;Tweaks&lt;/h2&gt;
 &lt;h3 id="bookmark-locations-in-filesnautilus"&gt;Bookmark Locations in Files(nautilus)&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="bookmarklocation" src="./Fedora/bookmarklocation.png"/&gt;&lt;/p&gt;
