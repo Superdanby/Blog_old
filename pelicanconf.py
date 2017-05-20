@@ -20,7 +20,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Yee', '#'), ('Tag', 'tags'))
+LINKS = (('Yee', '#'), ('Category', 'categories'), ('Tag', 'tags'))
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -32,7 +32,7 @@ DEFAULT_PAGINATION = 10
 # RELATIVE_URLS = True
 
 THEME = 'themes/zmd'
-ZMD_PROFILE_IMAGE = 'me.png'
+ZMD_PROFILE_IMAGE = 'me.gif'
 
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = ["extract_toc", "tag_cloud", "render_math"]
