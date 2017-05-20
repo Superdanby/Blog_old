@@ -106,19 +106,19 @@
 <li><a href="#todotxt">Todo.txt</a></li>
 </ul>
 </li>
-<li><a href="#dnf">dnf</a></li>
+<li><a href="#dnf">dnf</a><ul>
 <li><a href="#gnome-tweak-tool">Gnome Tweak Tool</a></li>
 <li><a href="#google-chrome">Google Chrome</a></li>
 <li><a href="#chrome-gnome-shell">Chrome Gnome Shell</a></li>
 <li><a href="#vlc">VLC</a></li>
-<li><a href="#kodi">Kodi</a></li>
 <li><a href="#qbittorrent">qBittorrent</a></li>
 <li><a href="#git">git</a></li>
+<li><a href="#gnome-terminal-nautilus">gnome-terminal-nautilus</a></li>
 <li><a href="#cowsay">cowsay</a></li>
 <li><a href="#sl">sl</a></li>
-<li><a href="#oneko">oneko</a></li>
-<li><a href="#gnome-terminal-nautilus">gnome-terminal-nautilus</a></li>
-<li><a href="#clone-specific-directories-or-files-from-github-with-svn">clone specific directories or files from github with svn</a></li>
+<li><a href="#svn">svn</a></li>
+</ul>
+</li>
 </ul>
 </div>
             </li>
@@ -138,7 +138,7 @@
 -   Expected features:
     1.  No conflicts between <a href="https://www.mesa3d.org/">Mesa</a> and <a href="https://negativo17.org/">negativo17.org Nvidia drivers</a>
     2.  <a href="https://www.gnome.org/">Gnome 3.24</a>
-    3.  <a href="#dnf"><i class="icon-refresh"></i> dnf</a> 2.0</p>
+    3.  <a href="#dnf"><i class="icon-refresh"></i>dnf</a> 2.0</p>
 <h2 id="tweaks">Tweaks</h2>
 <h3 id="bookmark-locations-in-filesnautilus">Bookmark Locations in Files(nautilus)</h3>
 <p><img alt="bookmarklocation" src="./Fedora/bookmarklocation.png"/></p>
@@ -159,7 +159,7 @@ This extension is part of Classic Mode and is officially supported by GNOME.</p>
 <p>This extension adds a button with a light bulb to your panel. When clicked, the desktop brightness is reduced. Scroll to change the brightness. The main purpose is to keep your eyes calm when reading in the late evening. It is realized by a simple overlay with 70% opacity. It should work on a multimonitor desktop.</p>
 <h3 id="extensions"><a href="https://extensions.gnome.org/extension/1036/extensions/">Extensions</a></h3>
 <p>Enable/disable easily gnome shell extensions from a menu in the top panel. Also allows to edit the settings of the extensions. Feedback welcome!</p>
-<p>Sometimes it doesn't sync correctly. Hence, <a href="#gnome-tweak-tool"><i class="icon-refresh"></i> Gnome Tweak Tool</a> is still the best choice.</p>
+<p>Sometimes it doesn't sync correctly. Hence, <a href="#gnome-tweak-tool"><i class="icon-refresh"></i>Gnome Tweak Tool</a> is still the best choice.</p>
 <h3 id="launch-new-instance"><a href="https://extensions.gnome.org/extension/600/launch-new-instance/">Launch new instance</a></h3>
 <p>Always launch a new instance when clicking in the dash or the application view.
 This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME Bugzilla instead.</p>
@@ -191,20 +191,56 @@ Reduce the horizontal spacing between icons in the top-right status area.</p>
 <h3 id="todotxt"><a href="https://extensions.gnome.org/extension/570/todotxt/">Todo.txt</a></h3>
 <p>An easy to use to-do list.</p>
 <h2 id="dnf">dnf</h2>
-<h2 id="gnome-tweak-tool">Gnome Tweak Tool</h2>
-<h2 id="google-chrome">Google Chrome</h2>
-<h2 id="chrome-gnome-shell">Chrome Gnome Shell</h2>
-<h2 id="vlc">VLC</h2>
-<h2 id="kodi">Kodi</h2>
-<h2 id="qbittorrent">qBittorrent</h2>
-<h2 id="git">git</h2>
-<h2 id="cowsay">cowsay</h2>
-<h2 id="sl">sl</h2>
-<h2 id="oneko">oneko</h2>
-<h2 id="gnome-terminal-nautilus">gnome-terminal-nautilus</h2>
+<p>The default package manager on Fedora.</p>
+<h3 id="gnome-tweak-tool">Gnome Tweak Tool</h3>
+<p>Download it from Software app.</p>
+<p>Important features:
+    1. Scaling factor in Fonts section
+    2. Extensions section
+    3. Top Bar section</p>
+<h3 id="google-chrome"><a href="https://www.google.com/chrome/browser/desktop/index.html">Google Chrome</a></h3>
+<p>Installation:
+1. Download the package from the official website.
+2. <code>sudo dnf install</code> + PACKAGE_PATH</p>
+<h3 id="chrome-gnome-shell"><a href="https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep">Chrome Gnome Shell</a></h3>
+<p>Sync your extensions with <a href="#google-chrome"><i class="icon-refresh"></i>Google Chrome</a>.</p>
+<p>Installation:
+1. <code>sudo dnf copr enable region51/chrome-gnome-shell</code>
+2. <code>sudo dnf install chrome-gnome-shell</code></p>
+<h3 id="vlc"><a href="http://www.videolan.org/vlc/index.html">VLC</a></h3>
+<p>A combat media player.</p>
+<p>Installation:
+1.  <code>sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm</code>
+2.  <code>sudo dnf install vlc</code></p>
+<h3 id="qbittorrent">qBittorrent</h3>
+<p>A popular P2P client.</p>
+<p>Download from Software.</p>
+<h3 id="git">git</h3>
+<p>Fast Version Control System</p>
+<p>Installation: <code>sudo dnf install git</code></p>
+<h3 id="gnome-terminal-nautilus">gnome-terminal-nautilus</h3>
 <p>Right click to open gnome terminal in the current location.</p>
-<h2 id="clone-specific-directories-or-files-from-github-with-svn">clone specific directories or files from github with svn</h2>
+<p>Installation: <code>sudo dnf install gnome-terminal-nautilus</code></p>
+<h3 id="cowsay"><a href="https://github.com/tnalpgge/rank-amateur-cowsay">cowsay</a></h3>
+<p>Configurable speaking/thinking cow.</p>
+<p>Installation: <code>sudo dnf install cowsay</code></p>
+<h3 id="sl"><a href="https://github.com/mtoyoda/sl">sl</a></h3>
+<p>Joke command for when you type 'sl' instead of 'ls'.</p>
+<p>Installation: <code>sudo dnf install sl</code></p>
+<p>Usage: <code>sl</code></p>
+<h3 id="svn">svn</h3>
 <p>Sometimes you just want to download some files but not the entire repository.</p>
+<p>Installation: <code>sudo dnf install svn</code></p>
+<p>Usage:
+1. <code>svn ls</code> + URL
+2. <code>svn checkout</code> + URL</p>
+<p>How to modify a Github URL?
+Add <strong>branches</strong> before branch name.</p>
+<p>e.g.
+1. https://github.com/Superdanby/zmd -&gt;  https://github.com/Superdanby/zmd/branches/master
+2. https://github.com/Superdanby/zmd/tree/dark -&gt; https://github.com/Superdanby/zmd/branches/dark</p>
+<p>It is important to check the contents before downloading.
+So, be sure to use <code>svn ls</code> first.</p>
     </div>
 
         </main>

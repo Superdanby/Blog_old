@@ -22,7 +22,7 @@
 -   Expected features:
     1.  No conflicts between &lt;a href="https://www.mesa3d.org/"&gt;Mesa&lt;/a&gt; and &lt;a href="https://negativo17.org/"&gt;negativo17.org Nvidia drivers&lt;/a&gt;
     2.  &lt;a href="https://www.gnome.org/"&gt;Gnome 3.24&lt;/a&gt;
-    3.  &lt;a href="#dnf"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt; dnf&lt;/a&gt; 2.0&lt;/p&gt;
+    3.  &lt;a href="#dnf"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt;dnf&lt;/a&gt; 2.0&lt;/p&gt;
 &lt;h2 id="tweaks"&gt;Tweaks&lt;/h2&gt;
 &lt;h3 id="bookmark-locations-in-filesnautilus"&gt;Bookmark Locations in Files(nautilus)&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="bookmarklocation" src="./Fedora/bookmarklocation.png"/&gt;&lt;/p&gt;
@@ -43,7 +43,7 @@ This extension is part of Classic Mode and is officially supported by GNOME.&lt;
 &lt;p&gt;This extension adds a button with a light bulb to your panel. When clicked, the desktop brightness is reduced. Scroll to change the brightness. The main purpose is to keep your eyes calm when reading in the late evening. It is realized by a simple overlay with 70% opacity. It should work on a multimonitor desktop.&lt;/p&gt;
 &lt;h3 id="extensions"&gt;&lt;a href="https://extensions.gnome.org/extension/1036/extensions/"&gt;Extensions&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Enable/disable easily gnome shell extensions from a menu in the top panel. Also allows to edit the settings of the extensions. Feedback welcome!&lt;/p&gt;
-&lt;p&gt;Sometimes it doesn't sync correctly. Hence, &lt;a href="#gnome-tweak-tool"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt; Gnome Tweak Tool&lt;/a&gt; is still the best choice.&lt;/p&gt;
+&lt;p&gt;Sometimes it doesn't sync correctly. Hence, &lt;a href="#gnome-tweak-tool"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt;Gnome Tweak Tool&lt;/a&gt; is still the best choice.&lt;/p&gt;
 &lt;h3 id="launch-new-instance"&gt;&lt;a href="https://extensions.gnome.org/extension/600/launch-new-instance/"&gt;Launch new instance&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Always launch a new instance when clicking in the dash or the application view.
 This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME Bugzilla instead.&lt;/p&gt;
@@ -75,17 +75,53 @@ Reduce the horizontal spacing between icons in the top-right status area.&lt;/p&
 &lt;h3 id="todotxt"&gt;&lt;a href="https://extensions.gnome.org/extension/570/todotxt/"&gt;Todo.txt&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;An easy to use to-do list.&lt;/p&gt;
 &lt;h2 id="dnf"&gt;dnf&lt;/h2&gt;
-&lt;h2 id="gnome-tweak-tool"&gt;Gnome Tweak Tool&lt;/h2&gt;
-&lt;h2 id="google-chrome"&gt;Google Chrome&lt;/h2&gt;
-&lt;h2 id="chrome-gnome-shell"&gt;Chrome Gnome Shell&lt;/h2&gt;
-&lt;h2 id="vlc"&gt;VLC&lt;/h2&gt;
-&lt;h2 id="kodi"&gt;Kodi&lt;/h2&gt;
-&lt;h2 id="qbittorrent"&gt;qBittorrent&lt;/h2&gt;
-&lt;h2 id="git"&gt;git&lt;/h2&gt;
-&lt;h2 id="cowsay"&gt;cowsay&lt;/h2&gt;
-&lt;h2 id="sl"&gt;sl&lt;/h2&gt;
-&lt;h2 id="oneko"&gt;oneko&lt;/h2&gt;
-&lt;h2 id="gnome-terminal-nautilus"&gt;gnome-terminal-nautilus&lt;/h2&gt;
+&lt;p&gt;The default package manager on Fedora.&lt;/p&gt;
+&lt;h3 id="gnome-tweak-tool"&gt;Gnome Tweak Tool&lt;/h3&gt;
+&lt;p&gt;Download it from Software app.&lt;/p&gt;
+&lt;p&gt;Important features:
+    1. Scaling factor in Fonts section
+    2. Extensions section
+    3. Top Bar section&lt;/p&gt;
+&lt;h3 id="google-chrome"&gt;&lt;a href="https://www.google.com/chrome/browser/desktop/index.html"&gt;Google Chrome&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Installation:
+1. Download the package from the official website.
+2. &lt;code&gt;sudo dnf install&lt;/code&gt; + PACKAGE_PATH&lt;/p&gt;
+&lt;h3 id="chrome-gnome-shell"&gt;&lt;a href="https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep"&gt;Chrome Gnome Shell&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Sync your extensions with &lt;a href="#google-chrome"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt;Google Chrome&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Installation:
+1. &lt;code&gt;sudo dnf copr enable region51/chrome-gnome-shell&lt;/code&gt;
+2. &lt;code&gt;sudo dnf install chrome-gnome-shell&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="vlc"&gt;&lt;a href="http://www.videolan.org/vlc/index.html"&gt;VLC&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;A combat media player.&lt;/p&gt;
+&lt;p&gt;Installation:
+1.  &lt;code&gt;sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm&lt;/code&gt;
+2.  &lt;code&gt;sudo dnf install vlc&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="qbittorrent"&gt;qBittorrent&lt;/h3&gt;
+&lt;p&gt;A popular P2P client.&lt;/p&gt;
+&lt;p&gt;Download from Software.&lt;/p&gt;
+&lt;h3 id="git"&gt;git&lt;/h3&gt;
+&lt;p&gt;Fast Version Control System&lt;/p&gt;
+&lt;p&gt;Installation: &lt;code&gt;sudo dnf install git&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="gnome-terminal-nautilus"&gt;gnome-terminal-nautilus&lt;/h3&gt;
 &lt;p&gt;Right click to open gnome terminal in the current location.&lt;/p&gt;
-&lt;h2 id="clone-specific-directories-or-files-from-github-with-svn"&gt;clone specific directories or files from github with svn&lt;/h2&gt;
-&lt;p&gt;Sometimes you just want to download some files but not the entire repository.&lt;/p&gt;</content><category term="Fedora"></category><category term="Yeee"></category></entry></feed>
+&lt;p&gt;Installation: &lt;code&gt;sudo dnf install gnome-terminal-nautilus&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="cowsay"&gt;&lt;a href="https://github.com/tnalpgge/rank-amateur-cowsay"&gt;cowsay&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Configurable speaking/thinking cow.&lt;/p&gt;
+&lt;p&gt;Installation: &lt;code&gt;sudo dnf install cowsay&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="sl"&gt;&lt;a href="https://github.com/mtoyoda/sl"&gt;sl&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Joke command for when you type 'sl' instead of 'ls'.&lt;/p&gt;
+&lt;p&gt;Installation: &lt;code&gt;sudo dnf install sl&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Usage: &lt;code&gt;sl&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="svn"&gt;svn&lt;/h3&gt;
+&lt;p&gt;Sometimes you just want to download some files but not the entire repository.&lt;/p&gt;
+&lt;p&gt;Installation: &lt;code&gt;sudo dnf install svn&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Usage:
+1. &lt;code&gt;svn ls&lt;/code&gt; + URL
+2. &lt;code&gt;svn checkout&lt;/code&gt; + URL&lt;/p&gt;
+&lt;p&gt;How to modify a Github URL?
+Add &lt;strong&gt;branches&lt;/strong&gt; before branch name.&lt;/p&gt;
+&lt;p&gt;e.g.
+1. https://github.com/Superdanby/zmd -&amp;gt;  https://github.com/Superdanby/zmd/branches/master
+2. https://github.com/Superdanby/zmd/tree/dark -&amp;gt; https://github.com/Superdanby/zmd/branches/dark&lt;/p&gt;
+&lt;p&gt;It is important to check the contents before downloading.
+So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><category term="Fedora"></category><category term="Yeee"></category></entry></feed>
