@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Yee - Software</title><link href="https://superdanby.github.io/Blog/" rel="alternate"></link><link href="https://superdanby.github.io/Blog/feeds/software.atom.xml" rel="self"></link><id>https://superdanby.github.io/Blog/</id><updated>2017-03-21T11:20:00+08:00</updated><entry><title>Markdown Demo</title><link href="https://superdanby.github.io/Blog/markdown-demo.html" rel="alternate"></link><published>2017-03-21T11:20:00+08:00</published><updated>2017-03-21T11:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-03-21:/Blog/markdown-demo.html</id><summary type="html">&lt;h1 id="welcome-to-stackedit"&gt;Welcome to StackEdit!&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Yee - Software</title><link href="https://superdanby.github.io/Blog/" rel="alternate"></link><link href="https://superdanby.github.io/Blog/feeds/software.atom.xml" rel="self"></link><id>https://superdanby.github.io/Blog/</id><updated>2017-05-20T00:00:00+08:00</updated><entry><title>Windows 10</title><link href="https://superdanby.github.io/Blog/windows-10.html" rel="alternate"></link><published>2017-05-20T00:00:00+08:00</published><updated>2017-05-20T00:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-20:/Blog/windows-10.html</id><summary type="html">
+&lt;h2 id="tweaks"&gt;Tweaks&lt;/h2&gt;
+&lt;h3 id="night-light"&gt;Night Light&lt;/h3&gt;
+&lt;p&gt;A Built-in blue light filter.&lt;/p&gt;
+&lt;h2 id="mingw-w64httpssourceforgenetprojectsmingw-w64"&gt;(Mingw-w64)[https://sourceforge.net/projects/mingw-w64/]&lt;/h2&gt;
+&lt;p&gt;The GNU/GCC compiler on Windows.&lt;/p&gt;
+&lt;h2 id="wslhttpsblogsmsdnmicrosoftcomwsl"&gt;(WSL)[https://blogs.msdn.microsoft.com/wsl/]&lt;/h2&gt;
+&lt;p&gt;Built-in Linux sub-systems for Windows 10.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Now available: Ubuntu&lt;/li&gt;
+&lt;li&gt;Upcoming: Fedora and OpenSUSE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="github-desktophttpsdesktopgithubcom"&gt;(Github Desktop)[https://desktop.github.com/]&lt;/h2&gt;
+&lt;p&gt;Github Desktop client on …&lt;/p&gt;</summary><content type="html">
+&lt;h2 id="tweaks"&gt;Tweaks&lt;/h2&gt;
+&lt;h3 id="night-light"&gt;Night Light&lt;/h3&gt;
+&lt;p&gt;A Built-in blue light filter.&lt;/p&gt;
+&lt;h2 id="mingw-w64httpssourceforgenetprojectsmingw-w64"&gt;(Mingw-w64)[https://sourceforge.net/projects/mingw-w64/]&lt;/h2&gt;
+&lt;p&gt;The GNU/GCC compiler on Windows.&lt;/p&gt;
+&lt;h2 id="wslhttpsblogsmsdnmicrosoftcomwsl"&gt;(WSL)[https://blogs.msdn.microsoft.com/wsl/]&lt;/h2&gt;
+&lt;p&gt;Built-in Linux sub-systems for Windows 10.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Now available: Ubuntu&lt;/li&gt;
+&lt;li&gt;Upcoming: Fedora and OpenSUSE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="github-desktophttpsdesktopgithubcom"&gt;(Github Desktop)[https://desktop.github.com/]&lt;/h2&gt;
+&lt;p&gt;Github Desktop client on Windows
+It's an alternative if you're not using &lt;a href="#Atom"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt; Atom&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="dolphin-emulatorhttpsdolphin-emuorg"&gt;(Dolphin Emulator)[https://dolphin-emu.org/]&lt;/h2&gt;
+&lt;p&gt;The world's best emulator for Wii and Gamecube.&lt;/p&gt;
+&lt;h2 id="rufushttpsrufusakeoie"&gt;(Rufus)[https://rufus.akeo.ie/]&lt;/h2&gt;
+&lt;p&gt;Bootable USB creator.
+Everything you need is here in general use.&lt;/p&gt;
+&lt;h2 id="bluestackshttpwwwbluestackscom"&gt;(BlueStacks)[http://www.bluestacks.com]&lt;/h2&gt;
+&lt;p&gt;Well-made Android emulator. Now biggest in the world.&lt;/p&gt;</content><category term="Windows 10"></category></entry><entry><title>Markdown Demo</title><link href="https://superdanby.github.io/Blog/markdown-demo.html" rel="alternate"></link><published>2017-03-21T11:20:00+08:00</published><updated>2017-03-21T11:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-03-21:/Blog/markdown-demo.html</id><summary type="html">&lt;h1 id="welcome-to-stackedit"&gt;Welcome to StackEdit!&lt;/h1&gt;
 &lt;p&gt;Hey! I'm your first Markdown document in &lt;strong&gt;StackEdit&lt;/strong&gt;&lt;sup id="fnref-stackedit"&gt;&lt;a class="footnote-ref" href="#fn-stackedit"&gt;2&lt;/a&gt;&lt;/sup&gt;. Don't delete me, I'm very helpful! I can be recovered anyway in the &lt;strong&gt;Utils&lt;/strong&gt; tab of the &lt;i class="icon-cog"&gt;&lt;/i&gt; &lt;strong&gt;Settings&lt;/strong&gt; dialog.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="documents"&gt;Documents&lt;/h2&gt;
@@ -416,58 +450,15 @@ cond(no)-&amp;gt;op
 &lt;p&gt;&lt;strong&gt;About &lt;a href="https://en.wikipedia.org/wiki/Lint_(software)"&gt;Lint&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href="https://en.wikipedia.org/wiki/Heisenbug"&gt;Heisenbug&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content><category term="Atom"></category></entry><entry><title>T</title><link href="https://superdanby.github.io/Blog/t.html" rel="alternate"></link><published>2017-02-28T11:20:00+08:00</published><updated>2017-02-28T11:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-02-28:/Blog/t.html</id><summary type="html"></summary><content type="html"></content><category term="Test"></category></entry><entry><title>T1</title><link href="https://superdanby.github.io/Blog/t1.html" rel="alternate"></link><published>2017-02-28T11:20:00+08:00</published><updated>2017-02-28T11:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-02-28:/Blog/t1.html</id><summary type="html"></summary><content type="html"></content><category term="Test"></category></entry><entry><title>T2</title><link href="https://superdanby.github.io/Blog/t2.html" rel="alternate"></link><published>2017-02-28T11:20:00+08:00</published><updated>2017-02-28T11:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-02-28:/Blog/t2.html</id><summary type="html"></summary><content type="html"></content><category term="Test"></category></entry><entry><title>T3</title><link href="https://superdanby.github.io/Blog/t3.html" rel="alternate"></link><published>2017-02-28T11:20:00+08:00</published><updated>2017-02-28T11:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-02-28:/Blog/t3.html</id><summary type="html"></summary><content type="html"></content><category term="Test"></category></entry><entry><title>T4</title><link href="https://superdanby.github.io/Blog/t4.html" rel="alternate"></link><published>2017-02-28T11:20:00+08:00</published><updated>2017-02-28T11:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-02-28:/Blog/t4.html</id><summary type="html"></summary><content type="html"></content><category term="Test"></category></entry><entry><title>T5</title><link href="https://superdanby.github.io/Blog/t5.html" rel="alternate"></link><published>2017-02-28T11:20:00+08:00</published><updated>2017-02-28T11:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-02-28:/Blog/t5.html</id><summary type="html"></summary><content type="html"></content><category term="Test"></category></entry><entry><title>T6</title><link href="https://superdanby.github.io/Blog/t6.html" rel="alternate"></link><published>2017-02-28T11:20:00+08:00</published><updated>2017-02-28T11:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-02-28:/Blog/t6.html</id><summary type="html"></summary><content type="html"></content><category term="Test"></category></entry><entry><title>User Experience Enhancements</title><link href="https://superdanby.github.io/Blog/user-experience-enhancements.html" rel="alternate"></link><published>2017-02-27T20:20:00+08:00</published><updated>2017-02-27T20:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-02-27:/Blog/user-experience-enhancements.html</id><summary type="html">
 &lt;h2 id="all-platforms"&gt;All Platforms&lt;/h2&gt;
 &lt;h3 id="atom"&gt;&lt;a href="https://superdanby.github.io/Blog/atom-text-editor.html"&gt;Atom&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;A beautiful cross-platform text editor.&lt;/p&gt;
+&lt;p&gt;A beautiful and hackable cross-platform text editor with wonderful Github integration.&lt;/p&gt;
 &lt;h3 id="fedora-media-writer"&gt;Fedora Media Writer&lt;/h3&gt;
 &lt;p&gt;On Fedora, the only downside is that the scaling factor in &lt;a href="#gnome-tweak-tool"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt; Gnome Tweak Tool&lt;/a&gt; has no effect on it.&lt;/p&gt;
 &lt;h3 id="intel-speed-shift"&gt;Intel Speed Shift&lt;/h3&gt;
-&lt;p&gt;Better power management for Skylake processors and above.&lt;/p&gt;
-&lt;h2 id="windows-10"&gt;Windows 10&lt;/h2&gt;
-&lt;h3 id="tweaks"&gt;Tweaks&lt;/h3&gt;
-&lt;h4 id="night-light"&gt;Night Light&lt;/h4&gt;
-&lt;p&gt;A Built-in blue light …&lt;/p&gt;</summary><content type="html">
+&lt;p&gt;Better power management for Skylake processors and above.&lt;/p&gt;</summary><content type="html">
 &lt;h2 id="all-platforms"&gt;All Platforms&lt;/h2&gt;
 &lt;h3 id="atom"&gt;&lt;a href="https://superdanby.github.io/Blog/atom-text-editor.html"&gt;Atom&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;A beautiful cross-platform text editor.&lt;/p&gt;
+&lt;p&gt;A beautiful and hackable cross-platform text editor with wonderful Github integration.&lt;/p&gt;
 &lt;h3 id="fedora-media-writer"&gt;Fedora Media Writer&lt;/h3&gt;
 &lt;p&gt;On Fedora, the only downside is that the scaling factor in &lt;a href="#gnome-tweak-tool"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt; Gnome Tweak Tool&lt;/a&gt; has no effect on it.&lt;/p&gt;
 &lt;h3 id="intel-speed-shift"&gt;Intel Speed Shift&lt;/h3&gt;
-&lt;p&gt;Better power management for Skylake processors and above.&lt;/p&gt;
-&lt;h2 id="windows-10"&gt;Windows 10&lt;/h2&gt;
-&lt;h3 id="tweaks"&gt;Tweaks&lt;/h3&gt;
-&lt;h4 id="night-light"&gt;Night Light&lt;/h4&gt;
-&lt;p&gt;A Built-in blue light filter.&lt;/p&gt;
-&lt;h3 id="mingw-w64"&gt;Mingw-w64&lt;/h3&gt;
-&lt;p&gt;The GNU/GCC compiler on Windows.&lt;/p&gt;
-&lt;h3 id="ubuntu"&gt;Ubuntu&lt;/h3&gt;
-&lt;p&gt;Built-in Ubuntu sub-system for Windows 10.&lt;/p&gt;
-&lt;h3 id="github-desktop"&gt;Github Desktop&lt;/h3&gt;
-&lt;p&gt;Github Desktop client on Windows&lt;/p&gt;
-&lt;h3 id="dolphin-emulator"&gt;Dolphin Emulator&lt;/h3&gt;
-&lt;h3 id="rufus"&gt;Rufus&lt;/h3&gt;
-&lt;h3 id="bluestacks"&gt;BlueStacks&lt;/h3&gt;
-&lt;h2 id="fedora-25"&gt;Fedora 25&lt;/h2&gt;
-&lt;h3 id="tweaks_1"&gt;Tweaks&lt;/h3&gt;
-&lt;h4 id="bookmark-locations-in-files"&gt;Bookmark Locations in Files&lt;/h4&gt;
-&lt;h4 id="detailed-time-display"&gt;Detailed Time Display&lt;/h4&gt;
-&lt;h3 id="add-ons"&gt;Add-ons&lt;/h3&gt;
-&lt;h4 id="alternate-tabs"&gt;Alternate Tabs&lt;/h4&gt;
-&lt;h4 id="applications-menu"&gt;Applications Menu&lt;/h4&gt;
-&lt;h4 id="background-logo"&gt;Background Logo&lt;/h4&gt;
-&lt;h4 id="no-top-left-hot-corner"&gt;No Top Left Hot Corner&lt;/h4&gt;
-&lt;h4 id="redshift"&gt;Redshift&lt;/h4&gt;
-&lt;h4 id="refresh-wifi-connections"&gt;Refresh Wifi Connections&lt;/h4&gt;
-&lt;h3 id="dnf"&gt;dnf&lt;/h3&gt;
-&lt;h3 id="gnome-tweak-tool"&gt;Gnome Tweak Tool&lt;/h3&gt;
-&lt;h3 id="google-chrome"&gt;Google Chrome&lt;/h3&gt;
-&lt;h3 id="chrome-gnome-shell"&gt;Chrome Gnome Shell&lt;/h3&gt;
-&lt;h3 id="vlc"&gt;VLC&lt;/h3&gt;
-&lt;h3 id="kodi"&gt;Kodi&lt;/h3&gt;
-&lt;h3 id="qbittorrent"&gt;qBittorrent&lt;/h3&gt;
-&lt;h3 id="git"&gt;git&lt;/h3&gt;
-&lt;h3 id="cowsay"&gt;cowsay&lt;/h3&gt;
-&lt;h3 id="sl"&gt;sl&lt;/h3&gt;
-&lt;h3 id="oneko"&gt;oneko&lt;/h3&gt;
-&lt;h3 id="gnome-terminal-nautilus"&gt;gnome-terminal-nautilus&lt;/h3&gt;
-&lt;p&gt;Right click to open gnome terminal in the current location.&lt;/p&gt;
-&lt;h4 id="clone-specific-directories-or-files-from-github-with-svn"&gt;clone specific directories or files from github with svn&lt;/h4&gt;
-&lt;p&gt;Sometimes you just want to download some files but not the entire repository.&lt;/p&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry></feed>
+&lt;p&gt;Better power management for Skylake processors and above.&lt;/p&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry></feed>
