@@ -125,7 +125,7 @@ Add &lt;strong&gt;branches&lt;/strong&gt; before branch name.&lt;/p&gt;
 1. https://github.com/Superdanby/zmd -&amp;gt;  https://github.com/Superdanby/zmd/branches/master
 2. https://github.com/Superdanby/zmd/tree/dark -&amp;gt; https://github.com/Superdanby/zmd/branches/dark&lt;/p&gt;
 &lt;p&gt;It is important to check the contents before downloading.
-So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><category term="Fedora"></category><category term="Yeee"></category></entry><entry><title>Windows 10</title><link href="https://superdanby.github.io/Blog/windows-10.html" rel="alternate"></link><published>2017-05-20T00:00:00+08:00</published><updated>2017-05-20T00:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-20:/Blog/windows-10.html</id><summary type="html">
+So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><category term="Fedora"></category><category term="Yee"></category></entry><entry><title>Windows 10</title><link href="https://superdanby.github.io/Blog/windows-10.html" rel="alternate"></link><published>2017-05-20T00:00:00+08:00</published><updated>2017-05-20T00:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-20:/Blog/windows-10.html</id><summary type="html">
 &lt;h2 id="tweaks"&gt;Tweaks&lt;/h2&gt;
 &lt;h3 id="night-light"&gt;Night Light&lt;/h3&gt;
 &lt;p&gt;A Built-in blue light filter.&lt;/p&gt;
