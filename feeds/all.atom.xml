@@ -122,7 +122,7 @@ Reduce the horizontal spacing between icons in the top-right status area.&lt;/p&
 1. &lt;code&gt;svn ls&lt;/code&gt; + URL
 2. &lt;code&gt;svn checkout&lt;/code&gt; + URL&lt;/p&gt;
 &lt;p&gt;How to modify a Github URL?
-Add &lt;strong&gt;branches&lt;/strong&gt; before branch name.&lt;/p&gt;
+Add &lt;strong&gt;&lt;em&gt;branches&lt;/em&gt;&lt;/strong&gt; before branch name.&lt;/p&gt;
 &lt;p&gt;e.g.
 1. https://github.com/Superdanby/zmd -&amp;gt;  https://github.com/Superdanby/zmd/branches/master
 2. https://github.com/Superdanby/zmd/tree/dark -&amp;gt; https://github.com/Superdanby/zmd/branches/dark&lt;/p&gt;
