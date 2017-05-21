@@ -100,7 +100,7 @@ Reduce the horizontal spacing between icons in the top-right status area.&lt;/p&
 &lt;h4 id="qbittorrent"&gt;qBittorrent&lt;/h4&gt;
 &lt;p&gt;A popular P2P client.&lt;/p&gt;
 &lt;p&gt;Download from Software.&lt;/p&gt;
-&lt;h4 id="git"&gt;git&lt;/h4&gt;
+&lt;h4 id="git"&gt;&lt;a href="https://git-scm.com/"&gt;git&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Fast Version Control System&lt;/p&gt;
 &lt;p&gt;Installation: &lt;code&gt;sudo dnf install git&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Using git the first time? Follow the steps on &lt;a href="https://help.github.com/articles/set-up-git/"&gt;https://help.github.com/&lt;/a&gt;&lt;/p&gt;
