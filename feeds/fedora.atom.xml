@@ -23,99 +23,99 @@
     1.  No conflicts between &lt;a href="https://www.mesa3d.org/"&gt;Mesa&lt;/a&gt; and &lt;a href="https://negativo17.org/"&gt;negativo17.org Nvidia drivers&lt;/a&gt;
     2.  &lt;a href="https://www.gnome.org/"&gt;Gnome 3.24&lt;/a&gt;
     3.  &lt;a href="#dnf"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt;dnf&lt;/a&gt; 2.0&lt;/p&gt;
-&lt;h2 id="tweaks"&gt;Tweaks&lt;/h2&gt;
-&lt;h3 id="bookmark-locations-in-filesnautilus"&gt;Bookmark Locations in Files(nautilus)&lt;/h3&gt;
+&lt;h3 id="tweaks"&gt;Tweaks&lt;/h3&gt;
+&lt;h4 id="bookmark-locations-in-filesnautilus"&gt;Bookmark Locations in Files(nautilus)&lt;/h4&gt;
 &lt;p&gt;The upper left icon in the group of 6.
 &lt;img alt="bookmarklocation" src="https://raw.githubusercontent.com/Superdanby/Blog/master/content/Fedora/bookmarklocation.png"/&gt;&lt;/p&gt;
-&lt;h2 id="shell-extensions"&gt;Shell Extensions&lt;/h2&gt;
+&lt;h3 id="shell-extensions"&gt;Shell Extensions&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://extensions.gnome.org/"&gt;Get the extensions you like for Gnome!&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="alternate-tabs"&gt;&lt;a href="https://extensions.gnome.org/extension/15/alternatetab/"&gt;Alternate Tabs&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="alternate-tabs"&gt;&lt;a href="https://extensions.gnome.org/extension/15/alternatetab/"&gt;Alternate Tabs&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Substitute Alt-Tab with a window based switcher that does not group by application.
 This extension is part of Classic Mode and is officially supported by GNOME.&lt;/p&gt;
-&lt;h3 id="applications-menu"&gt;&lt;a href="https://extensions.gnome.org/extension/6/applications-menu/"&gt;Applications Menu&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="applications-menu"&gt;&lt;a href="https://extensions.gnome.org/extension/6/applications-menu/"&gt;Applications Menu&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Add a category-based menu for applications.
 This extension is part of Classic Mode and is officially supported by GNOME.&lt;/p&gt;
-&lt;h3 id="background-logo"&gt;&lt;a href="https://extensions.gnome.org/extension/889/background-logo/"&gt;Background Logo&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="background-logo"&gt;&lt;a href="https://extensions.gnome.org/extension/889/background-logo/"&gt;Background Logo&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Overlay a tasteful logo on the background to enhance the user experience
 &lt;img alt="backgroundlogo" src="https://raw.githubusercontent.com/Superdanby/Blog/master/content/Fedora/backgroundlogo.png"/&gt;&lt;/p&gt;
-&lt;h3 id="caffeine"&gt;&lt;a href="https://extensions.gnome.org/extension/517/caffeine/"&gt;Caffeine&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="caffeine"&gt;&lt;a href="https://extensions.gnome.org/extension/517/caffeine/"&gt;Caffeine&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Disable the screensaver and auto suspend(automatically).&lt;/p&gt;
-&lt;h3 id="dim-desktop-70"&gt;&lt;a href="https://extensions.gnome.org/extension/1130/dim-desktop-70/"&gt;Dim Desktop 70&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="dim-desktop-70"&gt;&lt;a href="https://extensions.gnome.org/extension/1130/dim-desktop-70/"&gt;Dim Desktop 70&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;This extension adds a button with a light bulb to your panel. When clicked, the desktop brightness is reduced. Scroll to change the brightness. The main purpose is to keep your eyes calm when reading in the late evening. It is realized by a simple overlay with 70% opacity. It should work on a multimonitor desktop.&lt;/p&gt;
-&lt;h3 id="extensions"&gt;&lt;a href="https://extensions.gnome.org/extension/1036/extensions/"&gt;Extensions&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="extensions"&gt;&lt;a href="https://extensions.gnome.org/extension/1036/extensions/"&gt;Extensions&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Enable/disable easily gnome shell extensions from a menu in the top panel. Also allows to edit the settings of the extensions. Feedback welcome!&lt;/p&gt;
 &lt;p&gt;Sometimes it doesn't sync correctly. Hence, &lt;a href="#gnome-tweak-tool"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt;Gnome Tweak Tool&lt;/a&gt; is still the best choice.&lt;/p&gt;
-&lt;h3 id="launch-new-instance"&gt;&lt;a href="https://extensions.gnome.org/extension/600/launch-new-instance/"&gt;Launch new instance&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="launch-new-instance"&gt;&lt;a href="https://extensions.gnome.org/extension/600/launch-new-instance/"&gt;Launch new instance&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Always launch a new instance when clicking in the dash or the application view.
 This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME Bugzilla instead.&lt;/p&gt;
-&lt;h3 id="no-top-left-hot-corner"&gt;&lt;a href="https://extensions.gnome.org/extension/118/no-topleft-hot-corner/"&gt;No Top Left Hot Corner&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="no-top-left-hot-corner"&gt;&lt;a href="https://extensions.gnome.org/extension/118/no-topleft-hot-corner/"&gt;No Top Left Hot Corner&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;This extension disables the top left hot corners. You can still click on Activities or press the dedicated key to reach the overview. Since 3.8, should work with other extensions modifying the Activities button. On versions prior to 3.8, may not disable other hotcorners in multiscreen configurations and won't work on fallback/flashback mode.&lt;/p&gt;
-&lt;h3 id="openweather"&gt;&lt;a href="https://extensions.gnome.org/extension/750/openweather/"&gt;OpenWeather&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="openweather"&gt;&lt;a href="https://extensions.gnome.org/extension/750/openweather/"&gt;OpenWeather&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Weather extension to display weather information from &lt;a href="https://openweathermap.org/"&gt;https://openweathermap.org/&lt;/a&gt; or &lt;a href="https://darksky.net"&gt;https://darksky.net&lt;/a&gt; for almost all locations in the world.&lt;/p&gt;
-&lt;h3 id="places-status-indicator"&gt;&lt;a href="https://extensions.gnome.org/extension/8/places-status-indicator/"&gt;Places Status Indicator&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="places-status-indicator"&gt;&lt;a href="https://extensions.gnome.org/extension/8/places-status-indicator/"&gt;Places Status Indicator&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Add a menu for quickly navigating places in the system.
 This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME Bugzilla instead.&lt;/p&gt;
-&lt;h3 id="quick-close-in-overview"&gt;&lt;a href="https://extensions.gnome.org/extension/352/middle-click-to-close-in-overview/"&gt;Quick Close in Overview&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="quick-close-in-overview"&gt;&lt;a href="https://extensions.gnome.org/extension/352/middle-click-to-close-in-overview/"&gt;Quick Close in Overview&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;It must be frustrating to always aim for the small cross button.
 Close windows with a button click (the middle one by default) when in overview mode.&lt;/p&gt;
-&lt;h3 id="redshift"&gt;Redshift&lt;/h3&gt;
+&lt;h4 id="redshift"&gt;Redshift&lt;/h4&gt;
 &lt;p&gt;A blue light filter.
 Currently, this extension is not working on Wayland. The alternate solution is written &lt;a href="https://fedoramagazine.org/safe-eyes-redshift/"&gt;here&lt;/a&gt;. And starting from Gnome 3.24, there will be a in-built Night Light app to provide the same functionality.&lt;/p&gt;
-&lt;h3 id="refresh-wifi-connections"&gt;&lt;a href="https://extensions.gnome.org/extension/905/refresh-wifi-connections/"&gt;Refresh Wifi Connections&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="refresh-wifi-connections"&gt;&lt;a href="https://extensions.gnome.org/extension/905/refresh-wifi-connections/"&gt;Refresh Wifi Connections&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;A real time-saver when connecting to the Internet.
 gnome-shell does not request for wireless network scan once the wireless selection dialog once the dialog is opened. This extension adds a refresh button to the Wifi connection selection dialog to request for a network scan manually.&lt;/p&gt;
-&lt;h3 id="shutdowntimer"&gt;&lt;a href="https://extensions.gnome.org/extension/1152/shutdowntimer/"&gt;ShutdownTimer&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="shutdowntimer"&gt;&lt;a href="https://extensions.gnome.org/extension/1152/shutdowntimer/"&gt;ShutdownTimer&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Shutdown, restart and suspend your computer easily. Extension provides two time modes which allows user to set timer to desired time or set the time of desired action. Every action is also available via keyboard shortcut.&lt;/p&gt;
-&lt;h3 id="status-area-horizontal-spacing"&gt;&lt;a href="https://extensions.gnome.org/extension/355/status-area-horizontal-spacing/"&gt;Status Area Horizontal Spacing&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="status-area-horizontal-spacing"&gt;&lt;a href="https://extensions.gnome.org/extension/355/status-area-horizontal-spacing/"&gt;Status Area Horizontal Spacing&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;After installing all these little stuff, the top right bar is definitely overflowed. Use this to make some space.
 Reduce the horizontal spacing between icons in the top-right status area.&lt;/p&gt;
-&lt;h3 id="suspend-button"&gt;&lt;a href="https://extensions.gnome.org/extension/826/suspend-button/"&gt;Suspend Button&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="suspend-button"&gt;&lt;a href="https://extensions.gnome.org/extension/826/suspend-button/"&gt;Suspend Button&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Suspend your computer with one click.&lt;/p&gt;
-&lt;h3 id="system-monitor"&gt;&lt;a href="https://extensions.gnome.org/extension/120/system-monitor/"&gt;system-monitor&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="system-monitor"&gt;&lt;a href="https://extensions.gnome.org/extension/120/system-monitor/"&gt;system-monitor&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Display system information in gnome shell status bar, such as memory usage, cpu usage, network rates…&lt;/p&gt;
-&lt;h3 id="todotxt"&gt;&lt;a href="https://extensions.gnome.org/extension/570/todotxt/"&gt;Todo.txt&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="todotxt"&gt;&lt;a href="https://extensions.gnome.org/extension/570/todotxt/"&gt;Todo.txt&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;An easy to use to-do list.&lt;/p&gt;
-&lt;h2 id="dnf"&gt;dnf&lt;/h2&gt;
+&lt;h3 id="dnf"&gt;dnf&lt;/h3&gt;
 &lt;p&gt;The default package manager on Fedora.&lt;/p&gt;
-&lt;h3 id="gnome-tweak-tool"&gt;Gnome Tweak Tool&lt;/h3&gt;
+&lt;h4 id="gnome-tweak-tool"&gt;Gnome Tweak Tool&lt;/h4&gt;
 &lt;p&gt;Download it from Software app.&lt;/p&gt;
 &lt;p&gt;Important features:
     1. Scaling factor in Fonts section
     2. Extensions section
     3. Top Bar section&lt;/p&gt;
-&lt;h3 id="google-chrome"&gt;&lt;a href="https://www.google.com/chrome/browser/desktop/index.html"&gt;Google Chrome&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="google-chrome"&gt;&lt;a href="https://www.google.com/chrome/browser/desktop/index.html"&gt;Google Chrome&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Installation:
 1. Download the package from the official website.
 2. &lt;code&gt;sudo dnf install&lt;/code&gt; + PACKAGE_PATH&lt;/p&gt;
-&lt;h3 id="chrome-gnome-shell"&gt;&lt;a href="https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep"&gt;Chrome Gnome Shell&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="chrome-gnome-shell"&gt;&lt;a href="https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep"&gt;Chrome Gnome Shell&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Sync your extensions with &lt;a href="#google-chrome"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt;Google Chrome&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Installation:
 1. &lt;code&gt;sudo dnf copr enable region51/chrome-gnome-shell&lt;/code&gt;
 2. &lt;code&gt;sudo dnf install chrome-gnome-shell&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id="vlc"&gt;&lt;a href="http://www.videolan.org/vlc/index.html"&gt;VLC&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="vlc"&gt;&lt;a href="http://www.videolan.org/vlc/index.html"&gt;VLC&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;A combat media player.&lt;/p&gt;
 &lt;p&gt;Installation:
 1.  &lt;code&gt;sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm&lt;/code&gt;
 2.  &lt;code&gt;sudo dnf install vlc&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id="qbittorrent"&gt;qBittorrent&lt;/h3&gt;
+&lt;h4 id="qbittorrent"&gt;qBittorrent&lt;/h4&gt;
 &lt;p&gt;A popular P2P client.&lt;/p&gt;
 &lt;p&gt;Download from Software.&lt;/p&gt;
-&lt;h3 id="git"&gt;git&lt;/h3&gt;
+&lt;h4 id="git"&gt;git&lt;/h4&gt;
 &lt;p&gt;Fast Version Control System&lt;/p&gt;
 &lt;p&gt;Installation: &lt;code&gt;sudo dnf install git&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Using git the first time? Follow the steps on &lt;a href="https://help.github.com/articles/set-up-git/"&gt;https://help.github.com/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="gnome-terminal-nautilus"&gt;gnome-terminal-nautilus&lt;/h3&gt;
+&lt;h4 id="gnome-terminal-nautilus"&gt;gnome-terminal-nautilus&lt;/h4&gt;
 &lt;p&gt;Right click to open gnome terminal in the current location.&lt;/p&gt;
 &lt;p&gt;Installation: &lt;code&gt;sudo dnf install gnome-terminal-nautilus&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id="cowsay"&gt;&lt;a href="https://github.com/tnalpgge/rank-amateur-cowsay"&gt;cowsay&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="cowsay"&gt;&lt;a href="https://github.com/tnalpgge/rank-amateur-cowsay"&gt;cowsay&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Configurable speaking/thinking cow.&lt;/p&gt;
 &lt;p&gt;Installation: &lt;code&gt;sudo dnf install cowsay&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Usage: &lt;code&gt;cowsay&lt;/code&gt; + STRING&lt;/p&gt;
-&lt;h3 id="sl"&gt;&lt;a href="https://github.com/mtoyoda/sl"&gt;sl&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="sl"&gt;&lt;a href="https://github.com/mtoyoda/sl"&gt;sl&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Joke command for when you type 'sl' instead of 'ls'.&lt;/p&gt;
 &lt;p&gt;Installation: &lt;code&gt;sudo dnf install sl&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Usage: &lt;code&gt;sl&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id="svn"&gt;svn&lt;/h3&gt;
+&lt;h4 id="svn"&gt;svn&lt;/h4&gt;
 &lt;p&gt;Sometimes you just want to download some files but not the entire repository.&lt;/p&gt;
 &lt;p&gt;Installation: &lt;code&gt;sudo dnf install svn&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Usage:
