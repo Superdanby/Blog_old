@@ -73,6 +73,7 @@ Reduce the horizontal spacing between icons in the top-right status area.&lt;/p&
 &lt;p&gt;Suspend your computer with one click.&lt;/p&gt;
 &lt;h4 id="system-monitor"&gt;&lt;a href="https://extensions.gnome.org/extension/120/system-monitor/"&gt;system-monitor&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Display system information in gnome shell status bar, such as memory usage, cpu usage, network rates…&lt;/p&gt;
+&lt;p&gt;**Warning! This extension may crash gnome-shell"&lt;/p&gt;
 &lt;h4 id="todotxt"&gt;&lt;a href="https://extensions.gnome.org/extension/570/todotxt/"&gt;Todo.txt&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;An easy to use to-do list.&lt;/p&gt;
 &lt;h3 id="dnf"&gt;dnf&lt;/h3&gt;
@@ -127,7 +128,31 @@ Add &lt;strong&gt;&lt;em&gt;branches&lt;/em&gt;&lt;/strong&gt; before branch nam
 1. https://github.com/Superdanby/zmd -&amp;gt;  https://github.com/Superdanby/zmd/branches/master
 2. https://github.com/Superdanby/zmd/tree/dark -&amp;gt; https://github.com/Superdanby/zmd/branches/dark&lt;/p&gt;
 &lt;p&gt;It is important to check the contents before downloading.
-So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><category term="Fedora"></category><category term="Yee"></category></entry><entry><title>Windows 10</title><link href="https://superdanby.github.io/Blog/windows-10.html" rel="alternate"></link><published>2017-05-20T00:00:00+08:00</published><updated>2017-05-20T00:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-20:/Blog/windows-10.html</id><summary type="html">
+So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><category term="Fedora"></category><category term="Yee"></category></entry><entry><title>Signing Modules to Secure Boot</title><link href="https://superdanby.github.io/Blog/signing-modules-to-secure-boot.html" rel="alternate"></link><published>2017-05-25T13:46:00+08:00</published><updated>2017-05-25T13:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-25:/Blog/signing-modules-to-secure-boot.html</id><summary type="html">
+&lt;h2 id="key-creation"&gt;Key Creation&lt;/h2&gt;
+&lt;h3 id="create-signing-keys"&gt;Create Signing Keys&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;openssl req -new -x509 -newkey rsa:2048 -keyout MOV.priv -o utform DER -out MOK.der -nodes -days 36500 -subj "/CN=Descriptive name/"&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="sign-the-module"&gt;Sign the Module&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sudo /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n&lt;/code&gt; &lt;em&gt;MODULE_NAME&lt;/em&gt; &lt;code&gt;)&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="register-the-keys-to-secure-boot"&gt;Register the Keys …&lt;/h3&gt;</summary><content type="html">
+&lt;h2 id="key-creation"&gt;Key Creation&lt;/h2&gt;
+&lt;h3 id="create-signing-keys"&gt;Create Signing Keys&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;openssl req -new -x509 -newkey rsa:2048 -keyout MOV.priv -o utform DER -out MOK.der -nodes -days 36500 -subj "/CN=Descriptive name/"&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="sign-the-module"&gt;Sign the Module&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sudo /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n&lt;/code&gt; &lt;em&gt;MODULE_NAME&lt;/em&gt; &lt;code&gt;)&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="register-the-keys-to-secure-boot"&gt;Register the Keys to Secure Boot&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sudo mokutil --import MOK.der&lt;/code&gt;
+You'll be prompt to enter a password for later use in MOK.&lt;/p&gt;
+&lt;h3 id="reboot"&gt;Reboot&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;reboot&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id="mok-enrollment"&gt;MOK Enrollment&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Press anykey to enter MOK within 10 seconds.&lt;/li&gt;
+&lt;li&gt;Enroll MOK&lt;/li&gt;
+&lt;li&gt;Continue&lt;/li&gt;
+&lt;li&gt;Insert the password you just created.&lt;/li&gt;
+&lt;li&gt;OK&lt;/li&gt;
+&lt;/ol&gt;</content><category term="Fedora"></category><category term="Yee"></category></entry><entry><title>Windows 10</title><link href="https://superdanby.github.io/Blog/windows-10.html" rel="alternate"></link><published>2017-05-20T00:00:00+08:00</published><updated>2017-05-20T00:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-20:/Blog/windows-10.html</id><summary type="html">
 &lt;h2 id="tweaks"&gt;Tweaks&lt;/h2&gt;
 &lt;h3 id="night-light"&gt;Night Light&lt;/h3&gt;
 &lt;p&gt;A Built-in blue light filter.&lt;/p&gt;
