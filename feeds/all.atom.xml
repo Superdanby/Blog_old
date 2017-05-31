@@ -153,7 +153,12 @@ So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><ca
 &lt;li&gt;Enable SST: &lt;code&gt;setup_var 0xD8 0x01&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Make sure the value is changed, then reboot.&lt;/li&gt;
 &lt;li&gt;Poof! You're all set.&lt;/li&gt;
-&lt;/ol&gt;</content><category term="XPS 15 9550"></category><category term="Intel Speed Shift"></category><category term="SST"></category></entry><entry><title>Signing Modules to Secure Boot</title><link href="https://superdanby.github.io/Blog/signing-modules-to-secure-boot.html" rel="alternate"></link><published>2017-05-25T13:46:00+08:00</published><updated>2017-05-25T13:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-25:/Blog/signing-modules-to-secure-boot.html</id><summary type="html">
+&lt;/ol&gt;
+&lt;h2 id="caution"&gt;Caution&lt;/h2&gt;
+&lt;p&gt;XPS 15 9560 is not suitable for this guide!
+Go &lt;a href="http://forum.notebookreview.com/threads/xps-15-9560-owners-thread.800611/#post-10440059"&gt;here&lt;/a&gt; and open the spoiler.&lt;/p&gt;
+&lt;h2 id="tips"&gt;Tips&lt;/h2&gt;
+&lt;p&gt;For every motherboard this procedure is only required once.&lt;/p&gt;</content><category term="XPS 15 9550"></category><category term="Intel Speed Shift"></category><category term="SST"></category></entry><entry><title>Signing Modules to Secure Boot</title><link href="https://superdanby.github.io/Blog/signing-modules-to-secure-boot.html" rel="alternate"></link><published>2017-05-25T13:46:00+08:00</published><updated>2017-05-25T13:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-25:/Blog/signing-modules-to-secure-boot.html</id><summary type="html">
 &lt;h2 id="key-creation"&gt;Key Creation&lt;/h2&gt;
 &lt;h3 id="create-signing-keys"&gt;Create Signing Keys&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;openssl req -new -x509 -newkey rsa:2048 -keyout MOV.priv -o utform DER -out MOK.der -nodes -days 36500 -subj "/CN=Descriptive name/"&lt;/code&gt;&lt;/p&gt;

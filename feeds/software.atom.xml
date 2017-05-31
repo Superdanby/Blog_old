@@ -24,7 +24,12 @@
 &lt;li&gt;Enable SST: &lt;code&gt;setup_var 0xD8 0x01&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Make sure the value is changed, then reboot.&lt;/li&gt;
 &lt;li&gt;Poof! You're all set.&lt;/li&gt;
-&lt;/ol&gt;</content><category term="XPS 15 9550"></category><category term="Intel Speed Shift"></category><category term="SST"></category></entry><entry><title>Windows 10</title><link href="https://superdanby.github.io/Blog/windows-10.html" rel="alternate"></link><published>2017-05-20T00:00:00+08:00</published><updated>2017-05-20T00:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-20:/Blog/windows-10.html</id><summary type="html">
+&lt;/ol&gt;
+&lt;h2 id="caution"&gt;Caution&lt;/h2&gt;
+&lt;p&gt;XPS 15 9560 is not suitable for this guide!
+Go &lt;a href="http://forum.notebookreview.com/threads/xps-15-9560-owners-thread.800611/#post-10440059"&gt;here&lt;/a&gt; and open the spoiler.&lt;/p&gt;
+&lt;h2 id="tips"&gt;Tips&lt;/h2&gt;
+&lt;p&gt;For every motherboard this procedure is only required once.&lt;/p&gt;</content><category term="XPS 15 9550"></category><category term="Intel Speed Shift"></category><category term="SST"></category></entry><entry><title>Windows 10</title><link href="https://superdanby.github.io/Blog/windows-10.html" rel="alternate"></link><published>2017-05-20T00:00:00+08:00</published><updated>2017-05-20T00:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-20:/Blog/windows-10.html</id><summary type="html">
 &lt;h2 id="tweaks"&gt;Tweaks&lt;/h2&gt;
 &lt;h3 id="night-light"&gt;Night Light&lt;/h3&gt;
 &lt;p&gt;A Built-in blue light filter.&lt;/p&gt;
