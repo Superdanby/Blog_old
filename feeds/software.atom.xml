@@ -5,23 +5,23 @@
 &lt;h2 id="configurations-in-bios"&gt;Configurations in BIOS&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Boot from the downloaded grub file&lt;/li&gt;
-&lt;li&gt;Check the value of &lt;strong&gt;0x4BC&lt;/strong&gt;: &lt;code&gt;setup_var 0x4BC&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;Check the value of &lt;strong&gt;0xD8&lt;/strong&gt;: &lt;code&gt;setup_var 0xD8&lt;/code&gt;&lt;ul&gt;
 &lt;li&gt;If the value is &lt;strong&gt;0x01&lt;/strong&gt; SST is on already.&lt;/li&gt;
 &lt;li&gt;Otherwise the value should be &lt;strong&gt;0x0&lt;/strong&gt; in default.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Enable SST: &lt;code&gt;setup_var 0x4BC …&lt;/code&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">
+&lt;li&gt;Enable SST: &lt;code&gt;setup_var 0xD8 …&lt;/code&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">
 &lt;h2 id="download-customized-grub"&gt;Download Customized grub&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://www.firewolf.science/wp-content/uploads/2015/04/EFI-shell.zip"&gt;https://www.firewolf.science/wp-content/uploads/2015/04/EFI-shell.zip&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="configurations-in-bios"&gt;Configurations in BIOS&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Boot from the downloaded grub file&lt;/li&gt;
-&lt;li&gt;Check the value of &lt;strong&gt;0x4BC&lt;/strong&gt;: &lt;code&gt;setup_var 0x4BC&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;Check the value of &lt;strong&gt;0xD8&lt;/strong&gt;: &lt;code&gt;setup_var 0xD8&lt;/code&gt;&lt;ul&gt;
 &lt;li&gt;If the value is &lt;strong&gt;0x01&lt;/strong&gt; SST is on already.&lt;/li&gt;
 &lt;li&gt;Otherwise the value should be &lt;strong&gt;0x0&lt;/strong&gt; in default.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Enable SST: &lt;code&gt;setup_var 0x4BC 0x01&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Enable SST: &lt;code&gt;setup_var 0xD8 0x01&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Make sure the value is changed, then reboot.&lt;/li&gt;
 &lt;li&gt;Poof! You're all set.&lt;/li&gt;
 &lt;/ol&gt;</content><category term="XPS 15 9550"></category><category term="Intel Speed Shift"></category><category term="SST"></category></entry><entry><title>Windows 10</title><link href="https://superdanby.github.io/Blog/windows-10.html" rel="alternate"></link><published>2017-05-20T00:00:00+08:00</published><updated>2017-05-20T00:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-20:/Blog/windows-10.html</id><summary type="html">

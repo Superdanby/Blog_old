@@ -98,12 +98,12 @@
 <h2 id="configurations-in-bios">Configurations in BIOS</h2>
 <ol>
 <li>Boot from the downloaded grub file</li>
-<li>Check the value of <strong>0x4BC</strong>: <code>setup_var 0x4BC</code><ul>
+<li>Check the value of <strong>0xD8</strong>: <code>setup_var 0xD8</code><ul>
 <li>If the value is <strong>0x01</strong> SST is on already.</li>
 <li>Otherwise the value should be <strong>0x0</strong> in default.</li>
 </ul>
 </li>
-<li>Enable SST: <code>setup_var 0x4BC 0x01</code>.</li>
+<li>Enable SST: <code>setup_var 0xD8 0x01</code>.</li>
 <li>Make sure the value is changed, then reboot.</li>
 <li>Poof! You're all set.</li>
 </ol>
