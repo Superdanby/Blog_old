@@ -128,7 +128,32 @@ Add &lt;strong&gt;&lt;em&gt;branches&lt;/em&gt;&lt;/strong&gt; before branch nam
 1. https://github.com/Superdanby/zmd -&amp;gt;  https://github.com/Superdanby/zmd/branches/master
 2. https://github.com/Superdanby/zmd/tree/dark -&amp;gt; https://github.com/Superdanby/zmd/branches/dark&lt;/p&gt;
 &lt;p&gt;It is important to check the contents before downloading.
-So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><category term="Fedora"></category><category term="Yee"></category></entry><entry><title>Signing Modules to Secure Boot</title><link href="https://superdanby.github.io/Blog/signing-modules-to-secure-boot.html" rel="alternate"></link><published>2017-05-25T13:46:00+08:00</published><updated>2017-05-25T13:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-25:/Blog/signing-modules-to-secure-boot.html</id><summary type="html">
+So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><category term="Fedora"></category><category term="Yee"></category></entry><entry><title>Enabling Intel Speed Shift(SST) on XPS 9550</title><link href="https://superdanby.github.io/Blog/enabling-intel-speed-shiftsst-on-xps-9550.html" rel="alternate"></link><published>2017-05-31T00:00:00+08:00</published><updated>2017-05-31T00:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-31:/Blog/enabling-intel-speed-shiftsst-on-xps-9550.html</id><summary type="html">
+&lt;h2 id="download-customized-grub"&gt;Download Customized grub&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.firewolf.science/wp-content/uploads/2015/04/EFI-shell.zip"&gt;https://www.firewolf.science/wp-content/uploads/2015/04/EFI-shell.zip&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="configurations-in-bios"&gt;Configurations in BIOS&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Boot from the downloaded grub file&lt;/li&gt;
+&lt;li&gt;Check the value of &lt;strong&gt;0x4BC&lt;/strong&gt;: &lt;code&gt;setup_var 0x4BC&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;If the value is &lt;strong&gt;0x01&lt;/strong&gt; SST is on already.&lt;/li&gt;
+&lt;li&gt;Otherwise the value should be &lt;strong&gt;0x0&lt;/strong&gt; in default.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Enable SST: &lt;code&gt;setup_var 0x4BC …&lt;/code&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">
+&lt;h2 id="download-customized-grub"&gt;Download Customized grub&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.firewolf.science/wp-content/uploads/2015/04/EFI-shell.zip"&gt;https://www.firewolf.science/wp-content/uploads/2015/04/EFI-shell.zip&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="configurations-in-bios"&gt;Configurations in BIOS&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Boot from the downloaded grub file&lt;/li&gt;
+&lt;li&gt;Check the value of &lt;strong&gt;0x4BC&lt;/strong&gt;: &lt;code&gt;setup_var 0x4BC&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;If the value is &lt;strong&gt;0x01&lt;/strong&gt; SST is on already.&lt;/li&gt;
+&lt;li&gt;Otherwise the value should be &lt;strong&gt;0x0&lt;/strong&gt; in default.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Enable SST: &lt;code&gt;setup_var 0x4BC 0x01&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Make sure the value is changed, then reboot.&lt;/li&gt;
+&lt;li&gt;Poof! You're all set.&lt;/li&gt;
+&lt;/ol&gt;</content><category term="XPS 15 9550"></category><category term="Intel Speed Shift"></category><category term="SST"></category></entry><entry><title>Signing Modules to Secure Boot</title><link href="https://superdanby.github.io/Blog/signing-modules-to-secure-boot.html" rel="alternate"></link><published>2017-05-25T13:46:00+08:00</published><updated>2017-05-25T13:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-25:/Blog/signing-modules-to-secure-boot.html</id><summary type="html">
 &lt;h2 id="key-creation"&gt;Key Creation&lt;/h2&gt;
 &lt;h3 id="create-signing-keys"&gt;Create Signing Keys&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;openssl req -new -x509 -newkey rsa:2048 -keyout MOV.priv -o utform DER -out MOK.der -nodes -days 36500 -subj "/CN=Descriptive name/"&lt;/code&gt;&lt;/p&gt;
@@ -1354,32 +1379,7 @@ section, "Docutils System Messages":&lt;/p&gt;
 &lt;!-- section should be added by Docutils automatically --&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="demo"></category><category term="rst"></category></entry><entry><title>Enabling Intel Speed Shift(SST) on XPS 9550</title><link href="https://superdanby.github.io/Blog/enabling-intel-speed-shiftsst-on-xps-9550.html" rel="alternate"></link><published>2017-02-27T20:20:00+08:00</published><updated>2017-02-27T20:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-02-27:/Blog/enabling-intel-speed-shiftsst-on-xps-9550.html</id><summary type="html">
-&lt;h2 id="download-customized-grub"&gt;Download Customized grub&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://www.firewolf.science/wp-content/uploads/2015/04/EFI-shell.zip"&gt;https://www.firewolf.science/wp-content/uploads/2015/04/EFI-shell.zip&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="configurations-in-bios"&gt;Configurations in BIOS&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Boot from the downloaded grub file&lt;/li&gt;
-&lt;li&gt;Check the value of &lt;strong&gt;0x4BC&lt;/strong&gt;: &lt;code&gt;setup_var 0x4BC&lt;/code&gt;&lt;ul&gt;
-&lt;li&gt;If the value is &lt;strong&gt;0x01&lt;/strong&gt; SST is on already.&lt;/li&gt;
-&lt;li&gt;Otherwise the value should be &lt;strong&gt;0x0&lt;/strong&gt; in default.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Enable SST: &lt;code&gt;setup_var 0x4BC …&lt;/code&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">
-&lt;h2 id="download-customized-grub"&gt;Download Customized grub&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://www.firewolf.science/wp-content/uploads/2015/04/EFI-shell.zip"&gt;https://www.firewolf.science/wp-content/uploads/2015/04/EFI-shell.zip&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="configurations-in-bios"&gt;Configurations in BIOS&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Boot from the downloaded grub file&lt;/li&gt;
-&lt;li&gt;Check the value of &lt;strong&gt;0x4BC&lt;/strong&gt;: &lt;code&gt;setup_var 0x4BC&lt;/code&gt;&lt;ul&gt;
-&lt;li&gt;If the value is &lt;strong&gt;0x01&lt;/strong&gt; SST is on already.&lt;/li&gt;
-&lt;li&gt;Otherwise the value should be &lt;strong&gt;0x0&lt;/strong&gt; in default.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Enable SST: &lt;code&gt;setup_var 0x4BC 0x01&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Make sure the value is changed, then reboot.&lt;/li&gt;
-&lt;li&gt;Poof! You're all set.&lt;/li&gt;
-&lt;/ol&gt;</content><category term="XPS 15 9550"></category><category term="Intel Speed Shift"></category><category term="SST"></category></entry><entry><title>User Experience Enhancements</title><link href="https://superdanby.github.io/Blog/user-experience-enhancements.html" rel="alternate"></link><published>2017-02-27T20:20:00+08:00</published><updated>2017-02-27T20:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-02-27:/Blog/user-experience-enhancements.html</id><summary type="html">
+</content><category term="demo"></category><category term="rst"></category></entry><entry><title>User Experience Enhancements</title><link href="https://superdanby.github.io/Blog/user-experience-enhancements.html" rel="alternate"></link><published>2017-02-27T20:20:00+08:00</published><updated>2017-02-27T20:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-02-27:/Blog/user-experience-enhancements.html</id><summary type="html">
 &lt;h2 id="all-platforms"&gt;All Platforms&lt;/h2&gt;
 &lt;h3 id="atom"&gt;&lt;a href="https://superdanby.github.io/Blog/atom-text-editor.html"&gt;Atom&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;A beautiful and hackable cross-platform text editor with wonderful Github integration.&lt;/p&gt;
