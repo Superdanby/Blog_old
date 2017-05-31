@@ -89,6 +89,8 @@ Suspend your computer with one click.
 ####[system-monitor](https://extensions.gnome.org/extension/120/system-monitor/)
 Display system information in gnome shell status bar, such as memory usage, cpu usage, network rates…
 
+**Warning! This extension may crash gnome-shell"
+
 ####[Todo.txt](https://extensions.gnome.org/extension/570/todotxt/)
 An easy to use to-do list.
 

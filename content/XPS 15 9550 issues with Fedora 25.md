@@ -1,7 +1,7 @@
 Title: XPS 15 9550 issues with Fedora 25
 Date: 2017-3-9 11:00
 Category: System
-Tags: Yee, Yeee
+Tags: XPS 15 9550, Fedora, Firewalld
 
 [TOC]
 
