@@ -99,6 +99,7 @@
 <p><a href="https://www.firewolf.science/wp-content/uploads/2015/04/EFI-shell.zip">https://www.firewolf.science/wp-content/uploads/2015/04/EFI-shell.zip</a></p>
 <h2 id="configurations-in-bios">Configurations in BIOS</h2>
 <ol>
+<li>Disable Secure Boot.</li>
 <li>Boot from the downloaded grub file</li>
 <li>Check the value of <strong>0xD8</strong>: <code>setup_var 0xD8</code><ul>
 <li>If the value is <strong>0x01</strong> SST is on already.</li>
@@ -107,6 +108,7 @@
 </li>
 <li>Enable SST: <code>setup_var 0xD8 0x01</code>.</li>
 <li>Make sure the value is changed, then reboot.</li>
+<li>Re-enable Secure Boot.</li>
 <li>Poof! You're all set.</li>
 </ol>
 <h2 id="caution">Caution</h2>
