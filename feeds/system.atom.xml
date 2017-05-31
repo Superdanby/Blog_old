@@ -15,4 +15,4 @@ https://fedoraproject.org/wiki/Firmware&lt;/p&gt;</summary><content type="html">
 &lt;h2 id="_2"&gt;&lt;img alt="Bluetooth not seeing any devices" src="http://fedoraproject.org/wiki/Fedora_Tested_Laptops:Dell_XPS_15_9550_FHD"&gt;.&lt;/img&gt;&lt;/h2&gt;
 &lt;h3 id="current-workaround"&gt;Current Workaround&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;sudo dnf install linux-firmware&lt;/code&gt; (?)
-https://fedoraproject.org/wiki/Firmware&lt;/p&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry></feed>
+https://fedoraproject.org/wiki/Firmware&lt;/p&gt;</content><category term="XPS 15 9550"></category><category term="Fedora"></category><category term="Firewalld"></category></entry></feed>
