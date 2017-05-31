@@ -9,7 +9,7 @@ Tags: Fedora, Yee
 IMO, the best Linux distro.
 1.  The one always deploies the newest technologies.
 2.  [Gnome](https://www.gnome.org/)
-3.  Cares about security A LOT(SELinux, [Wayland](https://wayland.freedesktop.org/)).
+3.  Cares about security A LOT(Secure Boot, SELinux, [Wayland](https://wayland.freedesktop.org/)).
 4.  Redhat supported.
 -   Next version: 26
 -   Release date: 2017/06/27
