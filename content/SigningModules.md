@@ -8,7 +8,7 @@ Tags: Fedora, Yee, Secure Boot
 ##Key Creation
 
 ###Create Signing Keys
-`openssl req -new -x509 -newkey rsa:2048 -keyout MOV.priv -o utform DER -out MOK.der -nodes -days 36500 -subj "/CN=Descriptive name/"`
+`openssl req -new -x509 -newkey rsa:2048 -keyout MOV.priv -outform DER -out MOK.der -nodes -days 36500 -subj "/CN=Descriptive name/"`
 
 ###Sign the Module
 `sudo /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n ` *MODULE_NAME* ` )`
