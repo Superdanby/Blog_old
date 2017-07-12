@@ -130,13 +130,13 @@ Add &lt;strong&gt;&lt;em&gt;branches&lt;/em&gt;&lt;/strong&gt; before branch nam
 So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><category term="Fedora"></category><category term="Yee"></category></entry><entry><title>Signing Modules to Secure Boot</title><link href="https://superdanby.github.io/Blog/signing-modules-to-secure-boot.html" rel="alternate"></link><published>2017-05-25T13:46:00+08:00</published><updated>2017-05-25T13:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-25:/Blog/signing-modules-to-secure-boot.html</id><summary type="html">
 &lt;h2 id="key-creation"&gt;Key Creation&lt;/h2&gt;
 &lt;h3 id="create-signing-keys"&gt;Create Signing Keys&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;openssl req -new -x509 -newkey rsa:2048 -keyout MOV.priv -o utform DER -out MOK.der -nodes -days 36500 -subj "/CN=Descriptive name/"&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;openssl req -new -x509 -newkey rsa:2048 -keyout MOV.priv -outform DER -out MOK.der -nodes -days 36500 -subj "/CN=Descriptive name/"&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id="sign-the-module"&gt;Sign the Module&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;sudo /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n&lt;/code&gt; &lt;em&gt;MODULE_NAME&lt;/em&gt; &lt;code&gt;)&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id="register-the-keys-to-secure-boot"&gt;Register the Keys …&lt;/h3&gt;</summary><content type="html">
+&lt;h3 id="register-the-keys-to-secure-boot"&gt;Register the Keys to …&lt;/h3&gt;</summary><content type="html">
 &lt;h2 id="key-creation"&gt;Key Creation&lt;/h2&gt;
 &lt;h3 id="create-signing-keys"&gt;Create Signing Keys&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;openssl req -new -x509 -newkey rsa:2048 -keyout MOV.priv -o utform DER -out MOK.der -nodes -days 36500 -subj "/CN=Descriptive name/"&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;openssl req -new -x509 -newkey rsa:2048 -keyout MOV.priv -outform DER -out MOK.der -nodes -days 36500 -subj "/CN=Descriptive name/"&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id="sign-the-module"&gt;Sign the Module&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;sudo /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n&lt;/code&gt; &lt;em&gt;MODULE_NAME&lt;/em&gt; &lt;code&gt;)&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id="register-the-keys-to-secure-boot"&gt;Register the Keys to Secure Boot&lt;/h3&gt;
