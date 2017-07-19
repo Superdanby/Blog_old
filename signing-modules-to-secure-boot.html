@@ -102,7 +102,7 @@
         
 <h2 id="key-creation">Key Creation</h2>
 <h3 id="create-signing-keys">Create Signing Keys</h3>
-<p><code>openssl req -new -x509 -newkey rsa:2048 -keyout MOV.priv -outform DER -out MOK.der -nodes -days 36500 -subj "/CN=Descriptive name/"</code></p>
+<p><code>openssl req -new -x509 -newkey rsa:2048 -keyout MOK.priv -outform DER -out MOK.der -nodes -days 36500 -subj "/CN=Descriptive name/"</code></p>
 <h3 id="sign-the-module">Sign the Module</h3>
 <p><code>sudo /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n</code> <em>MODULE_NAME</em> <code>)</code></p>
 <h3 id="register-the-keys-to-secure-boot">Register the Keys to Secure Boot</h3>
