@@ -34,7 +34,7 @@ You'll be prompt to enter a password for later use in MOK.
 4.  Insert the password you just created.
 5.  OK
 
-*[More with MOK](https://superdanby.github.io/Blog/managing-signed-keys-with-machine-owner-key.html)*
+\**[More with MOK](https://superdanby.github.io/Blog/managing-signed-keys-with-machine-owner-key.html)*
 
 ##Check if the Module is Signed
 `mokutil --list-enrolled`
