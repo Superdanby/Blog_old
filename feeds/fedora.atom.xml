@@ -164,7 +164,7 @@ Turning on Secure Boot will block the modules to load in the first place.&lt;/p&
 &lt;h2 id="key-creation"&gt;Key Creation&lt;/h2&gt;
 &lt;h3 id="create-signing-keys"&gt;Create Signing Keys&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;openssl req -new -x509 -newkey rsa:2048 -keyout MOK.priv -outform DER -out MOK.der -nodes -days 36500 -subj "/CN=Descriptive name/"&lt;/code&gt;
-&lt;em&gt;Descriptive name&lt;/em&gt; is the name of the key. E.g. &lt;code&gt;"/CN=Yee~"&lt;/code&gt; &lt;/p&gt;
+&lt;em&gt;Descriptive name&lt;/em&gt; is the name of the key. E.g. &lt;code&gt;"/CN=Yee~"&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id="sign-the-module"&gt;Sign the Module&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;sudo /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n&lt;/code&gt; &lt;em&gt;MODULE_NAME&lt;/em&gt; &lt;code&gt;)&lt;/code&gt;
 Note that you can sign multiple modules at a time. Just repeat this step until all modules are signed.&lt;/p&gt;
@@ -181,6 +181,7 @@ You'll be prompt to enter a password for later use in MOK.&lt;/p&gt;
 &lt;li&gt;Insert the password you just created.&lt;/li&gt;
 &lt;li&gt;OK&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href="https://superdanby.github.io/Blog/managing-signed-keys-with-machine-owner-key.html"&gt;More with MOK&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id="check-if-the-module-is-signed"&gt;Check if the Module is Signed&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;mokutil --list-enrolled&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id="done"&gt;Done!&lt;/h2&gt;
