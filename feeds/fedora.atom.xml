@@ -181,7 +181,7 @@ You'll be prompt to enter a password for later use in MOK.&lt;/p&gt;
 &lt;li&gt;Insert the password you just created.&lt;/li&gt;
 &lt;li&gt;OK&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;*&lt;em&gt;&lt;a href="https://superdanby.github.io/Blog/managing-signed-keys-with-machine-owner-key.html"&gt;More with MOK&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href="https://superdanby.github.io/Blog/managing-signed-keys-with-machine-owner-key.html"&gt;*More with MOK&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id="check-if-the-module-is-signed"&gt;Check if the Module is Signed&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;mokutil --list-enrolled&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id="done"&gt;Done!&lt;/h2&gt;
