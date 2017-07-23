@@ -14,7 +14,7 @@ Turning on Secure Boot will block the modules to load in the first place.
 
 ###Create Signing Keys
 `openssl req -new -x509 -newkey rsa:2048 -keyout MOK.priv -outform DER -out MOK.der -nodes -days 36500 -subj "/CN=Descriptive name/"`
-*Descriptive name* is the name of the key. E.g. `"/CN=Yee~"` 
+*Descriptive name* is the name of the key. E.g. `"/CN=Yee~"`
 ###Sign the Module
 `sudo /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n ` *MODULE_NAME* ` )`
 Note that you can sign multiple modules at a time. Just repeat this step until all modules are signed.
@@ -33,6 +33,8 @@ You'll be prompt to enter a password for later use in MOK.
 3.  Continue
 4.  Insert the password you just created.
 5.  OK
+
+*[More with MOK](https://superdanby.github.io/Blog/managing-signed-keys-with-machine-owner-key.html)*
 
 ##Check if the Module is Signed
 `mokutil --list-enrolled`
