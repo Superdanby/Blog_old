@@ -127,7 +127,29 @@ Add &lt;strong&gt;&lt;em&gt;branches&lt;/em&gt;&lt;/strong&gt; before branch nam
 1. https://github.com/Superdanby/zmd -&amp;gt;  https://github.com/Superdanby/zmd/branches/master
 2. https://github.com/Superdanby/zmd/tree/dark -&amp;gt; https://github.com/Superdanby/zmd/branches/dark&lt;/p&gt;
 &lt;p&gt;It is important to check the contents before downloading.
-So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><category term="Fedora"></category><category term="Yee"></category></entry><entry><title>Enabling Intel Speed Shift(SST) on XPS 9550</title><link href="https://superdanby.github.io/Blog/enabling-intel-speed-shiftsst-on-xps-9550.html" rel="alternate"></link><published>2017-05-31T00:00:00+08:00</published><updated>2017-05-31T00:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-31:/Blog/enabling-intel-speed-shiftsst-on-xps-9550.html</id><summary type="html">
+So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><category term="Fedora"></category><category term="Yee"></category></entry><entry><title>Managing Signed Keys with Machine Owner Key</title><link href="https://superdanby.github.io/Blog/managing-signed-keys-with-machine-owner-key.html" rel="alternate"></link><published>2017-07-23T21:46:00+08:00</published><updated>2017-07-23T21:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-23:/Blog/managing-signed-keys-with-machine-owner-key.html</id><summary type="html">
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;With MOK we can sign, manage, and delete keys for installed kernel modules.&lt;/p&gt;
+&lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
+&lt;h3 id="enrolling-a-key"&gt;Enrolling a key&lt;/h3&gt;
+&lt;p&gt;The guide can be found &lt;a href="https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id="list-all-the-enrolled-keys"&gt;List all the enrolled keys:&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;`mokutil -l`
+&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id="deleting-a-key"&gt;Deleting a key&lt;/h3&gt;
+&lt;p&gt;First, you have to export the keys: &lt;code&gt;mokutil --export&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Delete the key: &lt;code&gt;mokutil -d&lt;/code&gt;&lt;em&gt;TheFile&lt;/em&gt; \t …&lt;/p&gt;</summary><content type="html">
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;With MOK we can sign, manage, and delete keys for installed kernel modules.&lt;/p&gt;
+&lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
+&lt;h3 id="enrolling-a-key"&gt;Enrolling a key&lt;/h3&gt;
+&lt;p&gt;The guide can be found &lt;a href="https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id="list-all-the-enrolled-keys"&gt;List all the enrolled keys:&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;`mokutil -l`
+&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id="deleting-a-key"&gt;Deleting a key&lt;/h3&gt;
+&lt;p&gt;First, you have to export the keys: &lt;code&gt;mokutil --export&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Delete the key: &lt;code&gt;mokutil -d&lt;/code&gt;&lt;em&gt;TheFile&lt;/em&gt; \t E.g. &lt;code&gt;mokutil -d MOK-0001.der&lt;/code&gt;&lt;/p&gt;</content><category term="Fedora"></category><category term="Yee"></category><category term="Secure Boot"></category><category term="MOK"></category></entry><entry><title>Enabling Intel Speed Shift(SST) on XPS 9550</title><link href="https://superdanby.github.io/Blog/enabling-intel-speed-shiftsst-on-xps-9550.html" rel="alternate"></link><published>2017-05-31T00:00:00+08:00</published><updated>2017-05-31T00:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-31:/Blog/enabling-intel-speed-shiftsst-on-xps-9550.html</id><summary type="html">
 &lt;h2 id="download-customized-grub"&gt;Download Customized grub&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://www.firewolf.science/wp-content/uploads/2015/04/EFI-shell.zip"&gt;https://www.firewolf.science/wp-content/uploads/2015/04/EFI-shell.zip&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id="configurations-in-bios"&gt;Configurations in BIOS&lt;/h2&gt;
@@ -160,29 +182,7 @@ So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><ca
 &lt;p&gt;XPS 15 9560 is not suitable for this guide!
 Go &lt;a href="http://forum.notebookreview.com/threads/xps-15-9560-owners-thread.800611/#post-10440059"&gt;here&lt;/a&gt; and open the spoiler.&lt;/p&gt;
 &lt;h2 id="tips"&gt;Tips&lt;/h2&gt;
-&lt;p&gt;For every motherboard this procedure is only required once.&lt;/p&gt;</content><category term="XPS 15 9550"></category><category term="Intel Speed Shift"></category><category term="SST"></category></entry><entry><title>Managing Signed Keys with Machine Owner Key</title><link href="https://superdanby.github.io/Blog/managing-signed-keys-with-machine-owner-key.html" rel="alternate"></link><published>2017-05-25T13:46:00+08:00</published><updated>2017-05-25T13:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-25:/Blog/managing-signed-keys-with-machine-owner-key.html</id><summary type="html">
-&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;With MOK we can sign, manage, and delete keys for installed kernel modules.&lt;/p&gt;
-&lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
-&lt;h3 id="enrolling-a-key"&gt;Enrolling a key&lt;/h3&gt;
-&lt;p&gt;The guide can be found &lt;a href="https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id="list-all-the-enrolled-keys"&gt;List all the enrolled keys:&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;`mokutil -l`
-&lt;/pre&gt;&lt;/div&gt;
-&lt;h3 id="deleting-a-key"&gt;Deleting a key&lt;/h3&gt;
-&lt;p&gt;First, you have to export the keys: &lt;code&gt;mokutil --export&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Delete the key: &lt;code&gt;mokutil -d&lt;/code&gt;&lt;em&gt;TheFile&lt;/em&gt; \t …&lt;/p&gt;</summary><content type="html">
-&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;With MOK we can sign, manage, and delete keys for installed kernel modules.&lt;/p&gt;
-&lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
-&lt;h3 id="enrolling-a-key"&gt;Enrolling a key&lt;/h3&gt;
-&lt;p&gt;The guide can be found &lt;a href="https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id="list-all-the-enrolled-keys"&gt;List all the enrolled keys:&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;`mokutil -l`
-&lt;/pre&gt;&lt;/div&gt;
-&lt;h3 id="deleting-a-key"&gt;Deleting a key&lt;/h3&gt;
-&lt;p&gt;First, you have to export the keys: &lt;code&gt;mokutil --export&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Delete the key: &lt;code&gt;mokutil -d&lt;/code&gt;&lt;em&gt;TheFile&lt;/em&gt; \t E.g. &lt;code&gt;mokutil -d MOK-0001.der&lt;/code&gt;&lt;/p&gt;</content><category term="Fedora"></category><category term="Yee"></category><category term="Secure Boot"></category><category term="MOK"></category></entry><entry><title>Signing Kernel Modules for Secure Boot</title><link href="https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html" rel="alternate"></link><published>2017-05-25T13:46:00+08:00</published><updated>2017-05-25T13:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-25:/Blog/signing-kernel-modules-for-secure-boot.html</id><summary type="html">
+&lt;p&gt;For every motherboard this procedure is only required once.&lt;/p&gt;</content><category term="XPS 15 9550"></category><category term="Intel Speed Shift"></category><category term="SST"></category></entry><entry><title>Signing Kernel Modules for Secure Boot</title><link href="https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html" rel="alternate"></link><published>2017-05-25T13:46:00+08:00</published><updated>2017-05-25T13:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-25:/Blog/signing-kernel-modules-for-secure-boot.html</id><summary type="html">
 &lt;h2 id="preparation"&gt;Preparation&lt;/h2&gt;
 &lt;p&gt;Make sure your Secure Boot is off.
 In order to sign the modules, they should &lt;strong&gt;exist&lt;/strong&gt; in the current environment.

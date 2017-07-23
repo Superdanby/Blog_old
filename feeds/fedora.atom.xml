@@ -127,7 +127,7 @@ Add &lt;strong&gt;&lt;em&gt;branches&lt;/em&gt;&lt;/strong&gt; before branch nam
 1. https://github.com/Superdanby/zmd -&amp;gt;  https://github.com/Superdanby/zmd/branches/master
 2. https://github.com/Superdanby/zmd/tree/dark -&amp;gt; https://github.com/Superdanby/zmd/branches/dark&lt;/p&gt;
 &lt;p&gt;It is important to check the contents before downloading.
-So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><category term="Fedora"></category><category term="Yee"></category></entry><entry><title>Managing Signed Keys with Machine Owner Key</title><link href="https://superdanby.github.io/Blog/managing-signed-keys-with-machine-owner-key.html" rel="alternate"></link><published>2017-05-25T13:46:00+08:00</published><updated>2017-05-25T13:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-25:/Blog/managing-signed-keys-with-machine-owner-key.html</id><summary type="html">
+So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><category term="Fedora"></category><category term="Yee"></category></entry><entry><title>Managing Signed Keys with Machine Owner Key</title><link href="https://superdanby.github.io/Blog/managing-signed-keys-with-machine-owner-key.html" rel="alternate"></link><published>2017-07-23T21:46:00+08:00</published><updated>2017-07-23T21:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-23:/Blog/managing-signed-keys-with-machine-owner-key.html</id><summary type="html">
 &lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;With MOK we can sign, manage, and delete keys for installed kernel modules.&lt;/p&gt;
 &lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
