@@ -1,4 +1,4 @@
-Title: Signing Modules to Secure Boot
+Title: Signing Kernel Modules for Secure Boot
 Date: 2017-05-25 13:46:00
 Category: Fedora
 Tags: Fedora, Yee, Secure Boot
@@ -13,7 +13,7 @@ Tags: Fedora, Yee, Secure Boot
 ###Sign the Module
 `sudo /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n ` *MODULE_NAME* ` )`
 
-###Register the Keys to Secure Boot
+###Register the Keys with Machine Owner Key
 `sudo mokutil --import MOK.der`
 You'll be prompt to enter a password for later use in MOK.
 
