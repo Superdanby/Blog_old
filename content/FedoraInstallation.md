@@ -41,10 +41,10 @@ Also, the root password should be set.
 4.  `sudo dnf install gnome-tweak-tool`
 5.  Right click to open terminal from nautilus: `sudo dnf install gnome-terminal-nautilus`
 6.  Download Chrome: [https://www.google.com/chrome/browser/desktop/index.html](https://www.google.com/chrome/browser/desktop/index.html) <br/>
-    Install Chrome: `sudo dnf install ` *Path to Chrome RPM File*
+    Install Chrome: `sudo dnf install ` ***Path to Chrome RPM File***
 7.  Git Setup: <br/>
-    `git config --global user.name "`*USERNAME*`"` <br/>
-    `git config --global user.email "`*EMAIL*`"`
+    `git config --global user.name "`***USERNAME***`"` <br/>
+    `git config --global user.email "`***EMAIL***`"`
 8.  github generate ssh: <br/>
     [https://help.github.com/articles/connecting-to-github-with-ssh/](https://help.github.com/articles/connecting-to-github-with-ssh/)
 9.  Download Atom: [https://atom.io/beta](https://atom.io/beta) <br/>
@@ -53,7 +53,7 @@ Also, the root password should be set.
     atom-beautify: Replace uncrustify.cfg with <br/> [https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b](https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b) <br/>
     autocomplete-clang: `sudo dnf install clang`
 10. Download Java: <br/> [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html) <br/>
-   Install Java: `sudo dnf install ` *Path to Java RPM File* <br/>
+   Install Java: `sudo dnf install ` ***Path to Java RPM File*** <br/>
    `sudo update-alternatives --config java` <br/>
    `sudo update-alternatives --config javac`
 11. [Lollypop Music Player](https://gnumdk.github.io/lollypop-web/): `sudo dnf install lollypop`
