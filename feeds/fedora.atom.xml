@@ -210,6 +210,14 @@ So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><ca
 &lt;li&gt;&lt;code&gt;sudo dnf install vlc&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://01.org/zh/powertop?langredirect=1"&gt;Powertop&lt;/a&gt;, a Linux tool to diagnose issues with power consumption and power management.&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install powertop&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/linrunner/TLP"&gt;TLP&lt;/a&gt;, advanced power management for linux:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install tlp&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;Setup Graphics Drivers for Nvidia:&lt;ul&gt;
 &lt;li&gt;Install &lt;a href="https://negativo17.org/nvidia-driver/"&gt;negativo17 drivers&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html"&gt;Sign the modules&lt;/a&gt; (usually nvidia, nvidia_drm, nvidia_modeset) for Secure Boot.&lt;/li&gt;
@@ -231,6 +239,10 @@ So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><ca
 &lt;li&gt;Sync &lt;a href="https://superdanby.github.io/Blog/fedora-introduction.html#shell-extensions"&gt;shell extensions&lt;/a&gt; with Google Chrome:&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;sudo dnf copr enable region51/chrome-gnome-shell&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;sudo dnf install chrome-gnome-shell&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Here's a script for steps 11 to 21:&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-11-21-sh"&gt;11-21.sh&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
