@@ -15,7 +15,7 @@ A small comparison list:
 | Platform               | Wayland & X | Only on X |
 
 
-I'd like to have more battery life with my laptop. Thus, Bumblebee seems to be a good choice at first glance. However, there are various issues with it. Some are listed [here](https://fedoraproject.org/wiki/Bumblebee#Troubleshooting), and lots of them are listed [here](https://github.com/Bumblebee-Project/Bumblebee/issues). A major reason is that the Bumblebee project has been lack of support for a **looooong** time. Also Bumblebee is not compatible with [TLP](http://linrunner.de/en/tlp/tlp.html)(I have tried the recommended [fix](http://linrunner.de/en/tlp/docs/tlp-faq.html#nvidia), but in vain.). At last, I gave up on Bumblebee.
+I'd like to have more battery life with my laptop. Thus, Bumblebee seems to be a good choice at first glance. However, there are various issues with it. Some are listed [here](https://fedoraproject.org/wiki/Bumblebee#Troubleshooting), and lots of them are listed [here](https://github.com/Bumblebee-Project/Bumblebee/issues). A major reason is that the Bumblebee project has been lack of support for a **looooong** time. Also Bumblebee is not compatible with [TLP](http://linrunner.de/en/tlp/tlp.html)(I have tried the recommended [fix](http://linrunner.de/en/tlp/docs/tlp-faq.html#nvidia), but it was in vain.). At last, I gave up on Bumblebee.
 
 But, how can I disable the Nvidia card without Bumblebee? The only way is to prevent the Nvidia modules to load at boot time. After trying for days, I came up with the following solution:
 
