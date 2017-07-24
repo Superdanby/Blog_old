@@ -111,15 +111,15 @@
 <p>Also, the root password should be set.</p>
 <h2 id="post-installation">Post Installation</h2>
 <ol>
-<li>Enable Tap to Click on your touchpad: Settings &gt; Mouse &amp; Touchpad &gt; Tap to Click</li>
+<li>Enable tap-to-click on your touchpad: Settings &gt; Mouse &amp; Touchpad &gt; Tap to Click</li>
 <li>Get new updates: <code>sudo dnf upgrade</code></li>
 <li>Settings &gt; Keyboard &gt; Custom Shortcuts: <br/>
     System Monitor: <code>gnome-system-monitor</code>, Super + x <br/>
     Terminal: <code>gnome-terminal</code>, Ctrl + Alt + T</li>
 <li><code>sudo dnf install gnome-tweak-tool</code></li>
-<li><code>sudo dnf install gnome-terminal-nautilus</code></li>
+<li>Right click to open terminal from nautilus: <code>sudo dnf install gnome-terminal-nautilus</code></li>
 <li>Download Chrome: <a href="https://www.google.com/chrome/browser/desktop/index.html">https://www.google.com/chrome/browser/desktop/index.html</a> <br/>
-    Install Chrome: <code>sudo dnf install</code><em>Path to Chrome RPM File</em></li>
+    Install Chrome: <code>sudo dnf install</code> <em>Path to Chrome RPM File</em></li>
 <li>Git Setup: <br/>
 <code>git config --global user.name "</code><em>USERNAME</em><code>"</code> <br/>
 <code>git config --global user.email "</code><em>EMAIL</em><code>"</code></li>
@@ -140,8 +140,8 @@
 <code>sudo dnf install vlc</code></li>
 <li>Setup fstab</li>
 <li>Setup Graphics Drivers for Nvidia: <br/>
-    Install negativo17 drivers: <a href="https://negativo17.org/nvidia-driver/">https://negativo17.org/nvidia-driver/</a> <br/>
-    Sign the modules (usually nvidia, nvidia_drm, nvidia_modeset) for Secure Boot: <a href="https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html">https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html</a> <br/>
+    Install <a href="https://negativo17.org/nvidia-driver/">negativo17 drivers</a> <br/>
+<a href="https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html">Sign the modules</a> (usually nvidia, nvidia_drm, nvidia_modeset) for Secure Boot <br/>
     For battery life optimization, run <a href="https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-blacklistnvidia-sh">BlacklistNvidia.sh</a> with root privileges to disable Nvidia modules on all boot entries and create a new Nvidia-enabled entry at the bottom of the list. Re-run the script on every kernel updates.</li>
 <li><code>sudo dnf install dolphin</code></li>
 <li><code>sudo dnf install wireshark</code></li>
