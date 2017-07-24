@@ -119,7 +119,7 @@
 </tbody>
 </table>
 <p>I'd like to have more battery life with my laptop. Thus, Bumblebee seems to be a good choice at first glance. However, there are various issues with it. Some are listed <a href="https://fedoraproject.org/wiki/Bumblebee#Troubleshooting">here</a>, and lots of them are listed <a href="https://github.com/Bumblebee-Project/Bumblebee/issues">here</a>. A major reason is that the Bumblebee project has been lack of support for a <strong>looooong</strong> time. Also Bumblebee is not compatible with <a href="http://linrunner.de/en/tlp/tlp.html">TLP</a>(I have tried the recommended <a href="http://linrunner.de/en/tlp/docs/tlp-faq.html#nvidia">fix</a>, but in vain.). At last, I gave up on Bumblebee.</p>
-<p>But, how can I disable the Nvidia card without Bumblebee? The only way is to prevent the Nvidia modules to load at boot time. After trying for a long time, I came up with the following solution:</p>
+<p>But, how can I disable the Nvidia card without Bumblebee? The only way is to prevent the Nvidia modules to load at boot time. After trying for days, I came up with the following solution:</p>
 <ul>
 <li>Create a new Nvidia-enabled entry at the bottom of the Grub menu:<ul>
 <li>Add a new entry to /etc/grub.d/40_custom. Just simply copy the newest entry from /boot/efi/EFI/fedora/grub.cfg.</li>
@@ -129,8 +129,12 @@
 <li>Add modprobe.blacklist=nvidia,nvidia_drm,nvidia_modeset to GRUB_CMDLINE in /etc/default/grub.</li>
 </ul>
 </li>
+<li>Regenerate Grub Menu:<ul>
+<li><code>sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg</code></li>
 </ul>
-<p><a href="https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-blacklistnvidia-sh">This script</a> does the work above.</p>
+</li>
+</ul>
+<p><a href="https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-blacklistnvidia-sh">This script</a> does the work above. To run it, you have to disable Secure Boot.</p>
 <p>I've made sure the method above is effective with <code>tlp-stat</code>. On my laptop, if the Nvidia card is on, the electric current will not be lower than 1300mA; Otherwise, it can be as low as 750mA.</p>
 <p>As of now, my Nvidia card is usually off. And it can be turned on if I boot from the last entry in Grub.</p>
     </div>

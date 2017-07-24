@@ -165,7 +165,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;I'd like to have more battery life with my laptop. Thus, Bumblebee seems to be a good choice at first glance. However, there are various issues with it. Some are listed &lt;a href="https://fedoraproject.org/wiki/Bumblebee#Troubleshooting"&gt;here&lt;/a&gt;, and lots of them are listed &lt;a href="https://github.com/Bumblebee-Project/Bumblebee/issues"&gt;here&lt;/a&gt;. A major reason is that the Bumblebee project has been lack of support for a &lt;strong&gt;looooong&lt;/strong&gt; time. Also Bumblebee is not compatible with &lt;a href="http://linrunner.de/en/tlp/tlp.html"&gt;TLP&lt;/a&gt;(I have tried the recommended &lt;a href="http://linrunner.de/en/tlp/docs/tlp-faq.html#nvidia"&gt;fix&lt;/a&gt;, but in vain.). At last, I gave up on Bumblebee.&lt;/p&gt;
-&lt;p&gt;But, how can I disable the Nvidia card without Bumblebee? The only way is to prevent the Nvidia modules to load at boot time. After trying for a long time, I came up with the following solution:&lt;/p&gt;
+&lt;p&gt;But, how can I disable the Nvidia card without Bumblebee? The only way is to prevent the Nvidia modules to load at boot time. After trying for days, I came up with the following solution:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Create a new Nvidia-enabled entry at the bottom of the Grub menu:&lt;ul&gt;
 &lt;li&gt;Add a new entry to /etc/grub.d/40_custom. Just simply copy the newest entry from /boot/efi/EFI/fedora/grub.cfg.&lt;/li&gt;
@@ -175,8 +175,12 @@
 &lt;li&gt;Add modprobe.blacklist=nvidia,nvidia_drm,nvidia_modeset to GRUB_CMDLINE in /etc/default/grub.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;Regenerate Grub Menu:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href="https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-blacklistnvidia-sh"&gt;This script&lt;/a&gt; does the work above.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-blacklistnvidia-sh"&gt;This script&lt;/a&gt; does the work above. To run it, you have to disable Secure Boot.&lt;/p&gt;
 &lt;p&gt;I've made sure the method above is effective with &lt;code&gt;tlp-stat&lt;/code&gt;. On my laptop, if the Nvidia card is on, the electric current will not be lower than 1300mA; Otherwise, it can be as low as 750mA.&lt;/p&gt;
 &lt;p&gt;As of now, my Nvidia card is usually off. And it can be turned on if I boot from the last entry in Grub.&lt;/p&gt;</content><category term="Fedora"></category><category term="Nvidia"></category><category term="Optimus"></category><category term="Negativo17"></category><category term="Bumblebee"></category></entry><entry><title>Managing Signed Keys with Machine Owner Key</title><link href="https://superdanby.github.io/Blog/managing-signed-keys-with-machine-owner-key.html" rel="alternate"></link><published>2017-07-23T21:46:00+08:00</published><updated>2017-07-23T21:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-23:/Blog/managing-signed-keys-with-machine-owner-key.html</id><summary type="html">
 &lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
