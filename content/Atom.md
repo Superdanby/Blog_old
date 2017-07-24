@@ -120,3 +120,59 @@ Themeable markdown converter (Print to PDF, HTML, JPEG or PNG)
     *   Built-in package manager
 *   Usage:
     *   Right click and select Markdown to PDF
+
+####[mininap](https://atom.io/packages/minimap)
+
+A preview of the full source code.
+
+*   Installation:
+    *   Terminal: ``apm install minimap``
+    *   Built-in package manager
+
+####[minimap-find-and-replace](https://atom.io/packages/minimap-find-and-replace)
+
+Displays the search matches in the minimap.
+
+*   Installation:
+    *   Built-in package manager
+
+####[minimap-git-diff](https://atom.io/packages/minimap-git-diff)
+
+A minimap binding for the Atom git-diff package.
+
+*   Installation:
+    *   Built-in package manager
+
+####[minimap-highlight-selected](https://atom.io/packages/minimap-highlight-selected)
+
+A minimap binding for the highlight-selected package.
+
+*   Installation:
+    *   Built-in package manager
+
+####[minimap-linter](https://atom.io/packages/minimap-linter)
+
+Atom package to display linter markers on minimap.
+
+*   Installation:
+    *   Built-in package manager
+
+####[script](https://atom.io/packages/script)
+
+Run scripts based on file name, a selection of code, or by line number.
+
+*   Installation:
+    *   Terminal: ``apm install script``
+    *   Built-in package manager
+
+####[sync-settings](https://atom.io/packages/sync-settings)
+
+Synchronize settings, keymaps, user styles, init script, snippets and installed packages across Atom instances.
+
+*   Installation:
+    *   Terminal: ``apm install sync-settings``
+    *   Built-in package manager
+*   [Setup](https://atom.io/packages/sync-settings#setup)
+*   Usage:
+    *   Backup: `sync-settings:backup`
+    *   Restore: `sync-settings:restore`
