@@ -1,5 +1,5 @@
 Title: Atom Text Editor
-Date: 2017-2-28 11:20
+Date: 2017-7-25 00:20
 Category: Software
 Tags: Atom
 
@@ -104,4 +104,19 @@ Highlight strings matching the selected text throughout the file.
 
 A real time debugger base. It provides a top-level API to its consumer that allows them to visualize errors and other kind-of messages, easily.
 
+*   Installation:
+    *   Built-in package manager
+
+You'll have to install the linter for the specific language you want, like [linter-flake8](https://atom.io/packages/linter-flake8), [linter-gcc](https://atom.io/packages/linter-gcc), etc.
+
 **About [Lint](https://en.wikipedia.org/wiki/Lint_(software))** and **[Heisenbug](https://en.wikipedia.org/wiki/Heisenbug)**
+
+####[markdown-themeable-pdf](https://atom.io/packages/markdown-themeable-pdf)
+
+Themeable markdown converter (Print to PDF, HTML, JPEG or PNG)
+
+*   Installation:
+    *   Terminal: ``apm install markdown-themeable-pdf``
+    *   Built-in package manager
+*   Usage:
+    *   Right click and select Markdown to PDF
