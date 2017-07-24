@@ -19,7 +19,7 @@ Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C
 *   Usage:
     1.  Right click and select "Beautify editor contents".
     2.  Scope: selected contents or the whole file if not.
-*   [My Uncrustify.cfg](https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b)
+*   [My uncrustify.cfg](https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b)
 
 ####[autoclose-html](https://atom.io/packages/autoclose-html)
 
