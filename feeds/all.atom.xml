@@ -242,7 +242,7 @@ So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><ca
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Here's a script for steps 11 to 21:&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-11-21-sh"&gt;11-21.sh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Run it with Secure Boot turned off: &lt;a href="https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-11-21-sh"&gt;11-21.sh&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
