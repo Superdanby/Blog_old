@@ -55,8 +55,9 @@ Also, the root password should be set.
     -   sync-settings: Install > Search: sync-settings
     -   atom-beautify: [Replace uncrustify.cfg](https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b)
     -   autocomplete-clang: `sudo dnf install clang`
+    -   [More about Atom](https://superdanby.github.io/Blog/atom-text-editor.html)
 8.  JAVA:
-    -   Download [Java](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+    -   [Download](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
     -   Install Java: `sudo dnf install ` ***Path to Java RPM File***
     -   `sudo update-alternatives --config java`
     -   `sudo update-alternatives --config javac`

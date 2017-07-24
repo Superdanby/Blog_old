@@ -19,6 +19,31 @@ Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C
 *   Usage:
     1.  Right click and select "Beautify editor contents".
     2.  Scope: selected contents or the whole file if not.
+*   [My Uncrustify.cfg](https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b)
+
+####[autoclose-html](https://atom.io/packages/autoclose-html)
+
+Will automatically add closing tags when you complete the opening tag.
+
+*   Installation:
+    *   Terminal: ``apm install autoclose-html``
+    *   Built-in package manager
+
+####[autocomplete-clang](https://atom.io/packages/autocomplete-clang)
+
+This package provides completions by clang like emacs auto-complete-clang.el using autocomplete-plus.
+
+*   Installation:
+    *   Terminal: ``apm install autocomplete-clang``
+    *   Built-in package manager
+
+####[autocomplete-python](https://atom.io/packages/autocomplete-python)
+
+Python packages, variables, methods and functions with their arguments autocompletion in Atom powered by your choice of Jedi or Kite.
+
+*   Installation:
+    *   Terminal: ``apm install autocomplete-python``
+    *   Built-in package manager
 
 ####[color-picker](https://atom.io/packages/color-picker)
 
