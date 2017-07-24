@@ -122,13 +122,13 @@
 &lt;p&gt;**Don't install vlc from negativo17's multimedia repo. It crashes in Wayland.&lt;/p&gt;</content><category term="Fedora"></category><category term="Install"></category></entry><entry><title>Dealing with Nvidia Optimus</title><link href="https://superdanby.github.io/Blog/dealing-with-nvidia-optimus.html" rel="alternate"></link><published>2017-07-24T18:30:00+08:00</published><updated>2017-07-24T18:30:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-24:/Blog/dealing-with-nvidia-optimus.html</id><summary type="html">
 &lt;p&gt;Since the release of Fedora 26, Mesa doesn't conflict with Nvidia anymore. Generally, the Nvidia driver can be installed from either &lt;a href="https://fedoraproject.org/wiki/Bumblebee"&gt;Bumblebee&lt;/a&gt; or &lt;a href="https://negativo17.org/nvidia-driver/"&gt;Negativo17's repo&lt;/a&gt;. Both methods are easy to install, but the former one is likely to have more problems.&lt;/p&gt;
 &lt;p&gt;A small comparison list:
-|                | Bumblebee | Negativo17 |
- ----------------|-----------|------------
+|                        | Bumblebee | Negativo17 |
+ ------------------------|-----------|------------
 | Nvidia Driver Version …&lt;/p&gt;</summary><content type="html">
 &lt;p&gt;Since the release of Fedora 26, Mesa doesn't conflict with Nvidia anymore. Generally, the Nvidia driver can be installed from either &lt;a href="https://fedoraproject.org/wiki/Bumblebee"&gt;Bumblebee&lt;/a&gt; or &lt;a href="https://negativo17.org/nvidia-driver/"&gt;Negativo17's repo&lt;/a&gt;. Both methods are easy to install, but the former one is likely to have more problems.&lt;/p&gt;
 &lt;p&gt;A small comparison list:
-|                | Bumblebee | Negativo17 |
- ----------------|-----------|------------
+|                        | Bumblebee | Negativo17 |
+ ------------------------|-----------|------------
 | Nvidia Driver Version  | Old       | Up to date |
 | Usage           | Turn on when needed | Always on with Nvidia Optimus |
 | Status          | No updates since 2013 | Still being maintained and has &lt;a href="https://negativo17.org/nvidia-driver/#reply-title"&gt;good support&lt;/a&gt; |&lt;/p&gt;
