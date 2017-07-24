@@ -223,9 +223,12 @@ So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><ca
 &lt;li&gt;&lt;code&gt;sudo dnf install wireshark&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Install Fedora Media Writer from Software&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://fedoramagazine.org/make-fedora-usb-stick/"&gt;Fedora Media Writer&lt;/a&gt;:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install mediawriter&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;Replace &lt;a href="https://gist.github.com/Superdanby/fd864ba673975ca550f013bf3e9c9665"&gt;.bashrc&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Sync extensions with Google Chrome:&lt;ul&gt;
+&lt;li&gt;Sync shell extensions with Google Chrome:&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;sudo dnf copr enable region51/chrome-gnome-shell&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;sudo dnf install chrome-gnome-shell&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
