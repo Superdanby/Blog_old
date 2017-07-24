@@ -111,6 +111,11 @@
 <td>No updates since 2013</td>
 <td>Still being maintained and has <a href="https://negativo17.org/nvidia-driver/#reply-title">good support</a></td>
 </tr>
+<tr>
+<td>Platform</td>
+<td>Wayland &amp; X</td>
+<td>Only on X</td>
+</tr>
 </tbody>
 </table>
 <p>I'd like to have more battery life with my laptop. Thus, Bumblebee seems to be a good choice at first glance. However, there are various issues with it. Some are listed <a href="https://fedoraproject.org/wiki/Bumblebee#Troubleshooting">here</a>, and lots of them are listed <a href="https://github.com/Bumblebee-Project/Bumblebee/issues">here</a>. A major reason is that the Bumblebee project has been lack of support for a <strong>looooong</strong> time. Also Bumblebee is not compatible with <a href="http://linrunner.de/en/tlp/tlp.html">TLP</a>(I have tried the recommended <a href="http://linrunner.de/en/tlp/docs/tlp-faq.html#nvidia">fix</a>, but in vain.). So, I gave up Bumblebee.</p>
@@ -127,7 +132,7 @@
 </ul>
 <p><a href="https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-blacklistnvidia-sh">This script</a> does the work above.</p>
 <p>I've made sure the method above is effective with <code>tlp-stat</code>. On my laptop, if the Nvidia card is on, the electric current will not be lower than 1300mA; Otherwise, it can be as low as 750mA.</p>
-<p>And so, my Nvidia card is usually off. And it can be turned on if I boot from the last entry in Grub.</p>
+<p>As of now, my Nvidia card is usually off. And it can be turned on if I boot from the last entry in Grub.</p>
     </div>
 
         </main>
