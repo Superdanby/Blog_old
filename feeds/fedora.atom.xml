@@ -158,10 +158,10 @@ So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><ca
 &lt;li&gt;&lt;code&gt;sudo dnf install gnome-tweak-tool&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Right click to open terminal from nautilus: &lt;code&gt;sudo dnf install gnome-terminal-nautilus&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Download Chrome: &lt;a href="https://www.google.com/chrome/browser/desktop/index.html"&gt;https://www.google.com/chrome/browser/desktop/index.html&lt;/a&gt; &lt;br/&gt;
-    Install Chrome: &lt;code&gt;sudo dnf install&lt;/code&gt; &lt;em&gt;Path to Chrome RPM File&lt;/em&gt;&lt;/li&gt;
+    Install Chrome: &lt;code&gt;sudo dnf install&lt;/code&gt; &lt;strong&gt;&lt;em&gt;Path to Chrome RPM File&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Git Setup: &lt;br/&gt;
-&lt;code&gt;git config --global user.name "&lt;/code&gt;&lt;em&gt;USERNAME&lt;/em&gt;&lt;code&gt;"&lt;/code&gt; &lt;br/&gt;
-&lt;code&gt;git config --global user.email "&lt;/code&gt;&lt;em&gt;EMAIL&lt;/em&gt;&lt;code&gt;"&lt;/code&gt;&lt;/li&gt;
+&lt;code&gt;git config --global user.name "&lt;/code&gt;&lt;strong&gt;&lt;em&gt;USERNAME&lt;/em&gt;&lt;/strong&gt;&lt;code&gt;"&lt;/code&gt; &lt;br/&gt;
+&lt;code&gt;git config --global user.email "&lt;/code&gt;&lt;strong&gt;&lt;em&gt;EMAIL&lt;/em&gt;&lt;/strong&gt;&lt;code&gt;"&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;github generate ssh: &lt;br/&gt;
 &lt;a href="https://help.github.com/articles/connecting-to-github-with-ssh/"&gt;https://help.github.com/articles/connecting-to-github-with-ssh/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Download Atom: &lt;a href="https://atom.io/beta"&gt;https://atom.io/beta&lt;/a&gt; &lt;br/&gt;
@@ -170,7 +170,7 @@ So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><ca
     atom-beautify: Replace uncrustify.cfg with &lt;br/&gt; &lt;a href="https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b"&gt;https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b&lt;/a&gt; &lt;br/&gt;
     autocomplete-clang: &lt;code&gt;sudo dnf install clang&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Download Java: &lt;br/&gt; &lt;a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html"&gt;http://www.oracle.com/technetwork/java/javase/downloads/index.html&lt;/a&gt; &lt;br/&gt;
-   Install Java: &lt;code&gt;sudo dnf install&lt;/code&gt; &lt;em&gt;Path to Java RPM File&lt;/em&gt; &lt;br/&gt;
+   Install Java: &lt;code&gt;sudo dnf install&lt;/code&gt; &lt;strong&gt;&lt;em&gt;Path to Java RPM File&lt;/em&gt;&lt;/strong&gt; &lt;br/&gt;
 &lt;code&gt;sudo update-alternatives --config java&lt;/code&gt; &lt;br/&gt;
 &lt;code&gt;sudo update-alternatives --config javac&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://gnumdk.github.io/lollypop-web/"&gt;Lollypop Music Player&lt;/a&gt;: &lt;code&gt;sudo dnf install lollypop&lt;/code&gt;&lt;/li&gt;
