@@ -152,46 +152,46 @@ So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><ca
 &lt;ol&gt;
 &lt;li&gt;Enable Tap to Click on your touchpad: Settings &amp;gt; Mouse &amp;amp; Touchpad &amp;gt; Tap to Click&lt;/li&gt;
 &lt;li&gt;Get new updates: &lt;code&gt;sudo dnf upgrade&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Settings &amp;gt; Keyboard &amp;gt; Custom Shortcuts:
-    System Monitor: &lt;code&gt;gnome-system-monitor&lt;/code&gt;, Super + x
+&lt;li&gt;Settings &amp;gt; Keyboard &amp;gt; Custom Shortcuts: &lt;br/&gt;
+    System Monitor: &lt;code&gt;gnome-system-monitor&lt;/code&gt;, Super + x &lt;br/&gt;
     Terminal: &lt;code&gt;gnome-terminal&lt;/code&gt;, Ctrl + Alt + T&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;sudo dnf install gnome-tweak-tool&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;sudo dnf install gnome-terminal-nautilus&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Download Chrome: &lt;a href="https://www.google.com/chrome/browser/desktop/index.html"&gt;https://www.google.com/chrome/browser/desktop/index.html&lt;/a&gt;
+&lt;li&gt;Download Chrome: &lt;a href="https://www.google.com/chrome/browser/desktop/index.html"&gt;https://www.google.com/chrome/browser/desktop/index.html&lt;/a&gt; &lt;br/&gt;
     Install Chrome: &lt;code&gt;sudo dnf install&lt;/code&gt;&lt;em&gt;Path to Chrome RPM File&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Git Setup:
-    &lt;code&gt;git config --global user.name "&lt;/code&gt;&lt;em&gt;USERNAME&lt;/em&gt;&lt;code&gt;"&lt;/code&gt;
+    &lt;code&gt;git config --global user.name "&lt;/code&gt;&lt;em&gt;USERNAME&lt;/em&gt;&lt;code&gt;"&lt;/code&gt; &lt;br/&gt;
 &lt;code&gt;git config --global user.email "&lt;/code&gt;&lt;em&gt;EMAIL&lt;/em&gt;&lt;code&gt;"&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;github generate ssh:
     &lt;a href="https://help.github.com/articles/connecting-to-github-with-ssh/"&gt;https://help.github.com/articles/connecting-to-github-with-ssh/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Download Atom: &lt;a href="https://atom.io/beta"&gt;https://atom.io/beta&lt;/a&gt;
-    Install Atom: &lt;code&gt;sudo dnf install&lt;/code&gt;&lt;em&gt;Path to Atom RPM File&lt;/em&gt;
-    sync-settings: Install &amp;gt; Search: sync-settings
-    atom-beautify: Replace uncrustify.cfg with &lt;a href="https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b"&gt;https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b&lt;/a&gt;
+    Install Atom: &lt;code&gt;sudo dnf install&lt;/code&gt;&lt;em&gt;Path to Atom RPM File&lt;/em&gt; &lt;br/&gt;
+    sync-settings: Install &amp;gt; Search: sync-settings &lt;br/&gt;
+    atom-beautify: Replace uncrustify.cfg with &lt;br/&gt; &lt;a href="https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b"&gt;https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b&lt;/a&gt; &lt;br/&gt;
     autocomplete-clang: &lt;code&gt;sudo dnf install clang&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Download Java: &lt;a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html"&gt;http://www.oracle.com/technetwork/java/javase/downloads/index.html&lt;/a&gt;
-   Install Java: &lt;code&gt;sudo dnf install&lt;/code&gt;&lt;em&gt;Path to Java RPM File&lt;/em&gt;
-&lt;code&gt;sudo update-alternatives --config java&lt;/code&gt;
+&lt;li&gt;Download Java: &lt;a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html"&gt;http://www.oracle.com/technetwork/java/javase/downloads/index.html&lt;/a&gt; &lt;br/&gt;
+   Install Java: &lt;code&gt;sudo dnf install&lt;/code&gt;&lt;em&gt;Path to Java RPM File&lt;/em&gt; &lt;br/&gt;
+&lt;code&gt;sudo update-alternatives --config java&lt;/code&gt; &lt;br/&gt;
 &lt;code&gt;sudo update-alternatives --config javac&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://gnumdk.github.io/lollypop-web/"&gt;Lollypop Music Player&lt;/a&gt;: &lt;code&gt;sudo dnf install lollypop&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.videolan.org/vlc/index.html"&gt;VLC Media Player&lt;/a&gt; Setup vlc:
-    &lt;code&gt;sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm&lt;/code&gt;
+    &lt;code&gt;sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm&lt;/code&gt; &lt;br/&gt;
 &lt;code&gt;sudo dnf install vlc&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Setup fstab&lt;/li&gt;
 &lt;li&gt;Setup Graphics Drivers for Nvidia:
-    Install negativo17 drivers: &lt;a href="https://negativo17.org/nvidia-driver/"&gt;https://negativo17.org/nvidia-driver/&lt;/a&gt;
-    Sign the modules (usually nvidia, nvidia_drm, nvidia_modeset) for Secure Boot: &lt;a href="https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html"&gt;https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html&lt;/a&gt;
+    Install negativo17 drivers: &lt;a href="https://negativo17.org/nvidia-driver/"&gt;https://negativo17.org/nvidia-driver/&lt;/a&gt; &lt;br/&gt;
+    Sign the modules (usually nvidia, nvidia_drm, nvidia_modeset) for Secure Boot: &lt;a href="https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html"&gt;https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html&lt;/a&gt; &lt;br/&gt;
     For battery life optimization, run &lt;a href="https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-blacklistnvidia-sh"&gt;BlacklistNvidia.sh&lt;/a&gt; with root privileges to disable Nvidia modules on all boot entries and create a new Nvidia-enabled entry at the bottom of the list. Re-run the script on every kernel updates.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;sudo dnf install dolphin&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;sudo dnf install wireshark&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Install Fedora Media Writer from Software&lt;/li&gt;
 &lt;li&gt;replace .bashrc with &lt;a href="https://gist.github.com/Superdanby/fd864ba673975ca550f013bf3e9c9665"&gt;https://gist.github.com/Superdanby/fd864ba673975ca550f013bf3e9c9665&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Restore extensions:
-    &lt;code&gt;sudo dnf copr enable region51/chrome-gnome-shell&lt;/code&gt;
-&lt;code&gt;sudo dnf install chrome-gnome-shell&lt;/code&gt;
-&lt;strong&gt;Note that the negativo17 drivers have better support than the ones Bumblebee provides. And the Nvidia propriety driver packaged inside is up to date.
-&lt;/strong&gt;Don't install vlc from negativo17's multimedia repo. It crashes in Wayland.&lt;/li&gt;
-&lt;/ol&gt;</content><category term="Fedora"></category><category term="Install"></category></entry><entry><title>Managing Signed Keys with Machine Owner Key</title><link href="https://superdanby.github.io/Blog/managing-signed-keys-with-machine-owner-key.html" rel="alternate"></link><published>2017-07-23T21:46:00+08:00</published><updated>2017-07-23T21:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-23:/Blog/managing-signed-keys-with-machine-owner-key.html</id><summary type="html">
+    &lt;code&gt;sudo dnf copr enable region51/chrome-gnome-shell&lt;/code&gt; &lt;br/&gt;
+&lt;code&gt;sudo dnf install chrome-gnome-shell&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;**Note that the negativo17 drivers have better support than the ones Bumblebee provides. And the Nvidia propriety driver packaged inside is up to date.&lt;/p&gt;
+&lt;p&gt;**Don't install vlc from negativo17's multimedia repo. It crashes in Wayland.&lt;/p&gt;</content><category term="Fedora"></category><category term="Install"></category></entry><entry><title>Managing Signed Keys with Machine Owner Key</title><link href="https://superdanby.github.io/Blog/managing-signed-keys-with-machine-owner-key.html" rel="alternate"></link><published>2017-07-23T21:46:00+08:00</published><updated>2017-07-23T21:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-23:/Blog/managing-signed-keys-with-machine-owner-key.html</id><summary type="html">
 &lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;With MOK we can sign, manage, and delete keys for installed kernel modules.&lt;/p&gt;
 &lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
