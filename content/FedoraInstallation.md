@@ -1,0 +1,76 @@
+Title: Fedora Installation
+Date: 9999-12-29
+Category: Fedora
+Tags: Fedora, Install
+
+[TOC]
+
+##Preparation
+
+If you're using Windows and wish to install Fedora alongside with it. You can open Disk Management and shrink a drive to make space for Fedora.
+
+Create a live USB with [Fedora Media Writer](https://github.com/MartinBriza/MediaWriter/releases)
+
+##Installation
+
+###Partitioning
+
+Automatic: Anaconda will automatically create mountpoints /, /home, swap with [LVM2](https://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)).
+
+Custom: This lets you decide which mountpoints to create, the size of each mountpoint, and the partition type. The rest would be handled by Anaconda.
+
+Advanced Custom(Blivet GUI): You'll handle everything by yourself.
+
+###Connecting to the Internet
+
+If you connect to the Internet during the installation process, updates will be downloaded and saved for later use.
+
+###User Creation
+
+You'll have to create exactly one user. There's a checkbox to make the user Administrator.
+
+Also, the root password should be set.
+
+##Post Installation
+
+1.  Enable Tap to Click on your touchpad: Settings > Mouse & Touchpad > Tap to Click
+2.  Get new updates: `sudo dnf upgrade`
+3.  Settings > Keyboard > Custom Shortcuts:
+    System Monitor: `gnome-system-monitor`, Super + x
+    Terminal: `gnome-terminal`, Ctrl + Alt + T
+4.  `sudo dnf install gnome-tweak-tool`
+5.  `sudo dnf install gnome-terminal-nautilus`
+6.  Download Chrome: [https://www.google.com/chrome/browser/desktop/index.html](https://www.google.com/chrome/browser/desktop/index.html)
+    Install Chrome: `sudo dnf install `*Path to Chrome RPM File*
+7.  Git Setup:
+    `git config --global user.name "`*USERNAME*`"`
+    `git config --global user.email "`*EMAIL*`"`
+8.  github generate ssh:
+    [https://help.github.com/articles/connecting-to-github-with-ssh/](https://help.github.com/articles/connecting-to-github-with-ssh/)
+9.  Download Atom: [https://atom.io/beta](https://atom.io/beta)
+    Install Atom: `sudo dnf install `*Path to Atom RPM File*
+    sync-settings: Install > Search: sync-settings
+    atom-beautify: Replace uncrustify.cfg with [https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b](https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b)
+    autocomplete-clang: `sudo dnf install clang`
+10. Download Java: [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+   Install Java: `sudo dnf install`*Path to Java RPM File*
+   `sudo update-alternatives --config java`
+   `sudo update-alternatives --config javac`
+11. [Lollypop Music Player](https://gnumdk.github.io/lollypop-web/): `sudo dnf install lollypop`
+12. [VLC Media Player](https://www.videolan.org/vlc/index.html) Setup vlc:
+    `sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm`
+    `sudo dnf install vlc`
+13. Setup fstab
+14. Setup Graphics Drivers for Nvidia:
+    Install negativo17 drivers: [https://negativo17.org/nvidia-driver/](https://negativo17.org/nvidia-driver/)
+    Sign the modules (usually nvidia, nvidia_drm, nvidia_modeset) for Secure Boot: [https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html](https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html)
+    For battery life optimization, run [BlacklistNvidia.sh](https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-blacklistnvidia-sh) with root privileges to disable Nvidia modules on all boot entries and create a new Nvidia-enabled entry at the bottom of the list. Re-run the script on every kernel updates.
+15. `sudo dnf install dolphin`
+16. `sudo dnf install wireshark`
+17. Install Fedora Media Writer from Software
+18. replace .bashrc with [https://gist.github.com/Superdanby/fd864ba673975ca550f013bf3e9c9665](https://gist.github.com/Superdanby/fd864ba673975ca550f013bf3e9c9665)
+19. Restore extensions:
+    `sudo dnf copr enable region51/chrome-gnome-shell`
+    `sudo dnf install chrome-gnome-shell`
+**Note that the negativo17 drivers have better support than the ones Bumblebee provides. And the Nvidia propriety driver packaged inside is up to date.
+**Don't install vlc from negativo17's multimedia repo. It crashes in Wayland.
