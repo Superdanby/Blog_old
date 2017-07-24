@@ -120,7 +120,7 @@
 &lt;/ol&gt;
 &lt;p&gt;**Note that the negativo17 drivers have better support than the ones Bumblebee provides. And the Nvidia propriety driver packaged inside is up to date.&lt;/p&gt;
 &lt;p&gt;**Don't install vlc from negativo17's multimedia repo. It crashes in Wayland.&lt;/p&gt;</content><category term="Fedora"></category><category term="Install"></category></entry><entry><title>Dealing with Nvidia Optimus</title><link href="https://superdanby.github.io/Blog/dealing-with-nvidia-optimus.html" rel="alternate"></link><published>2017-07-24T18:30:00+08:00</published><updated>2017-07-24T18:30:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-24:/Blog/dealing-with-nvidia-optimus.html</id><summary type="html">&lt;p&gt;Since the release of Fedora 26, Mesa doesn't conflict with Nvidia anymore. Generally, the Nvidia driver can be installed from either &lt;a href="https://fedoraproject.org/wiki/Bumblebee"&gt;Bumblebee&lt;/a&gt; or &lt;a href="https://negativo17.org/nvidia-driver/"&gt;Negativo17's repo&lt;/a&gt;. Both methods are easy to install, but the former one is likely to have more problems.&lt;/p&gt;
-&lt;p&gt;A small comparison list:&lt;/p&gt;
+&lt;p&gt;A brief comparison table:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -132,7 +132,7 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;Nvidia Driver Version …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;Since the release of Fedora 26, Mesa doesn't conflict with Nvidia anymore. Generally, the Nvidia driver can be installed from either &lt;a href="https://fedoraproject.org/wiki/Bumblebee"&gt;Bumblebee&lt;/a&gt; or &lt;a href="https://negativo17.org/nvidia-driver/"&gt;Negativo17's repo&lt;/a&gt;. Both methods are easy to install, but the former one is likely to have more problems.&lt;/p&gt;
-&lt;p&gt;A small comparison list:&lt;/p&gt;
+&lt;p&gt;A brief comparison table:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
