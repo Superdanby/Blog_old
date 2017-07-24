@@ -125,14 +125,6 @@
 <li>Terminal: <code>gnome-terminal</code>, Ctrl + Alt + T</li>
 </ul>
 </li>
-<li>Install gnome-tweak-tool:<ul>
-<li><code>sudo dnf install gnome-tweak-tool</code></li>
-</ul>
-</li>
-<li>Right click to open terminal from nautilus:<ul>
-<li><code>sudo dnf install gnome-terminal-nautilus</code></li>
-</ul>
-</li>
 <li>Google Chrome:<ul>
 <li><a href="https://www.google.com/chrome/browser/desktop/index.html">Download</a></li>
 <li>Install: <code>sudo dnf install</code> <strong><em>Path to Chrome RPM File</em></strong></li>
@@ -160,6 +152,16 @@
 <li><code>sudo update-alternatives --config javac</code></li>
 </ul>
 </li>
+<li>Replace <a href="https://gist.github.com/Superdanby/fd864ba673975ca550f013bf3e9c9665">.bashrc</a></li>
+<li>Setup fstab</li>
+<li>Install gnome-tweak-tool:<ul>
+<li><code>sudo dnf install gnome-tweak-tool</code></li>
+</ul>
+</li>
+<li>Right click to open terminal from nautilus:<ul>
+<li><code>sudo dnf install gnome-terminal-nautilus</code></li>
+</ul>
+</li>
 <li><a href="https://gnumdk.github.io/lollypop-web/">Lollypop Music Player</a>:<ul>
 <li><code>sudo dnf install lollypop</code></li>
 </ul>
@@ -169,7 +171,6 @@
 <li><code>sudo dnf install vlc</code></li>
 </ul>
 </li>
-<li>Setup fstab</li>
 <li>Setup Graphics Drivers for Nvidia:<ul>
 <li>Install <a href="https://negativo17.org/nvidia-driver/">negativo17 drivers</a>.</li>
 <li><a href="https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html">Sign the modules</a> (usually nvidia, nvidia_drm, nvidia_modeset) for Secure Boot.</li>
@@ -188,8 +189,7 @@
 <li><code>sudo dnf install mediawriter</code></li>
 </ul>
 </li>
-<li>Replace <a href="https://gist.github.com/Superdanby/fd864ba673975ca550f013bf3e9c9665">.bashrc</a></li>
-<li>Sync shell extensions with Google Chrome:<ul>
+<li>Sync <a href="https://superdanby.github.io/Blog/fedora-introduction.html#shell-extensions">shell extensions</a> with Google Chrome:<ul>
 <li><code>sudo dnf copr enable region51/chrome-gnome-shell</code></li>
 <li><code>sudo dnf install chrome-gnome-shell</code></li>
 </ul>
