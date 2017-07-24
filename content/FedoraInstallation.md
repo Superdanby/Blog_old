@@ -42,26 +42,26 @@ Also, the root password should be set.
 5.  `sudo dnf install gnome-terminal-nautilus`
 6.  Download Chrome: [https://www.google.com/chrome/browser/desktop/index.html](https://www.google.com/chrome/browser/desktop/index.html) <br/>
     Install Chrome: `sudo dnf install `*Path to Chrome RPM File*
-7.  Git Setup:
+7.  Git Setup: <br/>
     `git config --global user.name "`*USERNAME*`"` <br/>
     `git config --global user.email "`*EMAIL*`"`
-8.  github generate ssh:
+8.  github generate ssh: <br/>
     [https://help.github.com/articles/connecting-to-github-with-ssh/](https://help.github.com/articles/connecting-to-github-with-ssh/)
-9.  Download Atom: [https://atom.io/beta](https://atom.io/beta)
+9.  Download Atom: [https://atom.io/beta](https://atom.io/beta) <br/>
     Install Atom: `sudo dnf install `*Path to Atom RPM File* <br/>
     sync-settings: Install > Search: sync-settings <br/>
     atom-beautify: Replace uncrustify.cfg with <br/> [https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b](https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b) <br/>
     autocomplete-clang: `sudo dnf install clang`
-10. Download Java: [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html) <br/>
-   Install Java: `sudo dnf install`*Path to Java RPM File* <br/>
+10. Download Java: <br/> [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html) <br/>
+   Install Java: `sudo dnf install `*Path to Java RPM File* <br/>
    `sudo update-alternatives --config java` <br/>
    `sudo update-alternatives --config javac`
 11. [Lollypop Music Player](https://gnumdk.github.io/lollypop-web/): `sudo dnf install lollypop`
-12. [VLC Media Player](https://www.videolan.org/vlc/index.html) Setup vlc:
+12. [VLC Media Player](https://www.videolan.org/vlc/index.html) Setup vlc: <br/>
     `sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm` <br/>
     `sudo dnf install vlc`
 13. Setup fstab
-14. Setup Graphics Drivers for Nvidia:
+14. Setup Graphics Drivers for Nvidia: <br/>
     Install negativo17 drivers: [https://negativo17.org/nvidia-driver/](https://negativo17.org/nvidia-driver/) <br/>
     Sign the modules (usually nvidia, nvidia_drm, nvidia_modeset) for Secure Boot: [https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html](https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html) <br/>
     For battery life optimization, run [BlacklistNvidia.sh](https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-blacklistnvidia-sh) with root privileges to disable Nvidia modules on all boot entries and create a new Nvidia-enabled entry at the bottom of the list. Re-run the script on every kernel updates.
@@ -69,7 +69,7 @@ Also, the root password should be set.
 16. `sudo dnf install wireshark`
 17. Install Fedora Media Writer from Software
 18. replace .bashrc with [https://gist.github.com/Superdanby/fd864ba673975ca550f013bf3e9c9665](https://gist.github.com/Superdanby/fd864ba673975ca550f013bf3e9c9665)
-19. Restore extensions:
+19. Restore extensions: <br/>
     `sudo dnf copr enable region51/chrome-gnome-shell` <br/>
     `sudo dnf install chrome-gnome-shell`
 
