@@ -33,45 +33,63 @@ Also, the root password should be set.
 
 ##Post Installation
 
-1.  Enable tap-to-click on your touchpad: Settings > Mouse & Touchpad > Tap to Click
-2.  Get new updates: `sudo dnf upgrade`
-3.  Settings > Keyboard > Custom Shortcuts: <br/>
-    System Monitor: `gnome-system-monitor`, Super + x <br/>
-    Terminal: `gnome-terminal`, Ctrl + Alt + T
-4.  `sudo dnf install gnome-tweak-tool`
-5.  Right click to open terminal from nautilus: `sudo dnf install gnome-terminal-nautilus`
-6.  Download Chrome: [https://www.google.com/chrome/browser/desktop/index.html](https://www.google.com/chrome/browser/desktop/index.html) <br/>
-    Install Chrome: `sudo dnf install ` ***Path to Chrome RPM File***
-7.  Git Setup: <br/>
-    `git config --global user.name "`***USERNAME***`"` <br/>
-    `git config --global user.email "`***EMAIL***`"`
-8.  github generate ssh: <br/>
+1.  Enable tap-to-click on your touchpad:
+    -   Settings > Mouse & Touchpad > Tap to Click
+2.  Get new updates:
+    -   `sudo dnf upgrade`
+3.  Set useful shortcuts:
+    -   Settings > Keyboard > Custom Shortcuts:
+    -   System Monitor: `gnome-system-monitor`, Super + x
+    -   Terminal: `gnome-terminal`, Ctrl + Alt + T
+4.  Google Chrome:
+    -   [Download](https://www.google.com/chrome/browser/desktop/index.html)
+    -   Install: `sudo dnf install ` ***Path to Chrome RPM File***
+5.  Git Setup: <br/>
+    -   `git config --global user.name "`***USERNAME***`"`
+    -   `git config --global user.email "`***EMAIL***`"`
+6.  Github ssh setup:
     [https://help.github.com/articles/connecting-to-github-with-ssh/](https://help.github.com/articles/connecting-to-github-with-ssh/)
-9.  Download Atom: [https://atom.io/beta](https://atom.io/beta) <br/>
-    Install Atom: `sudo dnf install ` ***Path to Atom RPM File*** <br/>
-    sync-settings: Install > Search: sync-settings <br/>
-    atom-beautify: Replace uncrustify.cfg with <br/> [https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b](https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b) <br/>
-    autocomplete-clang: `sudo dnf install clang`
-10. Download Java: <br/> [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html) <br/>
-   Install Java: `sudo dnf install ` ***Path to Java RPM File*** <br/>
-   `sudo update-alternatives --config java` <br/>
-   `sudo update-alternatives --config javac`
-11. [Lollypop Music Player](https://gnumdk.github.io/lollypop-web/): `sudo dnf install lollypop`
-12. [VLC Media Player](https://www.videolan.org/vlc/index.html) Setup vlc: <br/>
-    `sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm` <br/>
-    `sudo dnf install vlc`
-13. Setup fstab
-14. Setup Graphics Drivers for Nvidia: <br/>
-    Install [negativo17 drivers](https://negativo17.org/nvidia-driver/) <br/>
-    [Sign the modules](https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html) (usually nvidia, nvidia_drm, nvidia_modeset) for Secure Boot <br/>
-    For battery life optimization, run [BlacklistNvidia.sh](https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-blacklistnvidia-sh) with root privileges to disable Nvidia modules on all boot entries and create a new Nvidia-enabled entry at the bottom of the list. Re-run the script on every kernel updates.
-15. `sudo dnf install dolphin`
-16. `sudo dnf install wireshark`
-17. Install Fedora Media Writer from Software
-18. replace .bashrc with [https://gist.github.com/Superdanby/fd864ba673975ca550f013bf3e9c9665](https://gist.github.com/Superdanby/fd864ba673975ca550f013bf3e9c9665)
-19. Restore extensions: <br/>
-    `sudo dnf copr enable region51/chrome-gnome-shell` <br/>
-    `sudo dnf install chrome-gnome-shell`
+7.  Atom, a hackable text editor:
+    -   [Download](https://atom.io/beta)
+    -   Install: `sudo dnf install ` ***Path to Atom RPM File***
+    -   sync-settings: Install > Search: sync-settings
+    -   atom-beautify: [Replace uncrustify.cfg](https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b)
+    -   autocomplete-clang: `sudo dnf install clang`
+8.  JAVA:
+    -   Download [Java](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+    -   Install Java: `sudo dnf install ` ***Path to Java RPM File***
+    -   `sudo update-alternatives --config java`
+    -   `sudo update-alternatives --config javac`
+9.  Replace [.bashrc](https://gist.github.com/Superdanby/fd864ba673975ca550f013bf3e9c9665)
+10. Setup fstab
+11. Install gnome-tweak-tool:
+    -   `sudo dnf install gnome-tweak-tool`
+12. Right click to open terminal from nautilus:
+    -   `sudo dnf install gnome-terminal-nautilus`
+13. [Lollypop Music Player](https://gnumdk.github.io/lollypop-web/):
+    -   `sudo dnf install lollypop`
+14. [VLC Media Player](https://www.videolan.org/vlc/index.html) Setup vlc:
+    -   `sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm`
+    -   `sudo dnf install vlc`
+15. [Powertop](https://01.org/zh/powertop?langredirect=1), a Linux tool to diagnose issues with power consumption and power management.
+    -   `sudo dnf install powertop`
+16. [TLP](https://github.com/linrunner/TLP), advanced power management for linux:
+    -   `sudo dnf install tlp`
+17. Setup Graphics Drivers for Nvidia:
+    -   Install [negativo17 drivers](https://negativo17.org/nvidia-driver/).
+    -   [Sign the modules](https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html) (usually nvidia, nvidia_drm, nvidia_modeset) for Secure Boot.
+    -   For battery life optimization, run [BlacklistNvidia.sh](https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-blacklistnvidia-sh) with root privileges to disable Nvidia modules on all boot entries and create a new Nvidia-enabled entry at the bottom of the list. Re-run the script on every kernel updates.
+18. [Dolphin](https://dolphin-emu.org/), the best WII/GC emulator:
+    -   `sudo dnf install dolphin`
+19. [Wirershark](https://www.wireshark.org/):
+    -   `sudo dnf install wireshark`
+20. [Fedora Media Writer](https://fedoramagazine.org/make-fedora-usb-stick/):
+    -   `sudo dnf install mediawriter`
+21. Sync [shell extensions](https://superdanby.github.io/Blog/fedora-introduction.html#shell-extensions) with Google Chrome:
+    -   `sudo dnf copr enable region51/chrome-gnome-shell`
+    -   `sudo dnf install chrome-gnome-shell`
+22. Here's a script for steps 11 to 21:
+    -   Run it with Secure Boot turned off and with root privileges: [11-21.sh](https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-11-21-sh)
 
 **Note that the negativo17 drivers have better support than the ones Bumblebee provides. And the Nvidia propriety driver packaged inside is up to date.
 
