@@ -5,7 +5,7 @@ Tags: Fedora, Nvidia, Optimus, Negativo17, Bumblebee
 
 Since the release of Fedora 26, Mesa doesn't conflict with Nvidia anymore. Generally, the Nvidia driver can be installed from either [Bumblebee](https://fedoraproject.org/wiki/Bumblebee) or [Negativo17's repo](https://negativo17.org/nvidia-driver/). Both methods are easy to install, but the former one is likely to have more problems.
 
-A small comparison list:
+A brief comparison table:
 
 |                        | Bumblebee | Negativo17 |
  ----------------------- | --------- | -----------
