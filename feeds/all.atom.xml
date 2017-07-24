@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Yee</title><link href="https://superdanby.github.io/Blog/" rel="alternate"></link><link href="https://superdanby.github.io/Blog/feeds/all.atom.xml" rel="self"></link><id>https://superdanby.github.io/Blog/</id><updated>9999-12-30T00:00:00+08:00</updated><entry><title>Fedora</title><link href="https://superdanby.github.io/Blog/fedora.html" rel="alternate"></link><published>9999-12-30T00:00:00+08:00</published><updated>9999-12-30T00:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,9999-12-30:/Blog/fedora.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Yee</title><link href="https://superdanby.github.io/Blog/" rel="alternate"></link><link href="https://superdanby.github.io/Blog/feeds/all.atom.xml" rel="self"></link><id>https://superdanby.github.io/Blog/</id><updated>9999-12-30T00:00:00+08:00</updated><entry><title>Fedora Introduction</title><link href="https://superdanby.github.io/Blog/fedora-introduction.html" rel="alternate"></link><published>9999-12-30T00:00:00+08:00</published><updated>9999-12-30T00:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,9999-12-30:/Blog/fedora-introduction.html</id><summary type="html">
 &lt;h2 id="get-fedora-now"&gt;&lt;a href="https://getfedora.org/"&gt;Get Fedora Now!&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;IMO, the best Linux distro.
 1.  The one always deploies the newest technologies.
@@ -127,7 +127,71 @@ Add &lt;strong&gt;&lt;em&gt;branches&lt;/em&gt;&lt;/strong&gt; before branch nam
 1. https://github.com/Superdanby/zmd -&amp;gt;  https://github.com/Superdanby/zmd/branches/master
 2. https://github.com/Superdanby/zmd/tree/dark -&amp;gt; https://github.com/Superdanby/zmd/branches/dark&lt;/p&gt;
 &lt;p&gt;It is important to check the contents before downloading.
-So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><category term="Fedora"></category><category term="Yee"></category></entry><entry><title>Managing Signed Keys with Machine Owner Key</title><link href="https://superdanby.github.io/Blog/managing-signed-keys-with-machine-owner-key.html" rel="alternate"></link><published>2017-07-23T21:46:00+08:00</published><updated>2017-07-23T21:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-23:/Blog/managing-signed-keys-with-machine-owner-key.html</id><summary type="html">
+So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><category term="Fedora"></category><category term="Yee"></category></entry><entry><title>Fedora Installation</title><link href="https://superdanby.github.io/Blog/fedora-installation.html" rel="alternate"></link><published>9999-12-29T00:00:00+08:00</published><updated>9999-12-29T00:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,9999-12-29:/Blog/fedora-installation.html</id><summary type="html">
+&lt;h2 id="preparation"&gt;Preparation&lt;/h2&gt;
+&lt;p&gt;If you're using Windows and wish to install Fedora alongside with it. You can open Disk Management and shrink a drive to make space for Fedora.&lt;/p&gt;
+&lt;p&gt;Create a live USB with &lt;a href="https://github.com/MartinBriza/MediaWriter/releases"&gt;Fedora Media Writer&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="installation"&gt;Installation&lt;/h2&gt;
+&lt;h3 id="partitioning"&gt;Partitioning&lt;/h3&gt;
+&lt;p&gt;Automatic: Anaconda will automatically create mountpoints /, /home, swap with &lt;a href="https://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)"&gt;LVM2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Custom: This lets …&lt;/p&gt;</summary><content type="html">
+&lt;h2 id="preparation"&gt;Preparation&lt;/h2&gt;
+&lt;p&gt;If you're using Windows and wish to install Fedora alongside with it. You can open Disk Management and shrink a drive to make space for Fedora.&lt;/p&gt;
+&lt;p&gt;Create a live USB with &lt;a href="https://github.com/MartinBriza/MediaWriter/releases"&gt;Fedora Media Writer&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="installation"&gt;Installation&lt;/h2&gt;
+&lt;h3 id="partitioning"&gt;Partitioning&lt;/h3&gt;
+&lt;p&gt;Automatic: Anaconda will automatically create mountpoints /, /home, swap with &lt;a href="https://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)"&gt;LVM2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Custom: This lets you decide which mountpoints to create, the size of each mountpoint, and the partition type. The rest would be handled by Anaconda.&lt;/p&gt;
+&lt;p&gt;Advanced Custom(Blivet GUI): You'll handle everything by yourself.&lt;/p&gt;
+&lt;h3 id="connecting-to-the-internet"&gt;Connecting to the Internet&lt;/h3&gt;
+&lt;p&gt;If you connect to the Internet during the installation process, updates will be downloaded and saved for later use.&lt;/p&gt;
+&lt;h3 id="user-creation"&gt;User Creation&lt;/h3&gt;
+&lt;p&gt;You'll have to create exactly one user. There's a checkbox to make the user Administrator.&lt;/p&gt;
+&lt;p&gt;Also, the root password should be set.&lt;/p&gt;
+&lt;h2 id="post-installation"&gt;Post Installation&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Enable Tap to Click on your touchpad: Settings &amp;gt; Mouse &amp;amp; Touchpad &amp;gt; Tap to Click&lt;/li&gt;
+&lt;li&gt;Get new updates: &lt;code&gt;sudo dnf upgrade&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Settings &amp;gt; Keyboard &amp;gt; Custom Shortcuts:
+    System Monitor: &lt;code&gt;gnome-system-monitor&lt;/code&gt;, Super + x
+    Terminal: &lt;code&gt;gnome-terminal&lt;/code&gt;, Ctrl + Alt + T&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install gnome-tweak-tool&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install gnome-terminal-nautilus&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Download Chrome: &lt;a href="https://www.google.com/chrome/browser/desktop/index.html"&gt;https://www.google.com/chrome/browser/desktop/index.html&lt;/a&gt;
+    Install Chrome: &lt;code&gt;sudo dnf install&lt;/code&gt;&lt;em&gt;Path to Chrome RPM File&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Git Setup:
+    &lt;code&gt;git config --global user.name "&lt;/code&gt;&lt;em&gt;USERNAME&lt;/em&gt;&lt;code&gt;"&lt;/code&gt;
+&lt;code&gt;git config --global user.email "&lt;/code&gt;&lt;em&gt;EMAIL&lt;/em&gt;&lt;code&gt;"&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;github generate ssh:
+    &lt;a href="https://help.github.com/articles/connecting-to-github-with-ssh/"&gt;https://help.github.com/articles/connecting-to-github-with-ssh/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Download Atom: &lt;a href="https://atom.io/beta"&gt;https://atom.io/beta&lt;/a&gt;
+    Install Atom: &lt;code&gt;sudo dnf install&lt;/code&gt;&lt;em&gt;Path to Atom RPM File&lt;/em&gt;
+    sync-settings: Install &amp;gt; Search: sync-settings
+    atom-beautify: Replace uncrustify.cfg with &lt;a href="https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b"&gt;https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b&lt;/a&gt;
+    autocomplete-clang: &lt;code&gt;sudo dnf install clang&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Download Java: &lt;a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html"&gt;http://www.oracle.com/technetwork/java/javase/downloads/index.html&lt;/a&gt;
+   Install Java: &lt;code&gt;sudo dnf install&lt;/code&gt;&lt;em&gt;Path to Java RPM File&lt;/em&gt;
+&lt;code&gt;sudo update-alternatives --config java&lt;/code&gt;
+&lt;code&gt;sudo update-alternatives --config javac&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gnumdk.github.io/lollypop-web/"&gt;Lollypop Music Player&lt;/a&gt;: &lt;code&gt;sudo dnf install lollypop&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.videolan.org/vlc/index.html"&gt;VLC Media Player&lt;/a&gt; Setup vlc:
+    &lt;code&gt;sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm&lt;/code&gt;
+&lt;code&gt;sudo dnf install vlc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Setup fstab&lt;/li&gt;
+&lt;li&gt;Setup Graphics Drivers for Nvidia:
+    Install negativo17 drivers: &lt;a href="https://negativo17.org/nvidia-driver/"&gt;https://negativo17.org/nvidia-driver/&lt;/a&gt;
+    Sign the modules (usually nvidia, nvidia_drm, nvidia_modeset) for Secure Boot: &lt;a href="https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html"&gt;https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html&lt;/a&gt;
+    For battery life optimization, run &lt;a href="https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-blacklistnvidia-sh"&gt;BlacklistNvidia.sh&lt;/a&gt; with root privileges to disable Nvidia modules on all boot entries and create a new Nvidia-enabled entry at the bottom of the list. Re-run the script on every kernel updates.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install dolphin&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install wireshark&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Install Fedora Media Writer from Software&lt;/li&gt;
+&lt;li&gt;replace .bashrc with &lt;a href="https://gist.github.com/Superdanby/fd864ba673975ca550f013bf3e9c9665"&gt;https://gist.github.com/Superdanby/fd864ba673975ca550f013bf3e9c9665&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Restore extensions:
+    &lt;code&gt;sudo dnf copr enable region51/chrome-gnome-shell&lt;/code&gt;
+&lt;code&gt;sudo dnf install chrome-gnome-shell&lt;/code&gt;
+&lt;strong&gt;Note that the negativo17 drivers have better support than the ones Bumblebee provides. And the Nvidia propriety driver packaged inside is up to date.
+&lt;/strong&gt;Don't install vlc from negativo17's multimedia repo. It crashes in Wayland.&lt;/li&gt;
+&lt;/ol&gt;</content><category term="Fedora"></category><category term="Install"></category></entry><entry><title>Managing Signed Keys with Machine Owner Key</title><link href="https://superdanby.github.io/Blog/managing-signed-keys-with-machine-owner-key.html" rel="alternate"></link><published>2017-07-23T21:46:00+08:00</published><updated>2017-07-23T21:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-23:/Blog/managing-signed-keys-with-machine-owner-key.html</id><summary type="html">
 &lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;With MOK we can sign, manage, and delete keys for installed kernel modules.&lt;/p&gt;
 &lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
