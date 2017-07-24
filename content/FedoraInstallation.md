@@ -80,6 +80,7 @@ Also, the root password should be set.
     -   Install [negativo17 drivers](https://negativo17.org/nvidia-driver/).
     -   [Sign the modules](https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html) (usually nvidia, nvidia_drm, nvidia_modeset) for Secure Boot.
     -   For battery life optimization, run [BlacklistNvidia.sh](https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-blacklistnvidia-sh) with root privileges to disable Nvidia modules on all boot entries and create a new Nvidia-enabled entry at the bottom of the list. Re-run the script on every kernel updates.
+    -   More about [Nvidia Optimus driver setup](https://superdanby.github.io/Blog/dealing-with-nvidia-optimus.html)
 18. [Dolphin](https://dolphin-emu.org/), the best WII/GC emulator:
     -   `sudo dnf install dolphin`
 19. [Wirershark](https://www.wireshark.org/):
@@ -91,7 +92,5 @@ Also, the root password should be set.
     -   `sudo dnf install chrome-gnome-shell`
 22. Here's a script for steps 11 to 21:
     -   Run it with Secure Boot turned off and with root privileges: [11-21.sh](https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-11-21-sh)
-
-**Note that the negativo17 drivers have better support than the ones Bumblebee provides. And the Nvidia propriety driver packaged inside is up to date.
 
 **Don't install vlc from negativo17's multimedia repo. It crashes in Wayland.
