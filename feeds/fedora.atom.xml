@@ -184,8 +184,8 @@ So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><ca
 &lt;/li&gt;
 &lt;li&gt;Github ssh setup:
     &lt;a href="https://help.github.com/articles/connecting-to-github-with-ssh/"&gt;https://help.github.com/articles/connecting-to-github-with-ssh/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Atom:&lt;ul&gt;
-&lt;li&gt;Download: &lt;a href="https://atom.io/beta"&gt;https://atom.io/beta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Atom, a hackable text editor:&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://atom.io/beta"&gt;Download&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Install: &lt;code&gt;sudo dnf install&lt;/code&gt; &lt;strong&gt;&lt;em&gt;Path to Atom RPM File&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;sync-settings: Install &amp;gt; Search: sync-settings&lt;/li&gt;
 &lt;li&gt;atom-beautify: &lt;a href="https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b"&gt;Replace uncrustify.cfg&lt;/a&gt;&lt;/li&gt;
@@ -224,10 +224,12 @@ So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><ca
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Install Fedora Media Writer from Software&lt;/li&gt;
-&lt;li&gt;replace .bashrc with &lt;a href="https://gist.github.com/Superdanby/fd864ba673975ca550f013bf3e9c9665"&gt;https://gist.github.com/Superdanby/fd864ba673975ca550f013bf3e9c9665&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Restore extensions: &lt;br/&gt;
-&lt;code&gt;sudo dnf copr enable region51/chrome-gnome-shell&lt;/code&gt; &lt;br/&gt;
-&lt;code&gt;sudo dnf install chrome-gnome-shell&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Replace &lt;a href="https://gist.github.com/Superdanby/fd864ba673975ca550f013bf3e9c9665"&gt;.bashrc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Sync extensions with Google Chrome:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf copr enable region51/chrome-gnome-shell&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install chrome-gnome-shell&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;**Note that the negativo17 drivers have better support than the ones Bumblebee provides. And the Nvidia propriety driver packaged inside is up to date.&lt;/p&gt;
 &lt;p&gt;**Don't install vlc from negativo17's multimedia repo. It crashes in Wayland.&lt;/p&gt;</content><category term="Fedora"></category><category term="Install"></category></entry><entry><title>Managing Signed Keys with Machine Owner Key</title><link href="https://superdanby.github.io/Blog/managing-signed-keys-with-machine-owner-key.html" rel="alternate"></link><published>2017-07-23T21:46:00+08:00</published><updated>2017-07-23T21:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-23:/Blog/managing-signed-keys-with-machine-owner-key.html</id><summary type="html">
