@@ -33,15 +33,15 @@ Also, the root password should be set.
 
 ##Post Installation
 
-1.  Enable Tap to Click on your touchpad: Settings > Mouse & Touchpad > Tap to Click
+1.  Enable tap-to-click on your touchpad: Settings > Mouse & Touchpad > Tap to Click
 2.  Get new updates: `sudo dnf upgrade`
 3.  Settings > Keyboard > Custom Shortcuts: <br/>
     System Monitor: `gnome-system-monitor`, Super + x <br/>
     Terminal: `gnome-terminal`, Ctrl + Alt + T
 4.  `sudo dnf install gnome-tweak-tool`
-5.  `sudo dnf install gnome-terminal-nautilus`
+5.  Right click to open terminal from nautilus: `sudo dnf install gnome-terminal-nautilus`
 6.  Download Chrome: [https://www.google.com/chrome/browser/desktop/index.html](https://www.google.com/chrome/browser/desktop/index.html) <br/>
-    Install Chrome: `sudo dnf install `*Path to Chrome RPM File*
+    Install Chrome: `sudo dnf install ` *Path to Chrome RPM File*
 7.  Git Setup: <br/>
     `git config --global user.name "`*USERNAME*`"` <br/>
     `git config --global user.email "`*EMAIL*`"`
@@ -62,8 +62,8 @@ Also, the root password should be set.
     `sudo dnf install vlc`
 13. Setup fstab
 14. Setup Graphics Drivers for Nvidia: <br/>
-    Install negativo17 drivers: [https://negativo17.org/nvidia-driver/](https://negativo17.org/nvidia-driver/) <br/>
-    Sign the modules (usually nvidia, nvidia_drm, nvidia_modeset) for Secure Boot: [https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html](https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html) <br/>
+    Install [negativo17 drivers](https://negativo17.org/nvidia-driver/) <br/>
+    [Sign the modules](https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html) (usually nvidia, nvidia_drm, nvidia_modeset) for Secure Boot <br/>
     For battery life optimization, run [BlacklistNvidia.sh](https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-blacklistnvidia-sh) with root privileges to disable Nvidia modules on all boot entries and create a new Nvidia-enabled entry at the bottom of the list. Re-run the script on every kernel updates.
 15. `sudo dnf install dolphin`
 16. `sudo dnf install wireshark`
