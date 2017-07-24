@@ -119,7 +119,7 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;**Note that the negativo17 drivers have better support than the ones Bumblebee provides. And the Nvidia propriety driver packaged inside is up to date.&lt;/p&gt;
-&lt;p&gt;**Don't install vlc from negativo17's multimedia repo. It crashes in Wayland.&lt;/p&gt;</content><category term="Fedora"></category><category term="Install"></category></entry><entry><title>Fedora Introduction</title><link href="https://superdanby.github.io/Blog/fedora-introduction.html" rel="alternate"></link><published>2017-07-24T00:00:00+08:00</published><updated>2017-07-24T00:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-24:/Blog/fedora-introduction.html</id><summary type="html">
+&lt;p&gt;**Don't install vlc from negativo17's multimedia repo. It crashes in Wayland.&lt;/p&gt;</content><category term="Fedora"></category><category term="Install"></category></entry><entry><title>Fedora Introduction</title><link href="https://superdanby.github.io/Blog/fedora-introduction.html" rel="alternate"></link><published>2017-07-24T16:30:00+08:00</published><updated>2017-07-24T16:30:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-24:/Blog/fedora-introduction.html</id><summary type="html">
 &lt;h2 id="get-fedora-now"&gt;&lt;a href="https://getfedora.org/"&gt;Get Fedora Now!&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;IMO, the best Linux distro.
 1.  The one always deploies the newest technologies.
