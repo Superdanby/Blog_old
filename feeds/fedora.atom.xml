@@ -172,7 +172,7 @@
 &lt;li&gt;Add a new entry to /etc/grub.d/40_custom. Just simply copy the newest entry from /boot/efi/EFI/fedora/grub.cfg.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Disable Nvidia modules on all boot entries except the customized ones:&lt;ul&gt;
+&lt;li&gt;Disable Nvidia modules on all boot entries except customized ones:&lt;ul&gt;
 &lt;li&gt;Add modprobe.blacklist=nvidia,nvidia_drm,nvidia_modeset to GRUB_CMDLINE in /etc/default/grub.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
