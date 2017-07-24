@@ -21,7 +21,7 @@ But, how can I disable the Nvidia card without Bumblebee? The only way is to pre
 
 -   Create a new Nvidia-enabled entry at the bottom of the Grub menu:
     -   Add a new entry to /etc/grub.d/40_custom. Just simply copy the newest entry from /boot/efi/EFI/fedora/grub.cfg.
--   Disable Nvidia modules on all boot entries except the customized ones:
+-   Disable Nvidia modules on all boot entries except customized ones:
     -   Add modprobe.blacklist=nvidia,nvidia_drm,nvidia_modeset to GRUB_CMDLINE in /etc/default/grub.
 -   Regenerate Grub Menu:
     -   `sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg`
