@@ -154,7 +154,10 @@ So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><ca
 &lt;li&gt;Settings &amp;gt; Mouse &amp;amp; Touchpad &amp;gt; Tap to Click &lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Get new updates: &lt;code&gt;sudo dnf upgrade&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Get new updates:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf upgrade&lt;/code&gt; &lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;Settings &amp;gt; Keyboard &amp;gt; Custom Shortcuts: &lt;br/&gt;
     System Monitor: &lt;code&gt;gnome-system-monitor&lt;/code&gt;, Super + x &lt;br/&gt;
     Terminal: &lt;code&gt;gnome-terminal&lt;/code&gt;, Ctrl + Alt + T&lt;/li&gt;
