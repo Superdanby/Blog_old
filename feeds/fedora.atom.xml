@@ -95,6 +95,7 @@
 &lt;li&gt;Install &lt;a href="https://negativo17.org/nvidia-driver/"&gt;negativo17 drivers&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html"&gt;Sign the modules&lt;/a&gt; (usually nvidia, nvidia_drm, nvidia_modeset) for Secure Boot.&lt;/li&gt;
 &lt;li&gt;For battery life optimization, run &lt;a href="https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-blacklistnvidia-sh"&gt;BlacklistNvidia.sh&lt;/a&gt; with root privileges to disable Nvidia modules on all boot entries and create a new Nvidia-enabled entry at the bottom of the list. Re-run the script on every kernel updates.&lt;/li&gt;
+&lt;li&gt;More about &lt;a href="https://superdanby.github.io/Blog/dealing-with-nvidia-optimus.html"&gt;Nvidia Optimus driver setup&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href="https://dolphin-emu.org/"&gt;Dolphin&lt;/a&gt;, the best WII/GC emulator:&lt;ul&gt;
@@ -119,7 +120,6 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;**Note that the negativo17 drivers have better support than the ones Bumblebee provides. And the Nvidia propriety driver packaged inside is up to date.&lt;/p&gt;
 &lt;p&gt;**Don't install vlc from negativo17's multimedia repo. It crashes in Wayland.&lt;/p&gt;</content><category term="Fedora"></category><category term="Install"></category></entry><entry><title>Dealing with Nvidia Optimus</title><link href="https://superdanby.github.io/Blog/dealing-with-nvidia-optimus.html" rel="alternate"></link><published>2017-07-24T18:30:00+08:00</published><updated>2017-07-24T18:30:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-24:/Blog/dealing-with-nvidia-optimus.html</id><summary type="html">&lt;p&gt;Since the release of Fedora 26, Mesa doesn't conflict with Nvidia anymore. Generally, the Nvidia driver can be installed from either &lt;a href="https://fedoraproject.org/wiki/Bumblebee"&gt;Bumblebee&lt;/a&gt; or &lt;a href="https://negativo17.org/nvidia-driver/"&gt;Negativo17's repo&lt;/a&gt;. Both methods are easy to install, but the former one is likely to have more problems.&lt;/p&gt;
 &lt;p&gt;A brief comparison table:&lt;/p&gt;
 &lt;table&gt;
