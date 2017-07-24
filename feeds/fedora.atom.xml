@@ -150,7 +150,10 @@ So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><ca
 &lt;p&gt;Also, the root password should be set.&lt;/p&gt;
 &lt;h2 id="post-installation"&gt;Post Installation&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;Enable tap-to-click on your touchpad: Settings &amp;gt; Mouse &amp;amp; Touchpad &amp;gt; Tap to Click&lt;/li&gt;
+&lt;li&gt;Enable tap-to-click on your touchpad:&lt;ul&gt;
+&lt;li&gt;Settings &amp;gt; Mouse &amp;amp; Touchpad &amp;gt; Tap to Click &lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;Get new updates: &lt;code&gt;sudo dnf upgrade&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Settings &amp;gt; Keyboard &amp;gt; Custom Shortcuts: &lt;br/&gt;
     System Monitor: &lt;code&gt;gnome-system-monitor&lt;/code&gt;, Super + x &lt;br/&gt;
