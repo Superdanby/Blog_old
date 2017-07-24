@@ -17,14 +17,16 @@ A small comparison list:
 
 I'd like to have more battery life with my laptop. Thus, Bumblebee seems to be a good choice at first glance. However, there are various issues with it. Some are listed [here](https://fedoraproject.org/wiki/Bumblebee#Troubleshooting), and lots of them are listed [here](https://github.com/Bumblebee-Project/Bumblebee/issues). A major reason is that the Bumblebee project has been lack of support for a **looooong** time. Also Bumblebee is not compatible with [TLP](http://linrunner.de/en/tlp/tlp.html)(I have tried the recommended [fix](http://linrunner.de/en/tlp/docs/tlp-faq.html#nvidia), but in vain.). At last, I gave up on Bumblebee.
 
-But, how can I disable the Nvidia card without Bumblebee? The only way is to prevent the Nvidia modules to load at boot time. After trying for a long time, I came up with the following solution:
+But, how can I disable the Nvidia card without Bumblebee? The only way is to prevent the Nvidia modules to load at boot time. After trying for days, I came up with the following solution:
 
 -   Create a new Nvidia-enabled entry at the bottom of the Grub menu:
     -   Add a new entry to /etc/grub.d/40_custom. Just simply copy the newest entry from /boot/efi/EFI/fedora/grub.cfg.
 -   Disable Nvidia modules on all boot entries except the customized ones:
     -   Add modprobe.blacklist=nvidia,nvidia_drm,nvidia_modeset to GRUB_CMDLINE in /etc/default/grub.
+-   Regenerate Grub Menu:
+    -   `sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg`
 
-[This script](https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-blacklistnvidia-sh) does the work above.
+[This script](https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-blacklistnvidia-sh) does the work above. To run it, you have to disable Secure Boot.
 
 I've made sure the method above is effective with `tlp-stat`. On my laptop, if the Nvidia card is on, the electric current will not be lower than 1300mA; Otherwise, it can be as low as 750mA.
 
