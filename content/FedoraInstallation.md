@@ -62,7 +62,7 @@ Also, the root password should be set.
     -   `sudo update-alternatives --config java`
     -   `sudo update-alternatives --config javac`
 9.  Replace [.bashrc](https://gist.github.com/Superdanby/fd864ba673975ca550f013bf3e9c9665)
-10. Setup fstab: noatime, nodiratime and compress=lzo(btrfs only)
+10. Setup fstab: noatime,nodiratime and compress=lzo(btrfs only)
 11. Install gnome-tweak-tool:
     -   `sudo dnf install gnome-tweak-tool`
 12. Right click to open terminal from nautilus:
