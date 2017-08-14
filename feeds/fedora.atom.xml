@@ -65,7 +65,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Replace &lt;a href="https://gist.github.com/Superdanby/fd864ba673975ca550f013bf3e9c9665"&gt;.bashrc&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Setup fstab&lt;/li&gt;
+&lt;li&gt;Setup fstab: noatime, nodiratime and compress=lzo(btrfs only)&lt;/li&gt;
 &lt;li&gt;Install gnome-tweak-tool:&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;sudo dnf install gnome-tweak-tool&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
