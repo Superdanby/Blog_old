@@ -127,14 +127,16 @@
 
 主要選用[Laravel](https://laravel.com/)的原因是因為就的網站是php寫的，想說有些東西可以複製貼上(結果幾乎沒有OAQ)。
 &lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id="laravel"&gt;Laravel 安裝&lt;/h2&gt;</summary><content type="html">
+&lt;h2 id="laravel"&gt;Laravel 安裝&lt;/h2&gt;
+&lt;p&gt;如果是用 Fedora 可以在&lt;a href="https://developer.fedoraproject.org/start/sw/web-app/laravel5.html"&gt;這裏&lt;/a&gt;找到所有安裝步驟 &lt;/p&gt;</summary><content type="html">
 &lt;h2 id="_1"&gt;前情提要&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;暑假的時候，因為學校總務處想要一個新的網站，後來決定使用  [Laravel](https://laravel.com/) 來架設，不過那時候我還只會一點點的 html &amp;amp;&amp;amp; css，
 所以很多東西都是邊學邊作。
 
 主要選用[Laravel](https://laravel.com/)的原因是因為就的網站是php寫的，想說有些東西可以複製貼上(結果幾乎沒有OAQ)。
 &lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id="laravel"&gt;Laravel 安裝&lt;/h2&gt;</content><category term="Laravel"></category><category term="Laravel 5"></category></entry><entry><title>Atom Text Editor</title><link href="https://superdanby.github.io/Blog/atom-text-editor.html" rel="alternate"></link><published>2017-07-25T00:20:00+08:00</published><updated>2017-07-25T00:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-25:/Blog/atom-text-editor.html</id><summary type="html">
+&lt;h2 id="laravel"&gt;Laravel 安裝&lt;/h2&gt;
+&lt;p&gt;如果是用 Fedora 可以在&lt;a href="https://developer.fedoraproject.org/start/sw/web-app/laravel5.html"&gt;這裏&lt;/a&gt;找到所有安裝步驟 &lt;/p&gt;</content><category term="Laravel"></category><category term="Laravel 5"></category></entry><entry><title>Atom Text Editor</title><link href="https://superdanby.github.io/Blog/atom-text-editor.html" rel="alternate"></link><published>2017-07-25T00:20:00+08:00</published><updated>2017-07-25T00:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-25:/Blog/atom-text-editor.html</id><summary type="html">
 &lt;h2 id="official-website"&gt;&lt;a href="https://atom.io/"&gt;Official Website&lt;/a&gt;&lt;/h2&gt;
 &lt;h3 id="popular-community-packages"&gt;Popular Community Packages&lt;/h3&gt;
 &lt;h4 id="atom-beautify"&gt;&lt;a href="https://atom.io/packages/atom-beautify"&gt;atom-beautify&lt;/a&gt;&lt;/h4&gt;
