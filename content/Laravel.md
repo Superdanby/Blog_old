@@ -9,7 +9,7 @@ Tags: Laravel, Laravel 5, SELinux
 
 暑假的時候，因為學校總務處想要一個新的網站，後來決定使用  [Laravel](https://laravel.com/) 來架設，不過那時候我還只會一點點的 html && css，所以很多東西都是邊學邊作。
 
-主要選用[Laravel](https://laravel.com/)的原因是因為就的網站是php寫的，想說有些東西可以複製貼上(結果幾乎沒有OAO)。
+主要選用[Laravel](https://laravel.com/)的原因是舊的網站是php寫的，想說有些東西可以複製貼上(結果幾乎沒有OAO)。
 
 ##安裝
 
