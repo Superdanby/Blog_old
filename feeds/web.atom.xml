@@ -11,7 +11,7 @@
 &lt;h2 id="_3"&gt;使用&lt;/h2&gt;
 &lt;p&gt;接下來就是瘋狂地看 documentation。說實在話，我覺的官網文檔寫的並不好，資料很多很雜，看完不一定知道要怎麼做才能作出自己想要的東西，還是必須要瘋狂去 Google。&lt;/p&gt;
 &lt;h2 id="tips"&gt;Tips&lt;/h2&gt;
-&lt;p&gt;如果後臺想要用 …&lt;/p&gt;</summary><content type="html">
+&lt;p&gt;如果後臺登入想要用 …&lt;/p&gt;</summary><content type="html">
 &lt;h2 id="_1"&gt;前情提要&lt;/h2&gt;
 &lt;p&gt;暑假的時候，因為學校總務處想要一個新的網站，後來決定使用  &lt;a href="https://laravel.com/"&gt;Laravel&lt;/a&gt; 來架設，不過那時候我還只會一點點的 html &amp;amp;&amp;amp; css，所以很多東西都是邊學邊作。&lt;/p&gt;
 &lt;p&gt;主要選用&lt;a href="https://laravel.com/"&gt;Laravel&lt;/a&gt;的原因是因為就的網站是php寫的，想說有些東西可以複製貼上(結果幾乎沒有OAQ)。&lt;/p&gt;
@@ -23,4 +23,4 @@
 &lt;h2 id="_3"&gt;使用&lt;/h2&gt;
 &lt;p&gt;接下來就是瘋狂地看 documentation。說實在話，我覺的官網文檔寫的並不好，資料很多很雜，看完不一定知道要怎麼做才能作出自己想要的東西，還是必須要瘋狂去 Google。&lt;/p&gt;
 &lt;h2 id="tips"&gt;Tips&lt;/h2&gt;
-&lt;p&gt;如果後臺想要用 username 而不是 email 的話，可以參考這個&lt;a href="https://www.youtube.com/watch?v=jAJZO3LurOU&amp;amp;lc=z13rungrysiav1pfn23pujoxhmr4i12tm.1480351316314888"&gt;影片&lt;/a&gt;&lt;/p&gt;</content><category term="Laravel"></category><category term="Laravel 5"></category></entry></feed>
+&lt;p&gt;如果後臺登入想要用 username 而不是 email 的話，可以參考這個&lt;a href="https://www.youtube.com/watch?v=jAJZO3LurOU&amp;amp;lc=z13rungrysiav1pfn23pujoxhmr4i12tm.1480351316314888"&gt;影片&lt;/a&gt;&lt;/p&gt;</content><category term="Laravel"></category><category term="Laravel 5"></category></entry></feed>
