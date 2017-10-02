@@ -204,8 +204,21 @@
 <li><code>sudo dnf install chrome-gnome-shell</code></li>
 </ul>
 </li>
-<li>Here's a script for steps 11 to 21:<ul>
-<li>Run it with Secure Boot turned off and with root privileges: <a href="https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-11-21-sh">11-21.sh</a></li>
+<li><a href="https://github.com/snwh/paper-icon-theme">paper-icon-theme</a><ul>
+<li>Designed according to Material Design guidelines.</li>
+<li>You can change icon themes with Gnome Tweak Tool.</li>
+<li><code>mkdir ~/.icons</code></li>
+<li><code>cd ~/.icons</code></li>
+<li><code>git clone git@github.com:snwh/paper-icon-theme.git</code></li>
+<li><code>cd paper-icon-theme</code></li>
+<li><code>sudo dnf install gnome-common</code></li>
+<li><code>./autogen.sh</code></li>
+<li><code>make</code></li>
+<li><code>sudo make install</code></li>
+</ul>
+</li>
+<li>Here's a script for steps 11 to 22:<ul>
+<li>Run it with Secure Boot turned off and with root privileges: <a href="https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-11-22-sh">11-22.sh</a></li>
 </ul>
 </li>
 </ol>
