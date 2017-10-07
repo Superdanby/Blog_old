@@ -90,7 +90,18 @@ Also, the root password should be set.
 21. Sync [shell extensions](https://superdanby.github.io/Blog/fedora-introduction.html#shell-extensions) with Google Chrome:
     -   `sudo dnf copr enable region51/chrome-gnome-shell`
     -   `sudo dnf install chrome-gnome-shell`
-22. Here's a script for steps 11 to 21:
-    -   Run it with Secure Boot turned off and with root privileges: [11-21.sh](https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-11-21-sh)
+22. [paper-icon-theme](https://github.com/snwh/paper-icon-theme)
+    -   Designed according to Material Design guidelines.
+    -   You can change icon themes with Gnome Tweak Tool.
+    -   `mkdir ~/.icons`
+    -   `cd ~/.icons`
+    -   `git clone git@github.com:snwh/paper-icon-theme.git`
+    -   `cd paper-icon-theme`
+    -   `sudo dnf install gnome-common`
+    -   `./autogen.sh`
+    -   `make`
+    -   `sudo make install`
+23. Here's a script for steps 11 to 22:
+    -   Run it with Secure Boot turned off and with root privileges: [11-22.sh](https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-11-22-sh)
 
 **Don't install vlc from negativo17's multimedia repo. It crashes in Wayland.
