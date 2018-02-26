@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Yee - Software</title><link href="https://superdanby.github.io/Blog/" rel="alternate"></link><link href="https://superdanby.github.io/Blog/feeds/software.atom.xml" rel="self"></link><id>https://superdanby.github.io/Blog/</id><updated>2017-07-25T00:20:00+08:00</updated><entry><title>Atom Text Editor</title><link href="https://superdanby.github.io/Blog/atom-text-editor.html" rel="alternate"></link><published>2017-07-25T00:20:00+08:00</published><updated>2017-07-25T00:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-25:/Blog/atom-text-editor.html</id><summary type="html">
+&lt;h2 id="official-website"&gt;&lt;a href="https://atom.io/"&gt;Official Website&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="popular-community-packages"&gt;Popular Community Packages&lt;/h3&gt;
+&lt;h4 id="atom-beautify"&gt;&lt;a href="https://atom.io/packages/atom-beautify"&gt;atom-beautify&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation:&lt;ul&gt;
+&lt;li&gt;Terminal: &lt;code&gt;apm install atom-beautify&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Usage:&lt;ol&gt;
+&lt;li&gt;Right click and select "Beautify editor contents".&lt;/li&gt;
+&lt;li&gt;Scope: selected contents or the whole file if …&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">
+&lt;h2 id="official-website"&gt;&lt;a href="https://atom.io/"&gt;Official Website&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="popular-community-packages"&gt;Popular Community Packages&lt;/h3&gt;
+&lt;h4 id="atom-beautify"&gt;&lt;a href="https://atom.io/packages/atom-beautify"&gt;atom-beautify&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation:&lt;ul&gt;
+&lt;li&gt;Terminal: &lt;code&gt;apm install atom-beautify&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Usage:&lt;ol&gt;
+&lt;li&gt;Right click and select "Beautify editor contents".&lt;/li&gt;
+&lt;li&gt;Scope: selected contents or the whole file if not.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b"&gt;My uncrustify.cfg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="autoclose-html"&gt;&lt;a href="https://atom.io/packages/autoclose-html"&gt;autoclose-html&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Will automatically add closing tags when you complete the opening tag.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation:&lt;ul&gt;
+&lt;li&gt;Terminal: &lt;code&gt;apm install autoclose-html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="autocomplete-clang"&gt;&lt;a href="https://atom.io/packages/autocomplete-clang"&gt;autocomplete-clang&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;This package provides completions by clang like emacs auto-complete-clang.el using autocomplete-plus.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation:&lt;ul&gt;
+&lt;li&gt;Terminal: &lt;code&gt;apm install autocomplete-clang&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="autocomplete-python"&gt;&lt;a href="https://atom.io/packages/autocomplete-python"&gt;autocomplete-python&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Python packages, variables, methods and functions with their arguments autocompletion in Atom powered by your choice of Jedi or Kite.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation:&lt;ul&gt;
+&lt;li&gt;Terminal: &lt;code&gt;apm install autocomplete-python&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="color-picker"&gt;&lt;a href="https://atom.io/packages/color-picker"&gt;color-picker&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Currently reads &lt;code&gt;HEX&lt;/code&gt;, &lt;code&gt;HEXa&lt;/code&gt;, &lt;code&gt;RGB&lt;/code&gt;, &lt;code&gt;RGBa&lt;/code&gt;, &lt;code&gt;HSL&lt;/code&gt;, &lt;code&gt;HSLa&lt;/code&gt;, &lt;code&gt;HSV&lt;/code&gt;, &lt;code&gt;HSVa&lt;/code&gt;, &lt;code&gt;VEC3&lt;/code&gt; and &lt;code&gt;VEC4&lt;/code&gt; colors – and is able to convert between the formats.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation:&lt;ul&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Usage:&lt;ol&gt;
+&lt;li&gt;Point to the color code you want to modify.&lt;/li&gt;
+&lt;li&gt;Right click and select "Color Picker", or hit &lt;code&gt;CTRL-ALT-C&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="file-icons"&gt;&lt;a href="https://atom.io/packages/file-icons"&gt;file-icons&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;File-specific icons in Atom for improved visual grepping.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation:&lt;ul&gt;
+&lt;li&gt;Terminal: &lt;code&gt;apm install file-icons&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="fonts"&gt;&lt;a href="https://atom.io/packages/fonts"&gt;fonts&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Choose your favorite fonts.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation:&lt;ul&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Usage:&lt;ol&gt;
+&lt;li&gt;Contents: Choose your desired fonts from its settings page&lt;/li&gt;
+&lt;li&gt;UI:&lt;ol&gt;
+&lt;li&gt;Open "Config Folder" under Settings.&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;atom-workspace { font-family: Desired_Font; }&lt;/code&gt; to your style.less file.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="git-plus"&gt;&lt;a href="https://atom.io/packages/git-plus"&gt;git-plus&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Git integration. Do git things inside Atom.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation:&lt;ul&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Usage:&lt;ul&gt;
+&lt;li&gt;Show Git-Plus Palette: &lt;code&gt;Ctrl-Shift-H&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Tips:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/"&gt;This package is available only if you are using ssh and don't prompt for password every session.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If Your project folder is at root git-plus can detect it automatically.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You can add multiple project folders at a time.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id="highlight-selected"&gt;&lt;a href="https://atom.io/packages/highlight-selected"&gt;highlight-selected&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Highlight strings matching the selected text throughout the file.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation:&lt;ul&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Usage:&lt;ul&gt;
+&lt;li&gt;Double click or select the word you want to Highlight.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="linter"&gt;&lt;a href="https://atom.io/packages/linter"&gt;linter&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;A real time debugger base. It provides a top-level API to its consumer that allows them to visualize errors and other kind-of messages, easily.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation:&lt;ul&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You'll have to install the linter for the specific language you want, like &lt;a href="https://atom.io/packages/linter-flake8"&gt;linter-flake8&lt;/a&gt;, &lt;a href="https://atom.io/packages/linter-gcc"&gt;linter-gcc&lt;/a&gt;, etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;About &lt;a href="https://en.wikipedia.org/wiki/Lint_(software)"&gt;Lint&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href="https://en.wikipedia.org/wiki/Heisenbug"&gt;Heisenbug&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id="markdown-themeable-pdf"&gt;&lt;a href="https://atom.io/packages/markdown-themeable-pdf"&gt;markdown-themeable-pdf&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Themeable markdown converter (Print to PDF, HTML, JPEG or PNG)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation:&lt;ul&gt;
+&lt;li&gt;Terminal: &lt;code&gt;apm install markdown-themeable-pdf&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Usage:&lt;ul&gt;
+&lt;li&gt;Right click and select Markdown to PDF&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="mininap"&gt;&lt;a href="https://atom.io/packages/minimap"&gt;mininap&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;A preview of the full source code.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation:&lt;ul&gt;
+&lt;li&gt;Terminal: &lt;code&gt;apm install minimap&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="minimap-find-and-replace"&gt;&lt;a href="https://atom.io/packages/minimap-find-and-replace"&gt;minimap-find-and-replace&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Displays the search matches in the minimap.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation:&lt;ul&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="minimap-git-diff"&gt;&lt;a href="https://atom.io/packages/minimap-git-diff"&gt;minimap-git-diff&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;A minimap binding for the Atom git-diff package.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation:&lt;ul&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="minimap-highlight-selected"&gt;&lt;a href="https://atom.io/packages/minimap-highlight-selected"&gt;minimap-highlight-selected&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;A minimap binding for the highlight-selected package.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation:&lt;ul&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="minimap-linter"&gt;&lt;a href="https://atom.io/packages/minimap-linter"&gt;minimap-linter&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Atom package to display linter markers on minimap.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation:&lt;ul&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="script"&gt;&lt;a href="https://atom.io/packages/script"&gt;script&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Run scripts based on file name, a selection of code, or by line number.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation:&lt;ul&gt;
+&lt;li&gt;Terminal: &lt;code&gt;apm install script&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="sync-settings"&gt;&lt;a href="https://atom.io/packages/sync-settings"&gt;sync-settings&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Synchronize settings, keymaps, user styles, init script, snippets and installed packages across Atom instances.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation:&lt;ul&gt;
+&lt;li&gt;Terminal: &lt;code&gt;apm install sync-settings&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Built-in package manager&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://atom.io/packages/sync-settings#setup"&gt;Setup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Usage:&lt;ul&gt;
+&lt;li&gt;Backup: &lt;code&gt;sync-settings:backup&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Restore: &lt;code&gt;sync-settings:restore&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Atom"></category></entry><entry><title>Enabling Intel Speed Shift(SST) on XPS 9550</title><link href="https://superdanby.github.io/Blog/enabling-intel-speed-shiftsst-on-xps-9550.html" rel="alternate"></link><published>2017-05-31T00:00:00+08:00</published><updated>2017-05-31T00:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-31:/Blog/enabling-intel-speed-shiftsst-on-xps-9550.html</id><summary type="html">
+&lt;h2 id="download-customized-grub"&gt;Download Customized grub&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.firewolf.science/wp-content/uploads/2015/04/EFI-shell.zip"&gt;https://www.firewolf.science/wp-content/uploads/2015/04/EFI-shell.zip&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="configurations-in-bios"&gt;Configurations in BIOS&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Disable Secure Boot.&lt;/li&gt;
+&lt;li&gt;Boot from the downloaded grub file&lt;/li&gt;
+&lt;li&gt;Check the value of &lt;strong&gt;0xD8&lt;/strong&gt;: &lt;code&gt;setup_var 0xD8&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;If the value is &lt;strong&gt;0x01&lt;/strong&gt; SST is on already.&lt;/li&gt;
+&lt;li&gt;Otherwise the value should be &lt;strong&gt;0x0&lt;/strong&gt; in default.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Enable …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">
+&lt;h2 id="download-customized-grub"&gt;Download Customized grub&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.firewolf.science/wp-content/uploads/2015/04/EFI-shell.zip"&gt;https://www.firewolf.science/wp-content/uploads/2015/04/EFI-shell.zip&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="configurations-in-bios"&gt;Configurations in BIOS&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Disable Secure Boot.&lt;/li&gt;
+&lt;li&gt;Boot from the downloaded grub file&lt;/li&gt;
+&lt;li&gt;Check the value of &lt;strong&gt;0xD8&lt;/strong&gt;: &lt;code&gt;setup_var 0xD8&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;If the value is &lt;strong&gt;0x01&lt;/strong&gt; SST is on already.&lt;/li&gt;
+&lt;li&gt;Otherwise the value should be &lt;strong&gt;0x0&lt;/strong&gt; in default.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Enable SST: &lt;code&gt;setup_var 0xD8 0x01&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Make sure the value is changed, then reboot.&lt;/li&gt;
+&lt;li&gt;Re-enable Secure Boot.&lt;/li&gt;
+&lt;li&gt;Poof! You're all set.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="caution"&gt;Caution&lt;/h2&gt;
+&lt;p&gt;XPS 15 9560 is not suitable for this guide!
+Go &lt;a href="http://forum.notebookreview.com/threads/xps-15-9560-owners-thread.800611/#post-10440059"&gt;here&lt;/a&gt; and open the spoiler.&lt;/p&gt;
+&lt;h2 id="tips"&gt;Tips&lt;/h2&gt;
+&lt;p&gt;For every motherboard this procedure is only required once.&lt;/p&gt;</content><category term="XPS 15 9550"></category><category term="Intel Speed Shift"></category><category term="SST"></category></entry><entry><title>Windows 10</title><link href="https://superdanby.github.io/Blog/windows-10.html" rel="alternate"></link><published>2017-05-20T00:00:00+08:00</published><updated>2017-05-20T00:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-20:/Blog/windows-10.html</id><summary type="html">
+&lt;h2 id="tweaks"&gt;Tweaks&lt;/h2&gt;
+&lt;h3 id="night-light"&gt;Night Light&lt;/h3&gt;
+&lt;p&gt;A Built-in blue light filter.&lt;/p&gt;
+&lt;h2 id="mingw-w64httpssourceforgenetprojectsmingw-w64"&gt;(Mingw-w64)[https://sourceforge.net/projects/mingw-w64/]&lt;/h2&gt;
+&lt;p&gt;The GNU/GCC compiler on Windows.&lt;/p&gt;
+&lt;h2 id="wslhttpsblogsmsdnmicrosoftcomwsl"&gt;(WSL)[https://blogs.msdn.microsoft.com/wsl/]&lt;/h2&gt;
+&lt;p&gt;Built-in Linux sub-systems for Windows 10.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Now available: Ubuntu&lt;/li&gt;
+&lt;li&gt;Upcoming: Fedora and OpenSUSE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="github-desktophttpsdesktopgithubcom"&gt;(Github Desktop)[https://desktop.github.com/]&lt;/h2&gt;
+&lt;p&gt;Github Desktop client on …&lt;/p&gt;</summary><content type="html">
+&lt;h2 id="tweaks"&gt;Tweaks&lt;/h2&gt;
+&lt;h3 id="night-light"&gt;Night Light&lt;/h3&gt;
+&lt;p&gt;A Built-in blue light filter.&lt;/p&gt;
+&lt;h2 id="mingw-w64httpssourceforgenetprojectsmingw-w64"&gt;(Mingw-w64)[https://sourceforge.net/projects/mingw-w64/]&lt;/h2&gt;
+&lt;p&gt;The GNU/GCC compiler on Windows.&lt;/p&gt;
+&lt;h2 id="wslhttpsblogsmsdnmicrosoftcomwsl"&gt;(WSL)[https://blogs.msdn.microsoft.com/wsl/]&lt;/h2&gt;
+&lt;p&gt;Built-in Linux sub-systems for Windows 10.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Now available: Ubuntu&lt;/li&gt;
+&lt;li&gt;Upcoming: Fedora and OpenSUSE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="github-desktophttpsdesktopgithubcom"&gt;(Github Desktop)[https://desktop.github.com/]&lt;/h2&gt;
+&lt;p&gt;Github Desktop client on Windows
+It's an alternative if you're not using &lt;a href="#Atom"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt; Atom&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="dolphin-emulatorhttpsdolphin-emuorg"&gt;(Dolphin Emulator)[https://dolphin-emu.org/]&lt;/h2&gt;
+&lt;p&gt;The world's best emulator for Wii and Gamecube.&lt;/p&gt;
+&lt;h2 id="rufushttpsrufusakeoie"&gt;(Rufus)[https://rufus.akeo.ie/]&lt;/h2&gt;
+&lt;p&gt;Bootable USB creator.
+Everything you need is here in general use.&lt;/p&gt;
+&lt;h2 id="bluestackshttpwwwbluestackscom"&gt;(BlueStacks)[http://www.bluestacks.com]&lt;/h2&gt;
+&lt;p&gt;Well-made Android emulator. Now biggest in the world.&lt;/p&gt;</content><category term="Windows 10"></category></entry><entry><title>Markdown Demo</title><link href="https://superdanby.github.io/Blog/markdown-demo.html" rel="alternate"></link><published>2017-03-21T11:20:00+08:00</published><updated>2017-03-21T11:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-03-21:/Blog/markdown-demo.html</id><summary type="html">&lt;h1 id="welcome-to-stackedit"&gt;Welcome to StackEdit!&lt;/h1&gt;
+&lt;p&gt;Hey! I'm your first Markdown document in &lt;strong&gt;StackEdit&lt;/strong&gt;&lt;sup id="fnref-stackedit"&gt;&lt;a class="footnote-ref" href="#fn-stackedit"&gt;2&lt;/a&gt;&lt;/sup&gt;. Don't delete me, I'm very helpful! I can be recovered anyway in the &lt;strong&gt;Utils&lt;/strong&gt; tab of the &lt;i class="icon-cog"&gt;&lt;/i&gt; &lt;strong&gt;Settings&lt;/strong&gt; dialog.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="documents"&gt;Documents&lt;/h2&gt;
+&lt;p&gt;StackEdit stores your documents in your browser, which means all your documents are automatically saved locally and are …&lt;/p&gt;</summary><content type="html">&lt;h1 id="welcome-to-stackedit"&gt;Welcome to StackEdit!&lt;/h1&gt;
+&lt;p&gt;Hey! I'm your first Markdown document in &lt;strong&gt;StackEdit&lt;/strong&gt;&lt;sup id="fnref-stackedit"&gt;&lt;a class="footnote-ref" href="#fn-stackedit"&gt;2&lt;/a&gt;&lt;/sup&gt;. Don't delete me, I'm very helpful! I can be recovered anyway in the &lt;strong&gt;Utils&lt;/strong&gt; tab of the &lt;i class="icon-cog"&gt;&lt;/i&gt; &lt;strong&gt;Settings&lt;/strong&gt; dialog.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="documents"&gt;Documents&lt;/h2&gt;
+&lt;p&gt;StackEdit stores your documents in your browser, which means all your documents are automatically saved locally and are accessible &lt;strong&gt;offline!&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;StackEdit is accessible offline after the application has been loaded for the first time.&lt;/li&gt;
+&lt;li&gt;Your local documents are not shared between different browsers or computers.&lt;/li&gt;
+&lt;li&gt;Clearing your browser's data may &lt;strong&gt;delete all your local documents!&lt;/strong&gt; Make sure your documents are synchronized with &lt;strong&gt;Google Drive&lt;/strong&gt; or &lt;strong&gt;Dropbox&lt;/strong&gt; (check out the &lt;a href="#synchronization"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt; Synchronization&lt;/a&gt; section).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h4 id="create-a-document"&gt;&lt;i class="icon-file"&gt;&lt;/i&gt; Create a document&lt;/h4&gt;
+&lt;p&gt;The document panel is accessible using the &lt;i class="icon-folder-open"&gt;&lt;/i&gt; button in the navigation bar. You can create a new document by clicking &lt;i class="icon-file"&gt;&lt;/i&gt; &lt;strong&gt;New document&lt;/strong&gt; in the document panel.&lt;/p&gt;
+&lt;h4 id="switch-to-another-document"&gt;&lt;i class="icon-folder-open"&gt;&lt;/i&gt; Switch to another document&lt;/h4&gt;
+&lt;p&gt;All your local documents are listed in the document panel. You can switch from one to another by clicking a document in the list or you can toggle documents using &lt;kbd&gt;Ctrl+[&lt;/kbd&gt; and &lt;kbd&gt;Ctrl+]&lt;/kbd&gt;.&lt;/p&gt;
+&lt;h4 id="rename-a-document"&gt;&lt;i class="icon-pencil"&gt;&lt;/i&gt; Rename a document&lt;/h4&gt;
+&lt;p&gt;You can rename the current document by clicking the document title in the navigation bar.&lt;/p&gt;
+&lt;h4 id="delete-a-document"&gt;&lt;i class="icon-trash"&gt;&lt;/i&gt; Delete a document&lt;/h4&gt;
+&lt;p&gt;You can delete the current document by clicking &lt;i class="icon-trash"&gt;&lt;/i&gt; &lt;strong&gt;Delete document&lt;/strong&gt; in the document panel.&lt;/p&gt;
+&lt;h4 id="export-a-document"&gt;&lt;i class="icon-hdd"&gt;&lt;/i&gt; Export a document&lt;/h4&gt;
+&lt;p&gt;You can save the current document to a file by clicking &lt;i class="icon-hdd"&gt;&lt;/i&gt; &lt;strong&gt;Export to disk&lt;/strong&gt; from the &lt;i class="icon-provider-stackedit"&gt;&lt;/i&gt; menu panel.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt; Check out the &lt;a href="#publish-a-document"&gt;&lt;i class="icon-upload"&gt;&lt;/i&gt; Publish a document&lt;/a&gt; section for a description of the different output formats.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="synchronization"&gt;Synchronization&lt;/h2&gt;
+&lt;p&gt;StackEdit can be combined with &lt;i class="icon-provider-gdrive"&gt;&lt;/i&gt; &lt;strong&gt;Google Drive&lt;/strong&gt; and &lt;i class="icon-provider-dropbox"&gt;&lt;/i&gt; &lt;strong&gt;Dropbox&lt;/strong&gt; to have your documents saved in the &lt;em&gt;Cloud&lt;/em&gt;. The synchronization mechanism takes care of uploading your modifications or downloading the latest version of your documents.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Full access to &lt;strong&gt;Google Drive&lt;/strong&gt; or &lt;strong&gt;Dropbox&lt;/strong&gt; is required to be able to import any document in StackEdit. Permission restrictions can be configured in the settings.&lt;/li&gt;
+&lt;li&gt;Imported documents are downloaded in your browser and are not transmitted to a server.&lt;/li&gt;
+&lt;li&gt;If you experience problems saving your documents on Google Drive, check and optionally disable browser extensions, such as Disconnect.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h4 id="open-a-document"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt; Open a document&lt;/h4&gt;
+&lt;p&gt;You can open a document from &lt;i class="icon-provider-gdrive"&gt;&lt;/i&gt; &lt;strong&gt;Google Drive&lt;/strong&gt; or the &lt;i class="icon-provider-dropbox"&gt;&lt;/i&gt; &lt;strong&gt;Dropbox&lt;/strong&gt; by opening the &lt;i class="icon-refresh"&gt;&lt;/i&gt; &lt;strong&gt;Synchronize&lt;/strong&gt; sub-menu and by clicking &lt;strong&gt;Open from...&lt;/strong&gt;. Once opened, any modification in your document will be automatically synchronized with the file in your &lt;strong&gt;Google Drive&lt;/strong&gt; / &lt;strong&gt;Dropbox&lt;/strong&gt; account.&lt;/p&gt;
+&lt;h4 id="save-a-document"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt; Save a document&lt;/h4&gt;
+&lt;p&gt;You can save any document by opening the &lt;i class="icon-refresh"&gt;&lt;/i&gt; &lt;strong&gt;Synchronize&lt;/strong&gt; sub-menu and by clicking &lt;strong&gt;Save on...&lt;/strong&gt;. Even if your document is already synchronized with &lt;strong&gt;Google Drive&lt;/strong&gt; or &lt;strong&gt;Dropbox&lt;/strong&gt;, you can export it to a another location. StackEdit can synchronize one document with multiple locations and accounts.&lt;/p&gt;
+&lt;h4 id="synchronize-a-document"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt; Synchronize a document&lt;/h4&gt;
+&lt;p&gt;Once your document is linked to a &lt;i class="icon-provider-gdrive"&gt;&lt;/i&gt; &lt;strong&gt;Google Drive&lt;/strong&gt; or a &lt;i class="icon-provider-dropbox"&gt;&lt;/i&gt; &lt;strong&gt;Dropbox&lt;/strong&gt; file, StackEdit will periodically (every 3 minutes) synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be detected.&lt;/p&gt;
+&lt;p&gt;If you just have modified your document and you want to force the synchronization, click the &lt;i class="icon-refresh"&gt;&lt;/i&gt; button in the navigation bar.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The &lt;i class="icon-refresh"&gt;&lt;/i&gt; button is disabled when you have no document to synchronize.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id="manage-document-synchronization"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt; Manage document synchronization&lt;/h4&gt;
+&lt;p&gt;Since one document can be synchronized with multiple locations, you can list and manage synchronized locations by clicking &lt;i class="icon-refresh"&gt;&lt;/i&gt; &lt;strong&gt;Manage synchronization&lt;/strong&gt; in the &lt;i class="icon-refresh"&gt;&lt;/i&gt; &lt;strong&gt;Synchronize&lt;/strong&gt; sub-menu. This will let you remove synchronization locations that are associated to your document.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you delete the file from &lt;strong&gt;Google Drive&lt;/strong&gt; or from &lt;strong&gt;Dropbox&lt;/strong&gt;, the document will no longer be synchronized with that location.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="publication"&gt;Publication&lt;/h2&gt;
+&lt;p&gt;Once you are happy with your document, you can publish it on different websites directly from StackEdit. As for now, StackEdit can publish on &lt;strong&gt;Blogger&lt;/strong&gt;, &lt;strong&gt;Dropbox&lt;/strong&gt;, &lt;strong&gt;Gist&lt;/strong&gt;, &lt;strong&gt;GitHub&lt;/strong&gt;, &lt;strong&gt;Google Drive&lt;/strong&gt;, &lt;strong&gt;Tumblr&lt;/strong&gt;, &lt;strong&gt;WordPress&lt;/strong&gt; and on any SSH server.&lt;/p&gt;
+&lt;h4 id="publish-a-document"&gt;&lt;i class="icon-upload"&gt;&lt;/i&gt; Publish a document&lt;/h4&gt;
+&lt;p&gt;You can publish your document by opening the &lt;i class="icon-upload"&gt;&lt;/i&gt; &lt;strong&gt;Publish&lt;/strong&gt; sub-menu and by choosing a website. In the dialog box, you can choose the publication format:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Markdown, to publish the Markdown text on a website that can interpret it (&lt;strong&gt;GitHub&lt;/strong&gt; for instance),&lt;/li&gt;
+&lt;li&gt;HTML, to publish the document converted into HTML (on a blog for example),&lt;/li&gt;
+&lt;li&gt;Template, to have a full control of the output.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The default template is a simple webpage wrapping your document in HTML format. You can customize it in the &lt;strong&gt;Advanced&lt;/strong&gt; tab of the &lt;i class="icon-cog"&gt;&lt;/i&gt; &lt;strong&gt;Settings&lt;/strong&gt; dialog.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id="update-a-publication"&gt;&lt;i class="icon-upload"&gt;&lt;/i&gt; Update a publication&lt;/h4&gt;
+&lt;p&gt;After publishing, StackEdit will keep your document linked to that publication which makes it easy for you to update it. Once you have modified your document and you want to update your publication, click on the &lt;i class="icon-upload"&gt;&lt;/i&gt; button in the navigation bar.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The &lt;i class="icon-upload"&gt;&lt;/i&gt; button is disabled when your document has not been published yet.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id="manage-document-publication"&gt;&lt;i class="icon-upload"&gt;&lt;/i&gt; Manage document publication&lt;/h4&gt;
+&lt;p&gt;Since one document can be published on multiple locations, you can list and manage publish locations by clicking &lt;i class="icon-upload"&gt;&lt;/i&gt; &lt;strong&gt;Manage publication&lt;/strong&gt; in the &lt;i class="icon-provider-stackedit"&gt;&lt;/i&gt; menu panel. This will let you remove publication locations that are associated to your document.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If the file has been removed from the website or the blog, the document will no longer be published on that location.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="markdown-extra"&gt;Markdown Extra&lt;/h2&gt;
+&lt;p&gt;StackEdit supports &lt;strong&gt;Markdown Extra&lt;/strong&gt;, which extends &lt;strong&gt;Markdown&lt;/strong&gt; syntax with some nice features.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt; You can disable any &lt;strong&gt;Markdown Extra&lt;/strong&gt; feature in the &lt;strong&gt;Extensions&lt;/strong&gt; tab of the &lt;i class="icon-cog"&gt;&lt;/i&gt; &lt;strong&gt;Settings&lt;/strong&gt; dialog.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can find more information about &lt;strong&gt;Markdown&lt;/strong&gt; syntax &lt;a href="http://daringfireball.net/projects/markdown/syntax" title="Markdown"&gt;here&lt;/a&gt; and &lt;strong&gt;Markdown Extra&lt;/strong&gt; extension &lt;a href="https://github.com/jmcmanus/pagedown-extra" title="Pagedown Extra"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="tables"&gt;Tables&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Markdown Extra&lt;/strong&gt; has a special syntax for tables:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th&gt;Value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Computer&lt;/td&gt;
+&lt;td&gt;$1600&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Phone&lt;/td&gt;
+&lt;td&gt;$12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pipe&lt;/td&gt;
+&lt;td&gt;$1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;You can specify column alignment with one or two colons:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align="left"&gt;Item&lt;/th&gt;
+&lt;th align="right"&gt;Value&lt;/th&gt;
+&lt;th align="center"&gt;Qty&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align="left"&gt;&lt;em&gt;Computer&lt;/em&gt;&lt;/td&gt;
+&lt;td align="right"&gt;$1600&lt;/td&gt;
+&lt;td align="center"&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="left"&gt;&lt;strong&gt;Phone&lt;/strong&gt;&lt;/td&gt;
+&lt;td align="right"&gt;$12&lt;/td&gt;
+&lt;td align="center"&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="left"&gt;&lt;strong&gt;&lt;em&gt;Pipe&lt;/em&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td align="right"&gt;$1&lt;/td&gt;
+&lt;td align="center"&gt;234&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="definition-lists"&gt;Definition Lists&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Markdown Extra&lt;/strong&gt; has a special syntax for definition lists too:&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;Term 1&lt;/dt&gt;
+&lt;dt&gt;Term 2&lt;/dt&gt;
+&lt;dd&gt;Definition A&lt;/dd&gt;
+&lt;dd&gt;Definition B&lt;/dd&gt;
+&lt;dt&gt;Term 3&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Definition C&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dd&gt;
+&lt;p&gt;Definition D&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;part of definition D&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;h3 id="fenced-code-blocks"&gt;Fenced code blocks&lt;/h3&gt;
+&lt;p&gt;GitHub's fenced code blocks are also supported with &lt;strong&gt;Highlight.js&lt;/strong&gt; syntax highlighting:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;// Foo
+var bar = 0;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt; To use &lt;strong&gt;Prettify&lt;/strong&gt; instead of &lt;strong&gt;Highlight.js&lt;/strong&gt;, just configure the &lt;strong&gt;Markdown Extra&lt;/strong&gt; extension in the &lt;i class="icon-cog"&gt;&lt;/i&gt; &lt;strong&gt;Settings&lt;/strong&gt; dialog.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can find more information:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;about &lt;strong&gt;Prettify&lt;/strong&gt; syntax highlighting &lt;a href="https://code.google.com/p/google-code-prettify/"&gt;here&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;about &lt;strong&gt;Highlight.js&lt;/strong&gt; syntax highlighting &lt;a href="http://highlightjs.org/"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="footnotes"&gt;Footnotes&lt;/h3&gt;
+&lt;p&gt;You can create footnotes like this&lt;sup id="fnref-footnote"&gt;&lt;a class="footnote-ref" href="#fn-footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h3 id="smartypants"&gt;SmartyPants&lt;/h3&gt;
+&lt;p&gt;SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;ASCII&lt;/th&gt;
+&lt;th&gt;HTML&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Single backticks&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;'Isn't this fun?'&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;'Isn't this fun?'&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Quotes&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;"Isn't this fun?"&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;"Isn't this fun?"&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dashes&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;-- is en-dash, --- is em-dash&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;-- is en-dash, --- is em-dash&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="table-of-contents"&gt;Table of contents&lt;/h3&gt;
+&lt;p&gt;You can insert a table of contents using the marker &lt;code&gt;[TOC]&lt;/code&gt;:&lt;/p&gt;
+
+&lt;h3 id="mathjax"&gt;MathJax&lt;/h3&gt;
+&lt;p&gt;You can render &lt;em&gt;LaTeX&lt;/em&gt; mathematical expressions using &lt;strong&gt;MathJax&lt;/strong&gt;, as on &lt;a href="http://math.stackexchange.com/"&gt;math.stackexchange.com&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;Gamma function&lt;/em&gt; satisfying &lt;span class="math"&gt;\(\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N\)&lt;/span&gt; is via the Euler integral&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+$$&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt; To make sure mathematical expressions are rendered properly on your website, include &lt;strong&gt;MathJax&lt;/strong&gt; into your template:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;&amp;lt;script&lt;/span&gt; &lt;span class="na"&gt;type=&lt;/span&gt;&lt;span class="s"&gt;"text/javascript"&lt;/span&gt; &lt;span class="na"&gt;src=&lt;/span&gt;&lt;span class="s"&gt;"https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can find more information about &lt;strong&gt;LaTeX&lt;/strong&gt; mathematical expressions &lt;a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="uml-diagrams"&gt;UML diagrams&lt;/h3&gt;
+&lt;p&gt;You can also render sequence diagrams like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Alice-&amp;gt;Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob--&amp;gt;Alice: I am good thanks!
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And flow charts like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;st=&amp;gt;start: Start
+e=&amp;gt;end
+op=&amp;gt;operation: My Operation
+cond=&amp;gt;condition: Yes or No?
+
+st-&amp;gt;op-&amp;gt;cond
+cond(yes)-&amp;gt;e
+cond(no)-&amp;gt;op
+&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can find more information:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;about &lt;strong&gt;Sequence diagrams&lt;/strong&gt; syntax &lt;a href="http://bramp.github.io/js-sequence-diagrams/"&gt;here&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;about &lt;strong&gt;Flow charts&lt;/strong&gt; syntax &lt;a href="http://adrai.github.io/flowchart.js/"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="support-stackedit"&gt;Support StackEdit&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://monetizejs.com/authorize?client_id=ESTHdCYOi18iLhhO&amp;amp;summary=true"&gt;&lt;img alt="" src="https://cdn.monetizejs.com/resources/button-32.png"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn-footnote"&gt;
+&lt;p&gt;Here is the &lt;em&gt;text&lt;/em&gt; of the &lt;strong&gt;footnote&lt;/strong&gt;. &lt;a class="footnote-backref" href="#fnref-footnote" title="Jump back to footnote 1 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-stackedit"&gt;
+&lt;p&gt;&lt;a href="https://stackedit.io/"&gt;StackEdit&lt;/a&gt; is a full-featured, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites. &lt;a class="footnote-backref" href="#fnref-stackedit" title="Jump back to footnote 2 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/hr&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    var location_protocol = (false) ? 'https' : document.location.protocol;
+    if (location_protocol !== 'http' &amp;&amp; location_protocol !== 'https') location_protocol = 'https:';
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: '#80CBC4 ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;&lt;/hr&gt;&lt;/hr&gt;&lt;/hr&gt;&lt;/hr&gt;</content><category term="Test"></category></entry><entry><title>User Experience Enhancements</title><link href="https://superdanby.github.io/Blog/user-experience-enhancements.html" rel="alternate"></link><published>2017-02-27T20:20:00+08:00</published><updated>2017-02-27T20:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-02-27:/Blog/user-experience-enhancements.html</id><summary type="html">
+&lt;h2 id="all-platforms"&gt;All Platforms&lt;/h2&gt;
+&lt;h3 id="atom"&gt;&lt;a href="https://superdanby.github.io/Blog/atom-text-editor.html"&gt;Atom&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;A beautiful and hackable cross-platform text editor with wonderful Github integration.&lt;/p&gt;
+&lt;h3 id="fedora-media-writer"&gt;Fedora Media Writer&lt;/h3&gt;
+&lt;p&gt;It has been fixed on Version 4.1.0-1.fc25.
+&lt;strike&gt;On Fedora, the only downside is that the scaling factor in &lt;a href="https://superdanby.github.io/Blog/fedora.html#gnome-tweak-tool"&gt;Gnome Tweak Tool&lt;/a&gt; has no effect on it.&lt;/strike&gt;&lt;/p&gt;
+&lt;h3 id="intel-speed-shift"&gt;Intel Speed Shift&lt;/h3&gt;
+&lt;p&gt;Better …&lt;/p&gt;</summary><content type="html">
+&lt;h2 id="all-platforms"&gt;All Platforms&lt;/h2&gt;
+&lt;h3 id="atom"&gt;&lt;a href="https://superdanby.github.io/Blog/atom-text-editor.html"&gt;Atom&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;A beautiful and hackable cross-platform text editor with wonderful Github integration.&lt;/p&gt;
+&lt;h3 id="fedora-media-writer"&gt;Fedora Media Writer&lt;/h3&gt;
+&lt;p&gt;It has been fixed on Version 4.1.0-1.fc25.
+&lt;strike&gt;On Fedora, the only downside is that the scaling factor in &lt;a href="https://superdanby.github.io/Blog/fedora.html#gnome-tweak-tool"&gt;Gnome Tweak Tool&lt;/a&gt; has no effect on it.&lt;/strike&gt;&lt;/p&gt;
+&lt;h3 id="intel-speed-shift"&gt;Intel Speed Shift&lt;/h3&gt;
+&lt;p&gt;Better power management for Skylake processors and above.&lt;/p&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry></feed>

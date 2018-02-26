@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Yee - Fedora</title><link href="https://superdanby.github.io/Blog/" rel="alternate"></link><link href="https://superdanby.github.io/Blog/feeds/fedora.atom.xml" rel="self"></link><id>https://superdanby.github.io/Blog/</id><updated>9999-12-29T00:00:00+08:00</updated><entry><title>Fedora Installation</title><link href="https://superdanby.github.io/Blog/fedora-installation.html" rel="alternate"></link><published>9999-12-29T00:00:00+08:00</published><updated>9999-12-29T00:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,9999-12-29:/Blog/fedora-installation.html</id><summary type="html">
+&lt;h2 id="preparation"&gt;Preparation&lt;/h2&gt;
+&lt;p&gt;If you're using Windows and wish to install Fedora alongside with it. You can open Disk Management and shrink a drive to make space for Fedora.&lt;/p&gt;
+&lt;p&gt;Create a live USB with &lt;a href="https://github.com/MartinBriza/MediaWriter/releases"&gt;Fedora Media Writer&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="installation"&gt;Installation&lt;/h2&gt;
+&lt;h3 id="partitioning"&gt;Partitioning&lt;/h3&gt;
+&lt;p&gt;Automatic: Anaconda will automatically create mountpoints /, /home, swap with &lt;a href="https://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)"&gt;LVM2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Custom: This lets …&lt;/p&gt;</summary><content type="html">
+&lt;h2 id="preparation"&gt;Preparation&lt;/h2&gt;
+&lt;p&gt;If you're using Windows and wish to install Fedora alongside with it. You can open Disk Management and shrink a drive to make space for Fedora.&lt;/p&gt;
+&lt;p&gt;Create a live USB with &lt;a href="https://github.com/MartinBriza/MediaWriter/releases"&gt;Fedora Media Writer&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="installation"&gt;Installation&lt;/h2&gt;
+&lt;h3 id="partitioning"&gt;Partitioning&lt;/h3&gt;
+&lt;p&gt;Automatic: Anaconda will automatically create mountpoints /, /home, swap with &lt;a href="https://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)"&gt;LVM2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Custom: This lets you decide which mountpoints to create, the size of each mountpoint, and the partition type. The rest would be handled by Anaconda.&lt;/p&gt;
+&lt;p&gt;Advanced Custom(Blivet GUI): You'll handle everything by yourself.&lt;/p&gt;
+&lt;h3 id="connecting-to-the-internet"&gt;Connecting to the Internet&lt;/h3&gt;
+&lt;p&gt;If you connect to the Internet during the installation process, updates will be downloaded and saved for later use.&lt;/p&gt;
+&lt;h3 id="user-creation"&gt;User Creation&lt;/h3&gt;
+&lt;p&gt;You'll have to create exactly one user. There's a checkbox to make the user Administrator.&lt;/p&gt;
+&lt;p&gt;Also, the root password should be set.&lt;/p&gt;
+&lt;h2 id="post-installation"&gt;Post Installation&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Enable tap-to-click on your touchpad:&lt;ul&gt;
+&lt;li&gt;Settings &amp;gt; Mouse &amp;amp; Touchpad &amp;gt; Tap to Click&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Get new updates:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf upgrade&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Set useful shortcuts:&lt;ul&gt;
+&lt;li&gt;Settings &amp;gt; Keyboard &amp;gt; Custom Shortcuts:&lt;/li&gt;
+&lt;li&gt;System Monitor: &lt;code&gt;gnome-system-monitor&lt;/code&gt;, Super + x&lt;/li&gt;
+&lt;li&gt;Terminal: &lt;code&gt;gnome-terminal&lt;/code&gt;, Ctrl + Alt + T&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Google Chrome:&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/chrome/browser/desktop/index.html"&gt;Download&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Install: &lt;code&gt;sudo dnf install&lt;/code&gt; &lt;strong&gt;&lt;em&gt;Path to Chrome RPM File&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Git Setup: &lt;br/&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git config --global user.name "&lt;/code&gt;&lt;strong&gt;&lt;em&gt;USERNAME&lt;/em&gt;&lt;/strong&gt;&lt;code&gt;"&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git config --global user.email "&lt;/code&gt;&lt;strong&gt;&lt;em&gt;EMAIL&lt;/em&gt;&lt;/strong&gt;&lt;code&gt;"&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Github ssh setup:
+    &lt;a href="https://help.github.com/articles/connecting-to-github-with-ssh/"&gt;https://help.github.com/articles/connecting-to-github-with-ssh/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Atom, a hackable text editor:&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://atom.io/beta"&gt;Download&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Install: &lt;code&gt;sudo dnf install&lt;/code&gt; &lt;strong&gt;&lt;em&gt;Path to Atom RPM File&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;sync-settings: Install &amp;gt; Search: sync-settings&lt;/li&gt;
+&lt;li&gt;atom-beautify: &lt;a href="https://gist.github.com/Superdanby/40de920a0e94c2e8b8389b2a0a34765b"&gt;Replace uncrustify.cfg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;autocomplete-clang: &lt;code&gt;sudo dnf install clang&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://superdanby.github.io/Blog/atom-text-editor.html"&gt;More about Atom&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;JAVA:&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html"&gt;Download&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Install Java: &lt;code&gt;sudo dnf install&lt;/code&gt; &lt;strong&gt;&lt;em&gt;Path to Java RPM File&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo update-alternatives --config java&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo update-alternatives --config javac&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Replace &lt;a href="https://gist.github.com/Superdanby/fd864ba673975ca550f013bf3e9c9665"&gt;.bashrc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Setup fstab: noatime,nodiratime and compress=lzo(btrfs only)&lt;/li&gt;
+&lt;li&gt;Install gnome-tweak-tool:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install gnome-tweak-tool&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Right click to open terminal from nautilus:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install gnome-terminal-nautilus&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gnumdk.github.io/lollypop-web/"&gt;Lollypop Music Player&lt;/a&gt;:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install lollypop&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.videolan.org/vlc/index.html"&gt;VLC Media Player&lt;/a&gt; Setup vlc:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install vlc&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://01.org/zh/powertop?langredirect=1"&gt;Powertop&lt;/a&gt;, a Linux tool to diagnose issues with power consumption and power management.&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install powertop&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/linrunner/TLP"&gt;TLP&lt;/a&gt;, advanced power management for linux:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install tlp&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Setup Graphics Drivers for Nvidia:&lt;ul&gt;
+&lt;li&gt;Install &lt;a href="https://negativo17.org/nvidia-driver/"&gt;negativo17 drivers&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html"&gt;Sign the modules&lt;/a&gt; (usually nvidia, nvidia_drm, nvidia_modeset) for Secure Boot.&lt;/li&gt;
+&lt;li&gt;For battery life optimization, run &lt;a href="https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-blacklistnvidia-sh"&gt;BlacklistNvidia.sh&lt;/a&gt; with root privileges to disable Nvidia modules on all boot entries and create a new Nvidia-enabled entry at the bottom of the list. Re-run the script on every kernel updates.&lt;/li&gt;
+&lt;li&gt;More about &lt;a href="https://superdanby.github.io/Blog/dealing-with-nvidia-optimus.html"&gt;Nvidia Optimus driver setup&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://dolphin-emu.org/"&gt;Dolphin&lt;/a&gt;, the best WII/GC emulator:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install dolphin&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.wireshark.org/"&gt;Wirershark&lt;/a&gt;:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install wireshark&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://fedoramagazine.org/make-fedora-usb-stick/"&gt;Fedora Media Writer&lt;/a&gt;:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install mediawriter&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Sync &lt;a href="https://superdanby.github.io/Blog/fedora-introduction.html#shell-extensions"&gt;shell extensions&lt;/a&gt; with Google Chrome:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf copr enable region51/chrome-gnome-shell&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install chrome-gnome-shell&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/snwh/paper-icon-theme"&gt;paper-icon-theme&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;Designed according to Material Design guidelines.&lt;/li&gt;
+&lt;li&gt;You can change icon themes with Gnome Tweak Tool.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mkdir ~/.icons&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd ~/.icons&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git clone git@github.com:snwh/paper-icon-theme.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd paper-icon-theme&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install gnome-common&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./autogen.sh&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;make&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo make install&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Here's a script for steps 11 to 22:&lt;ul&gt;
+&lt;li&gt;Run it with Secure Boot turned off and with root privileges: &lt;a href="https://gist.github.com/Superdanby/12ce20158300c378d4e0f196b279d388#file-11-22-sh"&gt;11-22.sh&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;**Don't install vlc from negativo17's multimedia repo. It crashes in Wayland.&lt;/p&gt;</content><category term="Fedora"></category><category term="Install"></category></entry><entry><title>Dealing with Nvidia Optimus</title><link href="https://superdanby.github.io/Blog/dealing-with-nvidia-optimus.html" rel="alternate"></link><published>2017-07-24T18:30:00+08:00</published><updated>2017-07-24T18:30:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-24:/Blog/dealing-with-nvidia-optimus.html</id><summary type="html">&lt;h3 id="tldr-update20180226"&gt;TL;DR + Update(2018.02.26)&lt;/h3&gt;
+&lt;p&gt;If you want Intel + Nouveau on daily use and need Nvidia Optimus Technonlgy sometimes, check out &lt;a href="https://github.com/Superdanby/Grub-Nvidia-Entry"&gt;my Github repo&lt;/a&gt;. There's an &lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=1476366"&gt;upstream bug&lt;/a&gt; preventing Gnome to detect the dGPU. A workaround is also addeed to the repository.&lt;/p&gt;
+&lt;p&gt;Since the release of Fedora 26, Mesa …&lt;/p&gt;</summary><content type="html">&lt;h3 id="tldr-update20180226"&gt;TL;DR + Update(2018.02.26)&lt;/h3&gt;
+&lt;p&gt;If you want Intel + Nouveau on daily use and need Nvidia Optimus Technonlgy sometimes, check out &lt;a href="https://github.com/Superdanby/Grub-Nvidia-Entry"&gt;my Github repo&lt;/a&gt;. There's an &lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=1476366"&gt;upstream bug&lt;/a&gt; preventing Gnome to detect the dGPU. A workaround is also addeed to the repository.&lt;/p&gt;
+&lt;p&gt;Since the release of Fedora 26, Mesa doesn't conflict with Nvidia anymore. Generally, the Nvidia driver can be installed from either &lt;a href="https://fedoraproject.org/wiki/Bumblebee"&gt;Bumblebee&lt;/a&gt; or &lt;a href="https://negativo17.org/nvidia-driver/"&gt;Negativo17's repo&lt;/a&gt;. Both methods are easy to install, but the former one is likely to have more problems.&lt;/p&gt;
+&lt;p&gt;A brief comparison table:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;                    | Bumblebee | Negativo17 |
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;----------------------- | --------- | -----------
+ Nvidia Driver Version  | Old       | Up to date |
+ Usage                  | Turn on when needed | Always on with Nvidia Optimus |
+ Status                 | No updates since 2013 | Still being maintained and has &lt;a href="https://negativo17.org/nvidia-driver/#reply-title"&gt;good support&lt;/a&gt; |
+ Platform               | Wayland &amp;amp; X | Only on X |&lt;/p&gt;
+&lt;p&gt;I'd like to have more battery life with my laptop. Thus, Bumblebee seems to be a good choice at first glance. However, there are various issues with it. Some are listed &lt;a href="https://fedoraproject.org/wiki/Bumblebee#Troubleshooting"&gt;here&lt;/a&gt;, and lots of them are listed &lt;a href="https://github.com/Bumblebee-Project/Bumblebee/issues"&gt;here&lt;/a&gt;. A major reason is that the Bumblebee project has been lack of support for a &lt;strong&gt;looooong&lt;/strong&gt; time. Also Bumblebee is not compatible with &lt;a href="http://linrunner.de/en/tlp/tlp.html"&gt;TLP&lt;/a&gt;(I have tried the recommended &lt;a href="http://linrunner.de/en/tlp/docs/tlp-faq.html#nvidia"&gt;fix&lt;/a&gt;, but it was in vain.). At last, I gave up on Bumblebee.&lt;/p&gt;
+&lt;h2 id="solution"&gt;Solution&lt;/h2&gt;
+&lt;p&gt;But, how can I disable the Nvidia card without Bumblebee? The only way is to prevent the Nvidia modules to load at boot time. After trying for days, I came up with the following solution:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a new Nvidia-enabled entry at the bottom of the Grub menu:&lt;ul&gt;
+&lt;li&gt;Add a new entry to /etc/grub.d/40_custom. Just simply copy the newest entry from /boot/efi/EFI/fedora/grub.cfg.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Disable Nvidia modules on all boot entries except customized ones:&lt;ul&gt;
+&lt;li&gt;Add modprobe.blacklist=nvidia,nvidia_drm,nvidia_modeset,nvidia_uvm to GRUB_CMDLINE in /etc/default/grub.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Regenerate Grub Menu:&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://github.com/Superdanby/Grub-Nvidia-Entry"&gt;This script&lt;/a&gt; does the work above. &lt;del&gt;To run it, you have to disable Secure Boot.&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;I've made sure the method above is effective with &lt;code&gt;tlp-stat&lt;/code&gt;. On my laptop, if the Nvidia card is on, the electric current will not be lower than 1300mA; Otherwise, it can be as low as 750mA.&lt;/p&gt;
+&lt;p&gt;As of now, my Nvidia card is usually off. And it can be turned on if I boot from the last entry in Grub.&lt;/p&gt;</content><category term="Fedora"></category><category term="Nvidia"></category><category term="Optimus"></category><category term="Negativo17"></category><category term="Bumblebee"></category></entry><entry><title>Managing Signed Keys with Machine Owner Key</title><link href="https://superdanby.github.io/Blog/managing-signed-keys-with-machine-owner-key.html" rel="alternate"></link><published>2017-07-23T21:46:00+08:00</published><updated>2017-07-23T21:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-23:/Blog/managing-signed-keys-with-machine-owner-key.html</id><summary type="html">
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;With MOK we can sign, manage, and delete keys for installed kernel modules.&lt;/p&gt;
+&lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
+&lt;h3 id="enrolling-a-key"&gt;Enrolling a key&lt;/h3&gt;
+&lt;p&gt;The guide can be found &lt;a href="https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id="list-all-the-enrolled-keys"&gt;List all the enrolled keys:&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;`mokutil -l`
+&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id="deleting-a-key"&gt;Deleting a key&lt;/h3&gt;
+&lt;p&gt;First, you have to export the keys: &lt;code&gt;mokutil --export&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Delete the key: &lt;code&gt;mokutil -d&lt;/code&gt;&lt;em&gt;TheFile&lt;/em&gt; \t …&lt;/p&gt;</summary><content type="html">
+&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;With MOK we can sign, manage, and delete keys for installed kernel modules.&lt;/p&gt;
+&lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
+&lt;h3 id="enrolling-a-key"&gt;Enrolling a key&lt;/h3&gt;
+&lt;p&gt;The guide can be found &lt;a href="https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id="list-all-the-enrolled-keys"&gt;List all the enrolled keys:&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;`mokutil -l`
+&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id="deleting-a-key"&gt;Deleting a key&lt;/h3&gt;
+&lt;p&gt;First, you have to export the keys: &lt;code&gt;mokutil --export&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Delete the key: &lt;code&gt;mokutil -d&lt;/code&gt;&lt;em&gt;TheFile&lt;/em&gt; \t E.g. &lt;code&gt;mokutil -d MOK-0001.der&lt;/code&gt;&lt;/p&gt;</content><category term="Fedora"></category><category term="Yee"></category><category term="Secure Boot"></category><category term="MOK"></category></entry><entry><title>Signing Kernel Modules for Secure Boot</title><link href="https://superdanby.github.io/Blog/signing-kernel-modules-for-secure-boot.html" rel="alternate"></link><published>2017-05-25T13:46:00+08:00</published><updated>2017-05-25T13:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-25:/Blog/signing-kernel-modules-for-secure-boot.html</id><summary type="html">
+&lt;h2 id="preparation"&gt;Preparation&lt;/h2&gt;
+&lt;p&gt;Make sure your Secure Boot is off.
+In order to sign the modules, they should &lt;strong&gt;exist&lt;/strong&gt; in the current environment.
+Turning on Secure Boot will block the modules to load in the first place.&lt;/p&gt;
+&lt;h2 id="key-creation"&gt;Key Creation&lt;/h2&gt;
+&lt;h3 id="create-signing-keys"&gt;Create Signing Keys&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;openssl req -new -x509 -newkey rsa:2048 -keyout MOK.priv …&lt;/code&gt;&lt;/p&gt;</summary><content type="html">
+&lt;h2 id="preparation"&gt;Preparation&lt;/h2&gt;
+&lt;p&gt;Make sure your Secure Boot is off.
+In order to sign the modules, they should &lt;strong&gt;exist&lt;/strong&gt; in the current environment.
+Turning on Secure Boot will block the modules to load in the first place.&lt;/p&gt;
+&lt;h2 id="key-creation"&gt;Key Creation&lt;/h2&gt;
+&lt;h3 id="create-signing-keys"&gt;Create Signing Keys&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;openssl req -new -x509 -newkey rsa:2048 -keyout MOK.priv -outform DER -out MOK.der -nodes -days 36500 -subj "/CN=Descriptive name/"&lt;/code&gt;
+&lt;em&gt;Descriptive name&lt;/em&gt; is the name of the key. E.g. &lt;code&gt;"/CN=Yee~"&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="sign-the-module"&gt;Sign the Module&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sudo /usr/src/kernels/$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n&lt;/code&gt; &lt;em&gt;MODULE_NAME&lt;/em&gt; &lt;code&gt;)&lt;/code&gt;
+Note that you can sign multiple modules at a time. Just repeat this step until all modules are signed.&lt;/p&gt;
+&lt;h3 id="register-the-keys-with-machine-owner-key"&gt;Register the Keys with Machine Owner Key&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sudo mokutil --import MOK.der&lt;/code&gt;
+You'll be prompt to enter a password for later use in MOK.&lt;/p&gt;
+&lt;h3 id="reboot"&gt;Reboot&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;reboot&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id="mok-enrollment"&gt;MOK Enrollment&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Press anykey to enter MOK within 10 seconds.&lt;/li&gt;
+&lt;li&gt;Enroll MOK&lt;/li&gt;
+&lt;li&gt;Continue&lt;/li&gt;
+&lt;li&gt;Insert the password you just created.&lt;/li&gt;
+&lt;li&gt;OK&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href="https://superdanby.github.io/Blog/managing-signed-keys-with-machine-owner-key.html"&gt;**More with MOK&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="check-if-the-module-is-signed"&gt;Check if the Module is Signed&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;mokutil --list-enrolled&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id="done"&gt;Done!&lt;/h2&gt;
+&lt;p&gt;You can now turn Secure Boot back on!&lt;/p&gt;</content><category term="Fedora"></category><category term="Yee"></category><category term="Secure Boot"></category><category term="MOK"></category></entry><entry><title>Fedora Introduction</title><link href="https://superdanby.github.io/Blog/fedora-introduction.html" rel="alternate"></link><published>2017-05-24T16:30:00+08:00</published><updated>2017-05-24T16:30:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-05-24:/Blog/fedora-introduction.html</id><summary type="html">
+&lt;h2 id="get-fedora-now"&gt;&lt;a href="https://getfedora.org/"&gt;Get Fedora Now!&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;IMO, the best Linux distro.
+1.  The one always deploies the newest technologies.
+2.  &lt;a href="https://www.gnome.org/"&gt;Gnome&lt;/a&gt;
+3.  Cares about security A LOT(Secure Boot, SELinux, &lt;a href="https://wayland.freedesktop.org/"&gt;Wayland&lt;/a&gt;).
+4.  Redhat supported.
+-   Next version: 26
+-   Release date: 2017/06/27
+-   Expected features:
+    1.  No conflicts between &lt;a href="https://www.mesa3d.org/"&gt;Mesa&lt;/a&gt; and &lt;a href="https://negativo17.org/"&gt;negativo17.org Nvidia …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">
+&lt;h2 id="get-fedora-now"&gt;&lt;a href="https://getfedora.org/"&gt;Get Fedora Now!&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;IMO, the best Linux distro.
+1.  The one always deploies the newest technologies.
+2.  &lt;a href="https://www.gnome.org/"&gt;Gnome&lt;/a&gt;
+3.  Cares about security A LOT(Secure Boot, SELinux, &lt;a href="https://wayland.freedesktop.org/"&gt;Wayland&lt;/a&gt;).
+4.  Redhat supported.
+-   Next version: 26
+-   Release date: 2017/06/27
+-   Expected features:
+    1.  No conflicts between &lt;a href="https://www.mesa3d.org/"&gt;Mesa&lt;/a&gt; and &lt;a href="https://negativo17.org/"&gt;negativo17.org Nvidia drivers&lt;/a&gt;
+    2.  &lt;a href="https://www.gnome.org/"&gt;Gnome 3.24&lt;/a&gt;
+    3.  &lt;a href="#dnf"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt;dnf&lt;/a&gt; 2.0&lt;/p&gt;
+&lt;h3 id="tweaks"&gt;Tweaks&lt;/h3&gt;
+&lt;h4 id="bookmark-locations-in-filesnautilus"&gt;Bookmark Locations in Files(nautilus)&lt;/h4&gt;
+&lt;p&gt;The upper left icon in the group of 6.
+&lt;img alt="bookmarklocation" src="https://raw.githubusercontent.com/Superdanby/Blog/master/content/Fedora/bookmarklocation.png"/&gt;&lt;/p&gt;
+&lt;h3 id="shell-extensions"&gt;Shell Extensions&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://extensions.gnome.org/"&gt;Get the extensions you like for Gnome!&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id="alternate-tabs"&gt;&lt;a href="https://extensions.gnome.org/extension/15/alternatetab/"&gt;Alternate Tabs&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Substitute Alt-Tab with a window based switcher that does not group by application.
+This extension is part of Classic Mode and is officially supported by GNOME.&lt;/p&gt;
+&lt;h4 id="applications-menu"&gt;&lt;a href="https://extensions.gnome.org/extension/6/applications-menu/"&gt;Applications Menu&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Add a category-based menu for applications.
+This extension is part of Classic Mode and is officially supported by GNOME.&lt;/p&gt;
+&lt;h4 id="background-logo"&gt;&lt;a href="https://extensions.gnome.org/extension/889/background-logo/"&gt;Background Logo&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Overlay a tasteful logo on the background to enhance the user experience
+&lt;img alt="backgroundlogo" src="https://raw.githubusercontent.com/Superdanby/Blog/master/content/Fedora/backgroundlogo.png"/&gt;&lt;/p&gt;
+&lt;h4 id="caffeine"&gt;&lt;a href="https://extensions.gnome.org/extension/517/caffeine/"&gt;Caffeine&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Disable the screensaver and auto suspend(automatically).&lt;/p&gt;
+&lt;h4 id="dim-desktop-70"&gt;&lt;a href="https://extensions.gnome.org/extension/1130/dim-desktop-70/"&gt;Dim Desktop 70&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;This extension adds a button with a light bulb to your panel. When clicked, the desktop brightness is reduced. Scroll to change the brightness. The main purpose is to keep your eyes calm when reading in the late evening. It is realized by a simple overlay with 70% opacity. It should work on a multimonitor desktop.&lt;/p&gt;
+&lt;h4 id="extensions"&gt;&lt;a href="https://extensions.gnome.org/extension/1036/extensions/"&gt;Extensions&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Enable/disable easily gnome shell extensions from a menu in the top panel. Also allows to edit the settings of the extensions. Feedback welcome!&lt;/p&gt;
+&lt;p&gt;Sometimes it doesn't sync correctly. Hence, &lt;a href="#gnome-tweak-tool"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt;Gnome Tweak Tool&lt;/a&gt; is still the best choice.&lt;/p&gt;
+&lt;h4 id="launch-new-instance"&gt;&lt;a href="https://extensions.gnome.org/extension/600/launch-new-instance/"&gt;Launch new instance&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Always launch a new instance when clicking in the dash or the application view.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME Bugzilla instead.&lt;/p&gt;
+&lt;h4 id="no-top-left-hot-corner"&gt;&lt;a href="https://extensions.gnome.org/extension/118/no-topleft-hot-corner/"&gt;No Top Left Hot Corner&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;This extension disables the top left hot corners. You can still click on Activities or press the dedicated key to reach the overview. Since 3.8, should work with other extensions modifying the Activities button. On versions prior to 3.8, may not disable other hotcorners in multiscreen configurations and won't work on fallback/flashback mode.&lt;/p&gt;
+&lt;h4 id="openweather"&gt;&lt;a href="https://extensions.gnome.org/extension/750/openweather/"&gt;OpenWeather&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Weather extension to display weather information from &lt;a href="https://openweathermap.org/"&gt;https://openweathermap.org/&lt;/a&gt; or &lt;a href="https://darksky.net"&gt;https://darksky.net&lt;/a&gt; for almost all locations in the world.&lt;/p&gt;
+&lt;h4 id="places-status-indicator"&gt;&lt;a href="https://extensions.gnome.org/extension/8/places-status-indicator/"&gt;Places Status Indicator&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Add a menu for quickly navigating places in the system.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME Bugzilla instead.&lt;/p&gt;
+&lt;h4 id="quick-close-in-overview"&gt;&lt;a href="https://extensions.gnome.org/extension/352/middle-click-to-close-in-overview/"&gt;Quick Close in Overview&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;It must be frustrating to always aim for the small cross button.
+Close windows with a button click (the middle one by default) when in overview mode.&lt;/p&gt;
+&lt;h4 id="redshift"&gt;Redshift&lt;/h4&gt;
+&lt;p&gt;A blue light filter.
+Currently, this extension is not working on Wayland. The alternate solution is written &lt;a href="https://fedoramagazine.org/safe-eyes-redshift/"&gt;here&lt;/a&gt;. And starting from Gnome 3.24, there will be a in-built Night Light app to provide the same functionality.&lt;/p&gt;
+&lt;h4 id="refresh-wifi-connections"&gt;&lt;a href="https://extensions.gnome.org/extension/905/refresh-wifi-connections/"&gt;Refresh Wifi Connections&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;A real time-saver when connecting to the Internet.
+gnome-shell does not request for wireless network scan once the wireless selection dialog once the dialog is opened. This extension adds a refresh button to the Wifi connection selection dialog to request for a network scan manually.&lt;/p&gt;
+&lt;h4 id="shutdowntimer"&gt;&lt;a href="https://extensions.gnome.org/extension/1152/shutdowntimer/"&gt;ShutdownTimer&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Shutdown, restart and suspend your computer easily. Extension provides two time modes which allows user to set timer to desired time or set the time of desired action. Every action is also available via keyboard shortcut.&lt;/p&gt;
+&lt;h4 id="status-area-horizontal-spacing"&gt;&lt;a href="https://extensions.gnome.org/extension/355/status-area-horizontal-spacing/"&gt;Status Area Horizontal Spacing&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;After installing all these little stuff, the top right bar is definitely overflowed. Use this to make some space.
+Reduce the horizontal spacing between icons in the top-right status area.&lt;/p&gt;
+&lt;h4 id="suspend-button"&gt;&lt;a href="https://extensions.gnome.org/extension/826/suspend-button/"&gt;Suspend Button&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Suspend your computer with one click.&lt;/p&gt;
+&lt;h4 id="system-monitor"&gt;&lt;a href="https://extensions.gnome.org/extension/120/system-monitor/"&gt;system-monitor&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Display system information in gnome shell status bar, such as memory usage, cpu usage, network rates…&lt;/p&gt;
+&lt;p&gt;**Warning! This extension may crash gnome-shell"&lt;/p&gt;
+&lt;h4 id="todotxt"&gt;&lt;a href="https://extensions.gnome.org/extension/570/todotxt/"&gt;Todo.txt&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;An easy to use to-do list.&lt;/p&gt;
+&lt;h3 id="dnf"&gt;dnf&lt;/h3&gt;
+&lt;p&gt;The default package manager on Fedora.&lt;/p&gt;
+&lt;h4 id="gnome-tweak-tool"&gt;Gnome Tweak Tool&lt;/h4&gt;
+&lt;p&gt;Download it from Software app.&lt;/p&gt;
+&lt;p&gt;Important features:
+    1. Scaling factor in Fonts section
+    2. Extensions section
+    3. Top Bar section&lt;/p&gt;
+&lt;h4 id="google-chrome"&gt;&lt;a href="https://www.google.com/chrome/browser/desktop/index.html"&gt;Google Chrome&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Installation:
+1. Download the package from the official website.
+2. &lt;code&gt;sudo dnf install&lt;/code&gt; + PACKAGE_PATH&lt;/p&gt;
+&lt;h4 id="chrome-gnome-shell"&gt;&lt;a href="https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep"&gt;Chrome Gnome Shell&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Sync your extensions with &lt;a href="#google-chrome"&gt;&lt;i class="icon-refresh"&gt;&lt;/i&gt;Google Chrome&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Installation:
+1. &lt;code&gt;sudo dnf copr enable region51/chrome-gnome-shell&lt;/code&gt;
+2. &lt;code&gt;sudo dnf install chrome-gnome-shell&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id="vlc"&gt;&lt;a href="http://www.videolan.org/vlc/index.html"&gt;VLC&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;A combat media player.&lt;/p&gt;
+&lt;p&gt;Installation:
+1.  &lt;code&gt;sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm&lt;/code&gt;
+2.  &lt;code&gt;sudo dnf install vlc&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id="qbittorrent"&gt;qBittorrent&lt;/h4&gt;
+&lt;p&gt;A popular P2P client.&lt;/p&gt;
+&lt;p&gt;Download from Software.&lt;/p&gt;
+&lt;h4 id="git"&gt;&lt;a href="https://git-scm.com/"&gt;git&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Fast Version Control System&lt;/p&gt;
+&lt;p&gt;Installation: &lt;code&gt;sudo dnf install git&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Using git the first time? Follow the steps on &lt;a href="https://help.github.com/articles/set-up-git/"&gt;https://help.github.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id="gnome-terminal-nautilus"&gt;gnome-terminal-nautilus&lt;/h4&gt;
+&lt;p&gt;Right click to open gnome terminal in the current location.&lt;/p&gt;
+&lt;p&gt;Installation: &lt;code&gt;sudo dnf install gnome-terminal-nautilus&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id="cowsay"&gt;&lt;a href="https://github.com/tnalpgge/rank-amateur-cowsay"&gt;cowsay&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Configurable speaking/thinking cow.&lt;/p&gt;
+&lt;p&gt;Installation: &lt;code&gt;sudo dnf install cowsay&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Usage: &lt;code&gt;cowsay&lt;/code&gt; + STRING&lt;/p&gt;
+&lt;h4 id="sl"&gt;&lt;a href="https://github.com/mtoyoda/sl"&gt;sl&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Joke command for when you type 'sl' instead of 'ls'.&lt;/p&gt;
+&lt;p&gt;Installation: &lt;code&gt;sudo dnf install sl&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Usage: &lt;code&gt;sl&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id="svn"&gt;svn&lt;/h4&gt;
+&lt;p&gt;Sometimes you just want to download some files but not the entire repository.&lt;/p&gt;
+&lt;p&gt;Installation: &lt;code&gt;sudo dnf install svn&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Usage:
+1. &lt;code&gt;svn ls&lt;/code&gt; + URL
+2. &lt;code&gt;svn checkout&lt;/code&gt; + URL&lt;/p&gt;
+&lt;p&gt;How to modify a Github URL?
+Add &lt;strong&gt;&lt;em&gt;branches&lt;/em&gt;&lt;/strong&gt; before branch name.&lt;/p&gt;
+&lt;p&gt;e.g.
+1. https://github.com/Superdanby/zmd -&amp;gt;  https://github.com/Superdanby/zmd/branches/master
+2. https://github.com/Superdanby/zmd/tree/dark -&amp;gt; https://github.com/Superdanby/zmd/branches/dark&lt;/p&gt;
+&lt;p&gt;It is important to check the contents before downloading.
+So, be sure to use &lt;code&gt;svn ls&lt;/code&gt; first.&lt;/p&gt;</content><category term="Fedora"></category><category term="Yee"></category></entry></feed>
