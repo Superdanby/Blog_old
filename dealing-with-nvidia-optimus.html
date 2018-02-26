@@ -85,8 +85,15 @@
     </div>
 
     <div class="md-content">
-        <h3 id="tldr-update20180226">TL;DR + Update(2018.02.26)</h3>
+        <h4 id="tldr-update20180226">TL;DR + Update(2018.02.26)</h4>
 <p>If you want Intel + Nouveau on daily use and need Nvidia Optimus sometimes, or vice versa, check out <a href="https://github.com/Superdanby/Grub-Nvidia-Entry">my Github repo</a>. There's an <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1476366">upstream bug</a> preventing Gnome from detecting the dedicated GPU. A workaround is also added to the repository.</p>
+<h4 id="negativo17-drivers-installation-shortcut">Negativo17 Drivers Installation Shortcut</h4>
+<ol>
+<li><code>dnf config-manager --add-repo=https://negativo17.org/repos/fedora-nvidia.repo</code></li>
+<li><code>sudo dnf install nvidia-settings kernel-devel dkms-nvidia vulkan.i686 nvidia-driver-libs.i686</code></li>
+<li><code>sudo dnf install cuda-devel</code></li>
+</ol>
+<h2 id="battery-life-matters">Battery Life Matters</h2>
 <p>Since the release of Fedora 26, Mesa doesn't conflict with Nvidia anymore. Generally, the Nvidia driver can be installed from either <a href="https://fedoraproject.org/wiki/Bumblebee">Bumblebee</a> or <a href="https://negativo17.org/nvidia-driver/">Negativo17's repo</a>. Both methods are easy to install, but the former one is likely to have more problems.</p>
 <p>A brief comparison table:</p>
 <div class="highlight"><pre><span></span>                    | Bumblebee | Negativo17 |
