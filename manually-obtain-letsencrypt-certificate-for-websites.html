@@ -108,8 +108,8 @@
 <p>Letsencrypt requires Certbot to work. So the first step is to install <code>certbot</code>:
 <code>sudo dnf install certbot</code></p>
 <h2 id="setup">Setup</h2>
-<p>Run the following code in the shell to obtain the certificate:
-1.  <code>sudo certbot certonly --manual -d</code><strong>DOMAIN NAME</strong>
+<p>Do the following to obtain the certificate:
+1.  <code>sudo certbot certonly --manual -d</code> <strong>DOMAIN NAME</strong>
     -   e.g. <code>sudo certbot certonly --manual -d affairs.ccu.edu.tw</code>
 2.  Choose the Webroot plugin
 3.  Fill in your email, so that when the certificate is almost expired they will send a notification to you.
