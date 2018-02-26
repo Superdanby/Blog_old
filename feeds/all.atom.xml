@@ -413,7 +413,7 @@
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;----------------------- | --------- | -----------
+&lt;p&gt;---------------------- | --------- | -----------
  Nvidia Driver Version  | Old       | Up to date |
  Usage                  | Turn on when needed | Always on with Nvidia Optimus |
  Status                 | No updates since 2013 | Still being maintained and has &lt;a href="https://negativo17.org/nvidia-driver/#reply-title"&gt;good support&lt;/a&gt; |
