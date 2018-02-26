@@ -82,7 +82,13 @@
     </div>
 
     <div class="md-content">
-        <p>There are sometimes you need your website to have Https connection. The most common to get a free certificate is to use <a href="https://letsencrypt.org/">Let's Encrypt</a>. Setting up a certificateBut when you don't have root privileges</p>
+        <p>There are sometimes you need your website to have Https connection. The most common to get a free certificate is to use <a href="https://letsencrypt.org/">Let's Encrypt</a>. <a href="https://letsencrypt.org/getting-started/">Setting up a certificate with shell access on the same machine</a> is pretty easy. But <a href="https://certbot.eff.org/">Certbot</a> requires you to have root privileges. <del>That's really a pain in the ass.</del> A work around is to use <strong>manual</strong> mode on another machine where allows you to <code>sudo</code>.</p>
+<p>Run the following code in the shell to obtain the certificate:
+1.  <code>sudo certbot certonly --manual -d</code><strong><em>DOMAIN NAME</em></strong>
+    -   e.g. <code>sudo certbot certonly --manual -d affairs.ccu.edu.tw</code>
+2.  Choose the Webroot plugin
+3.  Fill in your email, so that when the certificate is almost expired they will send a notification to you.
+4.  </p>
     </div>
 
         </main>
