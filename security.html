@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>Yee</title>
+        <meta charset="utf-8" />
+        <link href="https://superdanby.github.io/Blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Yee Full Atom Feed" />
+        <link href="https://superdanby.github.io/Blog/feeds/security.atom.xml" type="application/atom+xml" rel="alternate" title="Yee Categories Atom Feed" />
+
+
+    <meta name="tags" content="Security" />
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://superdanby.github.io/Blog/">Yee <strong></strong></a></h1>
+        </header><!-- /#banner -->
+        <nav id="menu"><ul>
+        </ul></nav><!-- /#menu -->
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="https://superdanby.github.io/Blog/security.html" rel="bookmark"
+         title="Permalink to Security">Security</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2017-01-01T00:00:00+08:00">
+      Sun 01 January 2017
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="https://superdanby.github.io/Blog/author/chen-duo-yuan.html">陳鐸元</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    
+<h2 id="foot-printing">Foot Printing</h2>
+<h3 id="search-engines">Search Engines</h3>
+<p><a href="https://www.google.com/">Google</a>, <a href="https://duckduckgo.com/">duckduckgo</a>, <a href="https://www.bing.com/">bing</a>, <a href="https://archive.org/">Archive</a></p>
+<h4 id="google">Google</h4>
+<p>inurl, allinurl, intitle, allintitle, site, related, filetype, intext</p>
+<h4 id="ghdb"><a href="http://www.hackersforcharity.org/ghdb/">GHDB</a></h4>
+<h3 id="people">People</h3>
+<p><a href="https://www.facebook.com/">Facebook</a>, <a href="https://www.linkedin.com/">Linkedin</a>, <a href="https://plus.google.com/">Google+</a>, <a href="https://twitter.com/?lang=en">Twitter</a></p>
+<h3 id="website">Website</h3>
+<p>Debugger-&gt;Network-&gt;Server Version, Content-Types, Cookie, Powered-By</p>
+<p>Chrome Dev Tool, Firebug, Burp Suite, Zaproxy, Wirershark, cli:<code>telnet</code></p>
+<p>Html Source: Dev comments, frameworks</p>
+<h4 id="grabbing-websites">Grabbing Websites</h4>
+<p>cli:<code>wget --recursive --depth=10</code>, httrack(Windows), Pavu, <a href="www.calluna-software.com">WebRipper 2.0</a>, <a href="winwsd.uw.hu">WinWSD</a></p>
+<h3 id="email-tracking">Email Tracking</h3>
+<p>1.hidden element
+2.Link Redirection
+3.Tools
+    -   YesWare
+    -   HubSpot
+    -   BananaTag
+    -   GetNotify
+    -   ReadNotify
+    -   WhoReadMe
+    -   MsgTag
+    -   DidTheyReadIt</p>
+<h3 id="ip-blocks">IP Blocks</h3>
+<p>cli:<code>host [domain]</code>, ARIN, AFRINIC, APNIC, LACNIC, RIPE NCC</p>
+<h3 id="os">OS</h3>
+<p>Netcraft, Shodan</p>
+<p>cli: <code>nmap -A [domain]</code></p>
+<h3 id="path-analysis">Path Analysis</h3>
+<p>Unix:<code>traceroute [domain/ip]</code>: UDP by default, -I to use ICMP
+Windows:<code>tracert</code>: ICMP only</p>
+<p>Tools: <a href="http://visualtraceroute.net/">OpenVisualTrace</a></p>
+<h3 id="dnswhois">DNS/WhoIs</h3>
+<p>cli:<code>nslookup</code>, <code>dig ANY [domain]</code>, <code>whois [domain]</code></p>
+<h3 id="tools">Tools</h3>
+<p><a href="https://www.paterva.com/web7/">Maltego</a>, <a href="https://domainpunch.com/dnapro/">Domain Name Analyzer Pro</a>, <a href="http://www.webextractor.com/download.htm">Web Extractor</a>, cli: <code>tctrace</code></p>
+<h3 id="icmp-scanning">ICMP Scanning</h3>
+<p><code>nmap -sS [domain/subnet]</code></p>
+<h2 id="network-scanning">Network Scanning</h2>
+<h3 id="tcpip-package-builder">TCP/IP Package Builder</h3>
+<p><code>nmap</code></p>
+<p><a href="http://www.hping.org/">hping3</a></p>
+<h3 id="tcp-scanning-types">TCP Scanning Types</h3>
+<ul>
+<li>
+<p>Full: Will be logged(friendly).</p>
+<ul>
+<li>Open: SYN-&gt;, SYN/ACK&lt;-, ACK/RST-&gt;</li>
+<li>Closed: SYN-&gt;, RST&lt;-</li>
+</ul>
+</li>
+<li>
+<p>Half-Open:</p>
+<ul>
+<li>Open: SYN-&gt;, SYN/ACK, RST-&gt;</li>
+<li>Closed: SYN-&gt;, RST&lt;-</li>
+</ul>
+</li>
+<li>
+<p>XMAS:</p>
+<ul>
+<li>Open: FIN/PSH/URG-&gt;, NO RESPONSE</li>
+<li>Closed: FIN/PSH/URG-&gt;, RST&lt;-</li>
+</ul>
+</li>
+<li>
+<p>FIN:</p>
+<ul>
+<li>Open: FIN-&gt;,  NO RESPONSE</li>
+<li>Closed: FIN-&gt;,  RST/ACK&lt;-</li>
+</ul>
+</li>
+<li>
+<p>NULL:</p>
+<ul>
+<li>Open: NO FLAGS-&gt;, NO RESPONSE</li>
+<li>Closed: NO FLAGS-&gt;, RST/ACK&lt;-</li>
+</ul>
+</li>
+<li>
+<p>IDLE: Determined by IP ID increment. Zombie ports are closed.</p>
+<ul>
+<li>Open(increment by 2):<ol>
+<li>A-&gt;Zombie: SYN/ACK</li>
+<li>Zombie-&gt;A: RST(Get IP ID in the header)</li>
+<li>Spoofed Zombie-&gt;B: SYN</li>
+<li>B-&gt;Zombie: SYN/ACK</li>
+<li>Zombie-&gt;B(IP ID ++): RST</li>
+<li>A-&gt;Zombie: SYN/ACK</li>
+<li>Zombie-&gt;A(IP ID ++): RST</li>
+</ol>
+</li>
+<li>Closed(increment by 1):<ol>
+<li>A-&gt;Zombie: SYN/ACK</li>
+<li>Zombie-&gt;A: RST(Get IP ID in the header)</li>
+<li>Spoofed Zombie-&gt;B: SYN</li>
+<li>B-&gt;Zombie: RST</li>
+<li>A-&gt;Zombie: SYN/ACK</li>
+<li>Zombie-&gt;A(IP ID ++): RST</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p>Inverse TCP: invalid flags will be ignored when port is open. E.g. XMAS, FIN, NULL, etc.</p>
+</li>
+<li>
+<p>ACK: Can only check if there is a filter between Src and Dest.</p>
+<ul>
+<li>Reachable: Open, Closed: RST</li>
+<li>Unreachable: NO RESPONSE</li>
+</ul>
+</li>
+</ul>
+<h3 id="avoid-intrusion-detectionprevention-systems">Avoid Intrusion Detection/Prevention Systems</h3>
+<ol>
+<li>Fragmentation(commonly used): send small MTU packets and reassemble on destination.</li>
+<li>IP Spoofing: like IDLE scan.</li>
+<li>via Proxy.</li>
+<li>Source Routing: specify intermediate hops, rarely used.</li>
+</ol>
+<h3 id="banner-grabbing">Banner Grabbing</h3>
+<ul>
+<li><code>telnet [Host IP] [Port]</code></li>
+<li><code>nc [Host IP] [Port]</code></li>
+<li><a href="grc.com">grc.com</a></li>
+<li><a href="netcraft.com">netcraft.com</a></li>
+</ul>
+<p>Extension:
+    Microsoft IIS: .aspx</p>
+<h3 id="banner-hiding">Banner Hiding</h3>
+<ul>
+<li>
+<p>Apache:</p>
+<ul>
+<li>apache2.conf:<ul>
+<li>ServerSignature Off</li>
+<li>ServerTokens Prod</li>
+</ul>
+</li>
+<li>mod_headers:<ul>
+<li>set Server "CheetOS 1.2"</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>IIS:</p>
+<ul>
+<li>IIS Lockdown Tool</li>
+</ul>
+</li>
+</ul>
+<h3 id="http-tunnel">HTTP Tunnel</h3>
+<p>Recuires VNC(?</p>
+<p><a href="https://tools.kali.org/maintaining-access/http-tunnel">httptunnel</a></p>
+<h3 id="ssh-tunnel">SSH Tunnel</h3>
+<p>Recuires VNC(?</p>
+<p><code>ssh -L [Local Port]:[Dest. VNC IP]:[Dest. Port] [Username]@[Dest. SSH IP]</code></p>
+<h3 id="ip-spoofing-detection">IP Spoofing Detection</h3>
+<p><a href="http://seclab.cs.ucdavis.edu/papers/DetectingSpoofed-DISCEX.pdf">DetectingSpoofed-DISCEX.pdf</a></p>
+<ol>
+<li>TTL: should be the same</li>
+<li>IP ID: should be near or greater</li>
+<li>TCP Flow: Window Size should not be 0, with SYN/ACK</li>
+<li>Router: Incomming Ip should not be an IP inside. Leaving destination should not target the IPs inside.</li>
+</ol>
+<h2 id="enumeration">Enumeration</h2>
+<h3 id="common-servicesports">Common Services/Ports</h3>
+<ul>
+<li>DNS: TCP/UDP 53</li>
+<li>SMB: TCP/UDP 445</li>
+<li>SNMP: UDP 161</li>
+<li>LDAP: TCP/UDP 389</li>
+<li>RPC: TCP/UDP 135</li>
+<li>NBNS: TCP/UDP 137</li>
+<li>NBSS: TCP/UDP 139</li>
+</ul>
+<p><strong>Ports are subject to change.</strong></p>
+<h3 id="netbios">NetBIOS</h3>
+<p>Network Basic Input/Ouptput System</p>
+<p>RFC 1001 RFC 1002 RFC 1987</p>
+  </div><!-- /.entry-content -->
+</section>
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>
