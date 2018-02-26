@@ -4,7 +4,7 @@ Category: Fedora
 Tags: Fedora, Nvidia, Optimus, Negativo17, Bumblebee
 
 #### TL;DR + Update(2018.02.26)
-If you want Intel + Nouveau on daily use and need Nvidia Optimus sometimes, or vice versa, check out [my Github repo](https://github.com/Superdanby/Grub-Nvidia-Entry). 
+If you want Intel + Nouveau on daily use and need Nvidia Optimus sometimes, or vice versa, check out [my Github repo](https://github.com/Superdanby/Grub-Nvidia-Entry).
 
 #### Negativo17 Drivers Installation Shortcut
 1.  `dnf config-manager --add-repo=https://negativo17.org/repos/fedora-nvidia.repo`
@@ -28,12 +28,12 @@ I'd like to have more battery life with my laptop. Thus, Bumblebee seems to be a
 
 ## Solution
 
-But, how can I disable the Nvidia card without Bumblebee? The only way is to prevent the Nvidia modules to load at boot time. After trying for days, I came up with the following solution:
+How can I disable the Nvidia card without Bumblebee? The only way is to prevent the Nvidia modules from loading at boot time. After trying for days, I came up with the following solution:
 
 -   Create a new Nvidia-enabled entry at the bottom of the Grub menu:
-    -   Add a new entry to /etc/grub.d/40_custom. Just simply copy the newest entry from /boot/efi/EFI/fedora/grub.cfg.
+    -   Add a new entry to `/etc/grub.d/40_custom`. Just simply copy the newest entry from `/boot/efi/EFI/fedora/grub.cfg`.
 -   Disable Nvidia modules on all boot entries except customized ones:
-    -   Add modprobe.blacklist=nvidia,nvidia_drm,nvidia_modeset,nvidia_uvm to GRUB_CMDLINE in /etc/default/grub.
+    -   Add `modprobe.blacklist=nvidia,nvidia_drm,nvidia_modeset,nvidia_uvm` to GRUB_CMDLINE in `/etc/default/grub`.
 -   Regenerate Grub Menu:
     -   `sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg`
 
