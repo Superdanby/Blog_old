@@ -134,9 +134,12 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;**Don't install vlc from negativo17's multimedia repo. It crashes in Wayland.&lt;/p&gt;</content><category term="Fedora"></category><category term="Install"></category></entry><entry><title>Dealing with Nvidia Optimus</title><link href="https://superdanby.github.io/Blog/dealing-with-nvidia-optimus.html" rel="alternate"></link><published>2017-07-24T18:30:00+08:00</published><updated>2017-07-24T18:30:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-24:/Blog/dealing-with-nvidia-optimus.html</id><summary type="html">&lt;h4 id="tldr-update20180226"&gt;TL;DR + Update(2018.02.26)&lt;/h4&gt;
-&lt;p&gt;If you want Intel + Nouveau on daily use and need Nvidia Optimus sometimes, or vice versa, check out &lt;a href="https://github.com/Superdanby/Grub-Nvidia-Entry"&gt;my Github repo&lt;/a&gt;. There's an &lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=1476366"&gt;upstream bug&lt;/a&gt; preventing Gnome from detecting the dedicated GPU. A workaround is also added to the repository.&lt;/p&gt;
-&lt;h4 id="negativo17-drivers-installation-shortcut"&gt;Negativo17 Drivers Installation Shortcut …&lt;/h4&gt;</summary><content type="html">&lt;h4 id="tldr-update20180226"&gt;TL;DR + Update(2018.02.26)&lt;/h4&gt;
-&lt;p&gt;If you want Intel + Nouveau on daily use and need Nvidia Optimus sometimes, or vice versa, check out &lt;a href="https://github.com/Superdanby/Grub-Nvidia-Entry"&gt;my Github repo&lt;/a&gt;. There's an &lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=1476366"&gt;upstream bug&lt;/a&gt; preventing Gnome from detecting the dedicated GPU. A workaround is also added to the repository.&lt;/p&gt;
+&lt;p&gt;If you want Intel + Nouveau on daily use and need Nvidia Optimus sometimes, or vice versa, check out &lt;a href="https://github.com/Superdanby/Grub-Nvidia-Entry"&gt;my Github repo&lt;/a&gt;. &lt;/p&gt;
+&lt;h4 id="negativo17-drivers-installation-shortcut"&gt;Negativo17 Drivers Installation Shortcut&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;dnf config-manager --add-repo=https://negativo17.org/repos/fedora-nvidia.repo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install nvidia-settings kernel-devel dkms-nvidia vulkan.i686 nvidia-driver-libs.i686 …&lt;/code&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;h4 id="tldr-update20180226"&gt;TL;DR + Update(2018.02.26)&lt;/h4&gt;
+&lt;p&gt;If you want Intel + Nouveau on daily use and need Nvidia Optimus sometimes, or vice versa, check out &lt;a href="https://github.com/Superdanby/Grub-Nvidia-Entry"&gt;my Github repo&lt;/a&gt;. &lt;/p&gt;
 &lt;h4 id="negativo17-drivers-installation-shortcut"&gt;Negativo17 Drivers Installation Shortcut&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;code&gt;dnf config-manager --add-repo=https://negativo17.org/repos/fedora-nvidia.repo&lt;/code&gt;&lt;/li&gt;
