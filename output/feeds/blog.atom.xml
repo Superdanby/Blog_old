@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Yee - Blog</title><link href="https://superdanby.github.io/Blog/" rel="alternate"></link><link href="https://superdanby.github.io/Blog/feeds/blog.atom.xml" rel="self"></link><id>https://superdanby.github.io/Blog/</id><updated>2001-01-01T00:00:00+08:00</updated><entry><title>Setup</title><link href="https://superdanby.github.io/Blog/setup.html" rel="alternate"></link><published>2001-01-01T00:00:00+08:00</published><updated>2001-01-01T00:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2001-01-01:/Blog/setup.html</id><summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;git clone git@github.com:Superdanby/Blog.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd Blog/themes&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git@github.com:Superdanby/zmd.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git checkout dark&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;</summary><content type="html">&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;git clone git@github.com:Superdanby/Blog.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd Blog/themes&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git@github.com:Superdanby/zmd.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git checkout dark&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><category term="Blog"></category></entry></feed>

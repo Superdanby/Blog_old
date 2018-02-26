@@ -181,7 +181,7 @@
 &lt;h2 id="_3"&gt;使用&lt;/h2&gt;
 &lt;p&gt;接下來就是瘋狂地看 documentation。說實在話，我覺的官網文檔寫的並不好，資料很多很雜，看完不一定知道要怎麼做才能作出自己想要的東西，還是必須要瘋狂去 Google。&lt;/p&gt;
 &lt;h2 id="_4"&gt;成品&lt;/h2&gt;
-&lt;p&gt;[國立中正大學總務處網站] (上線之後再補上連結)&lt;/p&gt;
+&lt;p&gt;[國立中正大學總務處網站] (https://affairs.ccu.edu.tw/)&lt;/p&gt;
 &lt;h2 id="tips"&gt;Tips&lt;/h2&gt;
 &lt;p&gt;如果後臺登入想要用 username 而不是 email 的話，可以參考這個&lt;a href="https://www.youtube.com/watch?v=jAJZO3LurOU&amp;amp;lc=z13rungrysiav1pfn23pujoxhmr4i12tm.1480351316314888"&gt;影片&lt;/a&gt;&lt;/p&gt;</content><category term="Laravel"></category><category term="Laravel 5"></category><category term="SELinux"></category></entry><entry><title>Atom Text Editor</title><link href="https://superdanby.github.io/Blog/atom-text-editor.html" rel="alternate"></link><published>2017-07-25T00:20:00+08:00</published><updated>2017-07-25T00:20:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-25:/Blog/atom-text-editor.html</id><summary type="html">
 &lt;h2 id="official-website"&gt;&lt;a href="https://atom.io/"&gt;Official Website&lt;/a&gt;&lt;/h2&gt;
@@ -403,21 +403,53 @@
 &lt;li&gt;Restore: &lt;code&gt;sync-settings:restore&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content><category term="Atom"></category></entry><entry><title>Dealing with Nvidia Optimus</title><link href="https://superdanby.github.io/Blog/dealing-with-nvidia-optimus.html" rel="alternate"></link><published>2017-07-24T18:30:00+08:00</published><updated>2017-07-24T18:30:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-24:/Blog/dealing-with-nvidia-optimus.html</id><summary type="html">&lt;h3 id="tldr-update20180226"&gt;TL;DR + Update(2018.02.26)&lt;/h3&gt;
-&lt;p&gt;If you want Intel + Nouveau on daily use and need Nvidia Optimus Technonlgy sometimes, check out &lt;a href="https://github.com/Superdanby/Grub-Nvidia-Entry"&gt;my Github repo&lt;/a&gt;. There's an &lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=1476366"&gt;upstream bug&lt;/a&gt; preventing Gnome to detect the dGPU. A workaround is also addeed to the repository.&lt;/p&gt;
-&lt;p&gt;Since the release of Fedora 26, Mesa …&lt;/p&gt;</summary><content type="html">&lt;h3 id="tldr-update20180226"&gt;TL;DR + Update(2018.02.26)&lt;/h3&gt;
-&lt;p&gt;If you want Intel + Nouveau on daily use and need Nvidia Optimus Technonlgy sometimes, check out &lt;a href="https://github.com/Superdanby/Grub-Nvidia-Entry"&gt;my Github repo&lt;/a&gt;. There's an &lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=1476366"&gt;upstream bug&lt;/a&gt; preventing Gnome to detect the dGPU. A workaround is also addeed to the repository.&lt;/p&gt;
+&lt;/ul&gt;</content><category term="Atom"></category></entry><entry><title>Dealing with Nvidia Optimus</title><link href="https://superdanby.github.io/Blog/dealing-with-nvidia-optimus.html" rel="alternate"></link><published>2017-07-24T18:30:00+08:00</published><updated>2017-07-24T18:30:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-24:/Blog/dealing-with-nvidia-optimus.html</id><summary type="html">&lt;h4 id="tldr-update20180226"&gt;TL;DR + Update(2018.02.26)&lt;/h4&gt;
+&lt;p&gt;If you want Intel + Nouveau on daily use and need Nvidia Optimus sometimes, or vice versa, check out &lt;a href="https://github.com/Superdanby/Grub-Nvidia-Entry"&gt;my Github repo&lt;/a&gt;. &lt;/p&gt;
+&lt;h4 id="negativo17-drivers-installation-shortcut"&gt;Negativo17 Drivers Installation Shortcut&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;dnf config-manager --add-repo=https://negativo17.org/repos/fedora-nvidia.repo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install nvidia-settings kernel-devel dkms-nvidia vulkan.i686 nvidia-driver-libs.i686 …&lt;/code&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;h4 id="tldr-update20180226"&gt;TL;DR + Update(2018.02.26)&lt;/h4&gt;
+&lt;p&gt;If you want Intel + Nouveau on daily use and need Nvidia Optimus sometimes, or vice versa, check out &lt;a href="https://github.com/Superdanby/Grub-Nvidia-Entry"&gt;my Github repo&lt;/a&gt;. &lt;/p&gt;
+&lt;h4 id="negativo17-drivers-installation-shortcut"&gt;Negativo17 Drivers Installation Shortcut&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;dnf config-manager --add-repo=https://negativo17.org/repos/fedora-nvidia.repo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install nvidia-settings kernel-devel dkms-nvidia vulkan.i686 nvidia-driver-libs.i686&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo dnf install cuda-devel&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="battery-life-matters"&gt;Battery Life Matters&lt;/h2&gt;
 &lt;p&gt;Since the release of Fedora 26, Mesa doesn't conflict with Nvidia anymore. Generally, the Nvidia driver can be installed from either &lt;a href="https://fedoraproject.org/wiki/Bumblebee"&gt;Bumblebee&lt;/a&gt; or &lt;a href="https://negativo17.org/nvidia-driver/"&gt;Negativo17's repo&lt;/a&gt;. Both methods are easy to install, but the former one is likely to have more problems.&lt;/p&gt;
 &lt;p&gt;A brief comparison table:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;                    | Bumblebee | Negativo17 |
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;----------------------- | --------- | -----------
- Nvidia Driver Version  | Old       | Up to date |
- Usage                  | Turn on when needed | Always on with Nvidia Optimus |
- Status                 | No updates since 2013 | Still being maintained and has &lt;a href="https://negativo17.org/nvidia-driver/#reply-title"&gt;good support&lt;/a&gt; |
- Platform               | Wayland &amp;amp; X | Only on X |&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Bumblebee&lt;/th&gt;
+&lt;th&gt;Negativo17&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Nvidia Driver Version&lt;/td&gt;
+&lt;td&gt;Old&lt;/td&gt;
+&lt;td&gt;Up to date&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Usage&lt;/td&gt;
+&lt;td&gt;Turn on when needed&lt;/td&gt;
+&lt;td&gt;Always on with Nvidia Optimus&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Status&lt;/td&gt;
+&lt;td&gt;No updates since 2013&lt;/td&gt;
+&lt;td&gt;Still being maintained and has &lt;a href="https://negativo17.org/nvidia-driver/#reply-title"&gt;good support&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Platform&lt;/td&gt;
+&lt;td&gt;Wayland &amp;amp; X&lt;/td&gt;
+&lt;td&gt;Only on X&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;p&gt;I'd like to have more battery life with my laptop. Thus, Bumblebee seems to be a good choice at first glance. However, there are various issues with it. Some are listed &lt;a href="https://fedoraproject.org/wiki/Bumblebee#Troubleshooting"&gt;here&lt;/a&gt;, and lots of them are listed &lt;a href="https://github.com/Bumblebee-Project/Bumblebee/issues"&gt;here&lt;/a&gt;. A major reason is that the Bumblebee project has been lack of support for a &lt;strong&gt;looooong&lt;/strong&gt; time. Also Bumblebee is not compatible with &lt;a href="http://linrunner.de/en/tlp/tlp.html"&gt;TLP&lt;/a&gt;(I have tried the recommended &lt;a href="http://linrunner.de/en/tlp/docs/tlp-faq.html#nvidia"&gt;fix&lt;/a&gt;, but it was in vain.). At last, I gave up on Bumblebee.&lt;/p&gt;
 &lt;h2 id="solution"&gt;Solution&lt;/h2&gt;
 &lt;p&gt;But, how can I disable the Nvidia card without Bumblebee? The only way is to prevent the Nvidia modules to load at boot time. After trying for days, I came up with the following solution:&lt;/p&gt;
@@ -437,7 +469,7 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href="https://github.com/Superdanby/Grub-Nvidia-Entry"&gt;This script&lt;/a&gt; does the work above. &lt;del&gt;To run it, you have to disable Secure Boot.&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;I've made sure the method above is effective with &lt;code&gt;tlp-stat&lt;/code&gt;. On my laptop, if the Nvidia card is on, the electric current will not be lower than 1300mA; Otherwise, it can be as low as 750mA.&lt;/p&gt;
-&lt;p&gt;As of now, my Nvidia card is usually off. And it can be turned on if I boot from the last entry in Grub.&lt;/p&gt;</content><category term="Fedora"></category><category term="Nvidia"></category><category term="Optimus"></category><category term="Negativo17"></category><category term="Bumblebee"></category></entry><entry><title>Managing Signed Keys with Machine Owner Key</title><link href="https://superdanby.github.io/Blog/managing-signed-keys-with-machine-owner-key.html" rel="alternate"></link><published>2017-07-23T21:46:00+08:00</published><updated>2017-07-23T21:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-23:/Blog/managing-signed-keys-with-machine-owner-key.html</id><summary type="html">
+&lt;p&gt;As of now, my Nvidia card is usually off. And it can be turned on either using Nouveau or booting from the last entry in Grub.&lt;/p&gt;</content><category term="Fedora"></category><category term="Nvidia"></category><category term="Optimus"></category><category term="Negativo17"></category><category term="Bumblebee"></category></entry><entry><title>Managing Signed Keys with Machine Owner Key</title><link href="https://superdanby.github.io/Blog/managing-signed-keys-with-machine-owner-key.html" rel="alternate"></link><published>2017-07-23T21:46:00+08:00</published><updated>2017-07-23T21:46:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2017-07-23:/Blog/managing-signed-keys-with-machine-owner-key.html</id><summary type="html">
 &lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;With MOK we can sign, manage, and delete keys for installed kernel modules.&lt;/p&gt;
 &lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
@@ -2116,4 +2148,14 @@ sit amet velit.&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;Suspendisse id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry></feed>
+&lt;/ol&gt;</content><category term="Yee"></category><category term="Yeee"></category></entry><entry><title>Setup</title><link href="https://superdanby.github.io/Blog/setup.html" rel="alternate"></link><published>2001-01-01T00:00:00+08:00</published><updated>2001-01-01T00:00:00+08:00</updated><author><name>陳鐸元</name></author><id>tag:superdanby.github.io,2001-01-01:/Blog/setup.html</id><summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;git clone git@github.com:Superdanby/Blog.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd Blog/themes&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git@github.com:Superdanby/zmd.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git checkout dark&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;</summary><content type="html">&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;git clone git@github.com:Superdanby/Blog.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd Blog/themes&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git@github.com:Superdanby/zmd.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git checkout dark&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><category term="Blog"></category></entry></feed>

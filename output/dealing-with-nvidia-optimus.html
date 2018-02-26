@@ -85,19 +85,48 @@
     </div>
 
     <div class="md-content">
-        <h3 id="tldr-update20180226">TL;DR + Update(2018.02.26)</h3>
-<p>If you want Intel + Nouveau on daily use and need Nvidia Optimus Technonlgy sometimes, check out <a href="https://github.com/Superdanby/Grub-Nvidia-Entry">my Github repo</a>. There's an <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1476366">upstream bug</a> preventing Gnome to detect the dGPU. A workaround is also addeed to the repository.</p>
+        <h4 id="tldr-update20180226">TL;DR + Update(2018.02.26)</h4>
+<p>If you want Intel + Nouveau on daily use and need Nvidia Optimus sometimes, or vice versa, check out <a href="https://github.com/Superdanby/Grub-Nvidia-Entry">my Github repo</a>. </p>
+<h4 id="negativo17-drivers-installation-shortcut">Negativo17 Drivers Installation Shortcut</h4>
+<ol>
+<li><code>dnf config-manager --add-repo=https://negativo17.org/repos/fedora-nvidia.repo</code></li>
+<li><code>sudo dnf install nvidia-settings kernel-devel dkms-nvidia vulkan.i686 nvidia-driver-libs.i686</code></li>
+<li><code>sudo dnf install cuda-devel</code></li>
+</ol>
+<h2 id="battery-life-matters">Battery Life Matters</h2>
 <p>Since the release of Fedora 26, Mesa doesn't conflict with Nvidia anymore. Generally, the Nvidia driver can be installed from either <a href="https://fedoraproject.org/wiki/Bumblebee">Bumblebee</a> or <a href="https://negativo17.org/nvidia-driver/">Negativo17's repo</a>. Both methods are easy to install, but the former one is likely to have more problems.</p>
 <p>A brief comparison table:</p>
-<div class="highlight"><pre><span></span>                    | Bumblebee | Negativo17 |
-</pre></div>
-
-
-<p>----------------------- | --------- | -----------
- Nvidia Driver Version  | Old       | Up to date |
- Usage                  | Turn on when needed | Always on with Nvidia Optimus |
- Status                 | No updates since 2013 | Still being maintained and has <a href="https://negativo17.org/nvidia-driver/#reply-title">good support</a> |
- Platform               | Wayland &amp; X | Only on X |</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Bumblebee</th>
+<th>Negativo17</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nvidia Driver Version</td>
+<td>Old</td>
+<td>Up to date</td>
+</tr>
+<tr>
+<td>Usage</td>
+<td>Turn on when needed</td>
+<td>Always on with Nvidia Optimus</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>No updates since 2013</td>
+<td>Still being maintained and has <a href="https://negativo17.org/nvidia-driver/#reply-title">good support</a></td>
+</tr>
+<tr>
+<td>Platform</td>
+<td>Wayland &amp; X</td>
+<td>Only on X</td>
+</tr>
+</tbody>
+</table>
 <p>I'd like to have more battery life with my laptop. Thus, Bumblebee seems to be a good choice at first glance. However, there are various issues with it. Some are listed <a href="https://fedoraproject.org/wiki/Bumblebee#Troubleshooting">here</a>, and lots of them are listed <a href="https://github.com/Bumblebee-Project/Bumblebee/issues">here</a>. A major reason is that the Bumblebee project has been lack of support for a <strong>looooong</strong> time. Also Bumblebee is not compatible with <a href="http://linrunner.de/en/tlp/tlp.html">TLP</a>(I have tried the recommended <a href="http://linrunner.de/en/tlp/docs/tlp-faq.html#nvidia">fix</a>, but it was in vain.). At last, I gave up on Bumblebee.</p>
 <h2 id="solution">Solution</h2>
 <p>But, how can I disable the Nvidia card without Bumblebee? The only way is to prevent the Nvidia modules to load at boot time. After trying for days, I came up with the following solution:</p>
@@ -117,7 +146,7 @@
 </ul>
 <p><a href="https://github.com/Superdanby/Grub-Nvidia-Entry">This script</a> does the work above. <del>To run it, you have to disable Secure Boot.</del></p>
 <p>I've made sure the method above is effective with <code>tlp-stat</code>. On my laptop, if the Nvidia card is on, the electric current will not be lower than 1300mA; Otherwise, it can be as low as 750mA.</p>
-<p>As of now, my Nvidia card is usually off. And it can be turned on if I boot from the last entry in Grub.</p>
+<p>As of now, my Nvidia card is usually off. And it can be turned on either using Nouveau or booting from the last entry in Grub.</p>
     </div>
 
         </main>
