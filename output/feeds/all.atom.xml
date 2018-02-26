@@ -459,7 +459,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Disable Nvidia modules on all boot entries except customized ones:&lt;ul&gt;
-&lt;li&gt;Add &lt;code&gt;modprobe.blacklist=nvidia,nvidia_drm,nvidia_modeset,nvidia_uvm&lt;/code&gt; to GRUB_CMDLINE in &lt;code&gt;/etc/default/grub&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;modprobe.blacklist=nvidia,nvidia_drm,nvidia_modeset,nvidia_uvm&lt;/code&gt; to &lt;code&gt;GRUB_CMDLINE&lt;/code&gt; in &lt;code&gt;/etc/default/grub&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Regenerate Grub Menu:&lt;ul&gt;
