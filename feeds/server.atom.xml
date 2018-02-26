@@ -10,10 +10,10 @@
 2.  Choose the Webroot plugin
 3.  Fill in your email, so that when the certificate is almost expired they will send a notification to you.
 4.  A string, &lt;code&gt;xxx.ooo&lt;/code&gt;, will be asked to be placed at &lt;code&gt;.well-known/acme-challenge/xxx&lt;/code&gt;. if you are using Laravel as the framework, you can simply write the following in &lt;code&gt;routes/web.php&lt;/code&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="x"&gt;Route::get(&amp;#39;.well-known/acme-challenge/xxx&amp;#39;, function() {&lt;/span&gt;
-&lt;span class="x"&gt;    echo &amp;quot;xxx.ooo&amp;quot;;&lt;/span&gt;
-&lt;span class="x"&gt;    return;&lt;/span&gt;
-&lt;span class="x"&gt;});&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Route::get(&amp;#39;.well-known/acme-challenge/xxx&amp;#39;, function() {
+    echo &amp;quot;xxx.ooo&amp;quot;;
+    return;
+});
 &lt;/pre&gt;&lt;/div&gt;
 
 
